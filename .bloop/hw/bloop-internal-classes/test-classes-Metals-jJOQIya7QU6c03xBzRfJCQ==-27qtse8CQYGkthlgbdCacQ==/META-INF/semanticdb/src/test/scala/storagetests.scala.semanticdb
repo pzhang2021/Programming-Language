@@ -1,0 +1,634 @@
+
+¬z!src/test/scala/storagetests.scala**
+_empty_/storagetests#*storagetests€*2
+ _empty_/storagetests#`<init>`(). €@*<init>€*&
+_empty_/storagetests#EX. €*EX€*
+local0*i€*
+local1
+ *T€*
+local3 €*r1€*
+local4 €*r2€*
+local5 €*k1€*
+local6 €*k2€*
+local7 €*r1€*
+local8 €*r2€*
+local9 €*r3€*
+local10 €*r4€*
+local11 €*r5€*
+local12 €*r6€*
+local13 €*r1€*
+local14 €*r2€*
+local15 €*r3€*
+local16 €*k1€*
+local17 €*k2€*
+local18 €*r1€*
+local19 €*r2€*
+local20 €*r3€*
+local21 €*r4€*
+local22 €*r5€*
+local23 €*r6€*
+local24 €*get1€*
+local25 €*set1€*
+local26 €*get2€*
+local27 €*set2€*
+local28 €*r1€*
+local29 €*r2€*
+local30 €*r3€*
+local31 €*r4€*
+local32 €*r5€*
+local33 €*r6€*
+local34 €*r7€*
+local35 €*r8€*
+local36 €*spy1€*
+local37 €*
+getAndSet1€*
+local38 €*spy2€*
+local39 €*
+getAndSet2€*
+local40 €*get1a€*
+local41 €*set1a€*
+local42 €*get1b€*
+local43 €*set1b€*
+local44 €*get2a€*
+local45 €*set2a€*
+local46 €*get2b€*
+local47 €*set2b€*
+local48 €*r1€*
+local49 €*r2€*
+local50 €*r1a€*
+local51 €*r1b€*
+local52 €*r2a€*
+local53 €*r2b€*
+local54 €*r3€*
+local55 €*r4€*
+local56 €*r5€*
+local57 €*r6€*
+local58 €*r7€*
+local59 €*r8€*
+local60 €*r9€*
+local61 €*r10€*
+local62 €*s1a€*
+local63 €*s1b€*
+local64 €*s2a€*
+local65 €*s2b€2
+ org/scalatest/2
+ 
+org/2;
+ 3-org/scalatest/prop/TableDrivenPropertyChecks.2!
+ org/scalatest/prop/2
+ org/scalatest/2
+ 
+org/2#
+ _empty_/storagetests#2.
+  _empty_/storagetests#`<init>`().2*
+# #_empty_/UnitSpec#`<init>`().2
+ #_empty_/UnitSpec#2&
+ _empty_/storagetests#EX.2
+ scala/Predef.Map#2
+ 
+scala/Int#2 
+ org/scalatest/Tag#27
+ )scala/collection/IterableOnceOps#toMap().24
+ &scala/collection/immutable/List#map().28
+ *scala/collection/IterableOnceOps#toList().2)
+ scala/runtime/RichInt#to().26
+ (scala/LowPriorityImplicits#intWrapper().2
+	 
+local02
+ local12+
+ org/scalatest/Tag#`<init>`().2 
+ org/scalatest/Tag#22
+, 2$scala/collection/StringOps#format().2+
+ scala/Predef.augmentString().2
+4 5local02#
+ scala/Tuple2.apply().2
+ local02
+
+ local22!
+ scala/`<:<`.refl().2
+
+	
+ _empty_/storage.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+" " scala/collection/MapOps#apply().2&
+  "_empty_/storagetests#EX.20
+ 
+"org/scalatest/Assertions#assert().2B
+ 	4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2
+
+ local32
+ 
+scala/Int#2&
+ scala/Function0#apply().2(
+ _empty_/storage.constant5.2
+
+ local42
+ 
+scala/Int#2&
+ scala/Function0#apply().2(
+ _empty_/storage.constant5.2#
+ scala/Tuple2.apply().2
+ 	local32
+ local42#
+ scala/Tuple2.apply().2/
+ !org/scalactic/Equality.default().2/
+ !org/scalactic/Prettifier.default.23
+ %org/scalactic/source/Position.here().2<
+ .org/scalatest/Assertions#UseDefaultAssertions.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+! ! scala/collection/MapOps#apply().2&
+ !_empty_/storagetests#EX.20
+ 
+"org/scalatest/Assertions#assert().2B
+   	4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2
+
+ local52
+ 
+scala/Int#2&
+# #scala/Function1#apply().2'
+ #_empty_/storage.constant.2
+
+ local62
+ 
+scala/Int#2&
+# #scala/Function1#apply().2'
+ #_empty_/storage.constant.2
+
+ local72
+ 
+scala/Int#2&
+ scala/Function0#apply().2
+ local52
+
+ local82
+ 
+scala/Int#2&
+ scala/Function0#apply().2
+ local52
+
+ local92
+ 
+scala/Int#2&
+ scala/Function0#apply().2
+ local62
+
+ local102
+ 
+scala/Int#2&
+ scala/Function0#apply().2
+ local62
+
+ local112
+ 
+scala/Int#2&
+ scala/Function0#apply().2
+ local62
+
+ local122
+ 
+scala/Int#2&
+ scala/Function0#apply().2
+ local52#
+ scala/Tuple6.apply().2
+ 	local72
+ local82
+ local92
+ local102
+ local112
+ local122#
+   scala/Tuple6.apply().2/
+   !org/scalactic/Equality.default().2/
+!! !org/scalactic/Prettifier.default.23
+!! %org/scalactic/source/Position.here().2<
+!! .org/scalatest/Assertions#UseDefaultAssertions.2@
+$$ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+$!$ ! scala/collection/MapOps#apply().2&
+$$ !_empty_/storagetests#EX.20
+%% 
+"org/scalatest/Assertions#assert().2B
+** 	4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+%% 0org/scalactic/TripleEquals#convertToEqualizer().2
+&
+& local132
+&& 
+scala/Int#2&
+&& scala/Function0#apply().2'
+&& _empty_/storage.counter0.2
+'
+' local142
+'' 
+scala/Int#2&
+'' scala/Function0#apply().2'
+'' _empty_/storage.counter0.2
+(
+( local152
+(( 
+scala/Int#2&
+(( scala/Function0#apply().2'
+(( _empty_/storage.counter0.2#
+)) scala/Tuple3.apply().2
+)) 	local132
+)) local142
+)) local152#
+** scala/Tuple3.apply().2/
+** !org/scalactic/Equality.default().2/
+++ !org/scalactic/Prettifier.default.23
+++ %org/scalactic/source/Position.here().2<
+++ .org/scalatest/Assertions#UseDefaultAssertions.2@
+.. 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+. .   scala/collection/MapOps#apply().2&
+..  _empty_/storagetests#EX.20
+// 
+"org/scalatest/Assertions#assert().2B
+99 	4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+// 0org/scalactic/TripleEquals#convertToEqualizer().2
+0
+0 local162
+00 
+scala/Int#2&
+0"0 "scala/Function1#apply().2&
+00 "_empty_/storage.counter.2
+1
+1 local172
+11 
+scala/Int#2&
+1"1 "scala/Function1#apply().2&
+11 "_empty_/storage.counter.2
+2
+2 local182
+22 
+scala/Int#2&
+22 scala/Function0#apply().2
+22 local162
+3
+3 local192
+33 
+scala/Int#2&
+33 scala/Function0#apply().2
+33 local162
+4
+4 local202
+44 
+scala/Int#2&
+44 scala/Function0#apply().2
+44 local172
+5
+5 local212
+55 
+scala/Int#2&
+55 scala/Function0#apply().2
+55 local172
+6
+6 local222
+66 
+scala/Int#2&
+66 scala/Function0#apply().2
+66 local172
+7
+7 local232
+77 
+scala/Int#2&
+77 scala/Function0#apply().2
+77 local162#
+88 scala/Tuple6.apply().2
+88 	local182
+88 local192
+88 local202
+88 local212
+88 local222
+88 local232#
+99 scala/Tuple6.apply().2/
+99 !org/scalactic/Equality.default().2/
+:: !org/scalactic/Prettifier.default.23
+:: %org/scalactic/source/Position.here().2<
+:: .org/scalatest/Assertions#UseDefaultAssertions.2@
+== 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+="= " scala/collection/MapOps#apply().2&
+= = "_empty_/storagetests#EX.20
+>> 
+"org/scalatest/Assertions#assert().2B
+LL 	4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+>> 0org/scalactic/TripleEquals#convertToEqualizer().2&
+?=? =scala/Function1#apply().2(
+?4? =_empty_/storage.getAndSet.2%
+?? scala/Tuple2.unapply().2
+? ? #
+scala/Int#2
+?%? (
+scala/Int#2
+?,? 0scala/Unit#2
+?? local242
+?? local252&
+@=@ =scala/Function1#apply().2(
+@4@ =_empty_/storage.getAndSet.2%
+@@ scala/Tuple2.unapply().2
+@ @ #
+scala/Int#2
+@%@ (
+scala/Int#2
+@,@ 0scala/Unit#2
+@@ local262
+@@ local272
+A
+A local282
+AA 
+scala/Int#2&
+AA scala/Function0#apply().2
+AA local242
+B
+B local292
+BB 
+scala/Int#2&
+BB scala/Function0#apply().2
+BB local242&
+C
+C 
+scala/Function1#apply().2
+CC 
+local252
+D
+D local302
+DD 
+scala/Int#2&
+DD scala/Function0#apply().2
+DD local242
+E
+E local312
+EE 
+scala/Int#2&
+EE scala/Function0#apply().2
+EE local242
+F
+F local322
+FF 
+scala/Int#2&
+FF scala/Function0#apply().2
+FF local262
+G
+G local332
+GG 
+scala/Int#2&
+GG scala/Function0#apply().2
+GG local262&
+H
+H 
+scala/Function1#apply().2
+HH 
+local272
+I
+I local342
+II 
+scala/Int#2&
+II scala/Function0#apply().2
+II local262
+J
+J local352
+JJ 
+scala/Int#2&
+JJ scala/Function0#apply().2
+JJ local242#
+KK scala/Tuple8.apply().2
+KK 	local282
+KK local292
+KK local302
+KK local312
+KK local322
+KK local332
+KK !local342
+K#K %local352#
+LL scala/Tuple8.apply().2/
+L&L &!org/scalactic/Equality.default().2/
+MM !org/scalactic/Prettifier.default.23
+MM %org/scalactic/source/Position.here().2<
+MM .org/scalatest/Assertions#UseDefaultAssertions.2@
+PP 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+P%P % scala/collection/MapOps#apply().2&
+P#P %_empty_/storagetests#EX.20
+QQ 
+"org/scalatest/Assertions#assert().2B
+ss 	4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+QQ 0org/scalactic/TripleEquals#convertToEqualizer().2&
+RZR Zscala/Function0#apply().2+
+RNR Z_empty_/storage.getAndSetSpy.2%
+RR scala/Tuple2.unapply().2
+R&R )
+scala/Int#2
+R+R .
+scala/Int#2
+R9R <
+scala/Int#2
+R>R A
+scala/Int#2
+RER Iscala/Unit#2
+RR local362
+RR local372&
+SZS Zscala/Function0#apply().2+
+SNS Z_empty_/storage.getAndSetSpy.2%
+SS scala/Tuple2.unapply().2
+S&S )
+scala/Int#2
+S+S .
+scala/Int#2
+S9S <
+scala/Int#2
+S>S A
+scala/Int#2
+SES Iscala/Unit#2
+SS local382
+SS local392&
+T@T @scala/Function1#apply().2
+T6T @local372%
+TT scala/Tuple2.unapply().2
+T"T %
+scala/Int#2
+T'T *
+scala/Int#2
+T.T 2scala/Unit#2
+TT local402
+TT local412&
+U@U @scala/Function1#apply().2
+U6U @local372%
+UU scala/Tuple2.unapply().2
+U"U %
+scala/Int#2
+U'U *
+scala/Int#2
+U.U 2scala/Unit#2
+UU local422
+UU local432&
+V@V @scala/Function1#apply().2
+V6V @local392%
+VV scala/Tuple2.unapply().2
+V"V %
+scala/Int#2
+V'V *
+scala/Int#2
+V.V 2scala/Unit#2
+VV local442
+VV local452&
+W@W @scala/Function1#apply().2
+W6W @local392%
+WW scala/Tuple2.unapply().2
+W"W %
+scala/Int#2
+W'W *
+scala/Int#2
+W.W 2scala/Unit#2
+WW local462
+WW local472&
+XX scala/Function1#apply().2
+XX local412&
+YY scala/Function1#apply().2
+YY local432&
+ZZ scala/Function1#apply().2
+ZZ local452&
+[[ scala/Function1#apply().2
+[[ local472
+\
+\ local482
+\\ 
+scala/Int#2&
+\\ scala/Function0#apply().2
+\\ local362
+]
+] local492
+]] 
+scala/Int#2&
+]] scala/Function0#apply().2
+]] local382
+^
+^ local502
+^^ 
+scala/Int#2&
+^^ scala/Function0#apply().2
+^^ local402
+_
+_ local512
+__ 
+scala/Int#2&
+__ scala/Function0#apply().2
+__ local422
+`
+` local522
+`` 
+scala/Int#2&
+`` scala/Function0#apply().2
+`` local442
+a
+a local532
+aa 
+scala/Int#2&
+aa scala/Function0#apply().2
+aa local462&
+bb scala/Function1#apply().2
+bb local412
+c
+c local542
+cc 
+scala/Int#2&
+cc scala/Function0#apply().2
+cc local362
+d
+d local552
+dd 
+scala/Int#2&
+dd scala/Function0#apply().2
+dd local382&
+ee scala/Function1#apply().2
+ee local432
+f
+f local562
+ff 
+scala/Int#2&
+ff scala/Function0#apply().2
+ff local362
+g
+g local572
+gg 
+scala/Int#2&
+gg scala/Function0#apply().2
+gg local382&
+hh scala/Function1#apply().2
+hh local452
+i
+i local582
+ii 
+scala/Int#2&
+ii scala/Function0#apply().2
+ii local362
+j
+j local592
+jj 
+scala/Int#2&
+jj scala/Function0#apply().2
+jj local382&
+kk scala/Function1#apply().2
+kk local472
+l
+l local602
+ll 
+scala/Int#2&
+ll scala/Function0#apply().2
+ll local362
+m
+m local612
+mm 
+scala/Int#2&
+mm scala/Function0#apply().2
+mm local382
+n
+n local622
+nn 
+scala/Int#2&
+nn scala/Function0#apply().2
+nn local402
+o
+o local632
+oo 
+scala/Int#2&
+oo scala/Function0#apply().2
+oo local422
+p
+p local642
+pp 
+scala/Int#2&
+pp scala/Function0#apply().2
+pp local442
+q
+q local652
+qq 
+scala/Int#2&
+qq scala/Function0#apply().2
+qq local462$
+rr scala/Tuple18.apply().2
+rr 	local482
+rr local492
+rr local542
+rr local552
+rr local562
+rr local572
+rr !local582
+r#r %local592
+r'r )local602
+r+r .local612
+r0r 3local502
+r5r 8local512
+r:r =local522
+r?r Blocal532
+rDr Glocal622
+rIr Llocal632
+rNr Qlocal642
+rSr Vlocal652$
+ss scala/Tuple18.apply().2/
+s;s ;!org/scalactic/Equality.default().2/
+tt !org/scalactic/Prettifier.default.23
+tt %org/scalactic/source/Position.here().2<
+tt .org/scalatest/Assertions#UseDefaultAssertions.PZ 7BBF757A7405AE9F9FE6A7F059B7E464

@@ -1,0 +1,40 @@
+
+üsrc/main/scala/dynamic.scala*"
+_empty_/dynamic.
+ *dynamic€*B
+%_empty_/dynamic.Internationalization#*Internationalization€*B
+0_empty_/dynamic.Internationalization#`<init>`(). €@*<init>€*=
+-_empty_/dynamic.Internationalization#greet(). *greet€*@
+3_empty_/dynamic.Internationalization#greet().(name)*name€*,
+_empty_/dynamic.useGreet().*useGreet€*.
+!_empty_/dynamic.useGreet().(i18n)*i18n€*.
+!_empty_/dynamic.useGreet().(name)*name€*0
+_empty_/dynamic.newEnglish().*
+newEnglish€*.
+_empty_/dynamic.newFrench().*	newFrench€2
+!! _empty_/dynamic.23
+## %_empty_/dynamic.Internationalization#2>
+$$ 0_empty_/dynamic.Internationalization#`<init>`().2;
+$$ -_empty_/dynamic.Internationalization#greet().2A
+$$ 3_empty_/dynamic.Internationalization#greet().(name)2"
+$$ scala/Predef.String#2"
+$$ #scala/Predef.String#2)
+.. _empty_/dynamic.useGreet().2/
+.. !_empty_/dynamic.useGreet().(i18n)23
+.. )%_empty_/dynamic.Internationalization#2/
+.+. /!_empty_/dynamic.useGreet().(name)2"
+.1. 7scala/Predef.String#2"
+.:. @scala/Predef.String#2A
+0'0 '3java/lang/UnsupportedOperationException#`<init>`().26
+0
+0 '(java/lang/UnsupportedOperationException#2+
+;; _empty_/dynamic.newEnglish().23
+;; (%_empty_/dynamic.Internationalization#2A
+='= '3java/lang/UnsupportedOperationException#`<init>`().26
+=
+= '(java/lang/UnsupportedOperationException#2*
+HH _empty_/dynamic.newFrench().23
+HH '%_empty_/dynamic.Internationalization#2A
+J'J '3java/lang/UnsupportedOperationException#`<init>`().26
+J
+J '(java/lang/UnsupportedOperationException#PZ F08539343C1AC9C59E4673E49C3BAAC5

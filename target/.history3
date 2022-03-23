@@ -1,0 +1,83 @@
+1632269564882:consle
+1632269567450:console
+1632270145645:compile
+1632270177473:console
+1632270480862:whoami
+1632270579964:ls
+1632270708401:console
+1632272559095:test
+1632272588311:testOnly fp1tests
+1632272618724:testOnly fp1tests -- -n fp1ex01
+1632272632004:compile
+1632272639773:import fp1.*
+1632272655383:console
+1632273744910:testOnly fp1tests -- -n fp1ex02
+1632273903957:testOnly fp1tests -- -n fp1ex03
+1632273962476:testOnly fp1tests -- -n fp1ex04
+1632274125690:testOnly fp1tests -- -n fp1ex05
+1632274130657:testOnly fp1tests -- -n fp1ex06
+1632274915845:console
+1632275609883:compile
+1632275616698:scala
+1632275619716:console
+1632281989391:testOnly fp1tests -- -n fp1ex06
+1632281996698:testOnly fp1tests -- -n fp1ex07
+1632295195608:testOnly fp1tests -- -n fp1ex08
+1632296295427:testOnly fp1tests -- -n fp1ex09
+1632297309857:testOnly fp1tests -- -n fp1ex10
+1632297334566:testOnly fp1tests
+1632298780467:console
+1632911823166:testOnly fp1tests -- -n fp1ex06
+1632939291415:testOnly fp1tests -- -n fp2ex01
+1632939311313:testOnly fp2tests -- -n fp2ex01
+1632939634625:testOnly fp2tests -- -n fp2ex02
+1632939770761:testOnly fp2tests -- -n fp2ex03
+1632940892081:testOnly fp2tests -- -n fp2ex04
+1632940938514:testOnly fp2tests -- -n fp2ex05
+1632940995957:testOnly fp2tests -- -n fp2ex06
+1632941133800:testOnly fp2tests -- -n fp2ex07
+1632941268669:testOnly fp2tests -- -n fp2ex08
+1632941342004:testOnly fp2tests -- -n fp2ex09
+1632941484493:testOnly fp2tests -- -n fp2ex10
+1632946064828:testOnly fp2tests
+1633544194360:testOnly fp3tests -- -n fp2ex1
+1633544217540:testOnly fp3tests -- -n fp2ex01
+1633544230492:testOnly fp3tests
+1633544251237:testOnly fp3tests -- -n fp2ex01
+1633544259502:testOnly fp3tests -- -n fp3ex01
+1633544488702:testOnly fp3tests -- -n fp3ex02
+1633547091958:testOnly fp3tests -- -n fp3ex03
+1633547663319:testOnly fp3tests -- -n fp3ex04
+1633547765022:testOnly fp3tests -- -n fp3ex05
+1633547808466:testOnly fp3tests -- -n fp3ex06
+1633548238793:testOnly fp3tests -- -n fp3ex07
+1633549505600:testOnly fp3tests -- -n fp3ex08
+1633549924494:testOnly fp3tests -- -n fp3ex09
+1633550796552:testOnly fp3tests -- -n fp3ex10
+1633550801364:testOnly fp3tests
+1634761009949:testOnly storagetests
+1634761033154:testOnly storagetests -- -n storageex10
+1634761038410:testOnly storagetests -- -n storageex01
+1634761570525:testOnly storagetests -- -n storageex02
+1634761798459:testOnly storagetests -- -n storageex03
+1634762925859:testOnly storagetests -- -n storageex04
+1634764511883:testOnly storagetests -- -n storageex05
+1634764742010:testOnly storagetests -- -n storageex06
+1634766170555:testOnly storagetests
+1634766256522:testOnly storagetests -- -n storageex06
+1635360729328:testOnly argpasstests -- -n argpassex01
+1635361057744:testOnly argpasstests -- -n argpassex02
+1635361089101:testOnly argpasstests -- -n argpassex03
+1635361332701:testOnly argpasstests -- -n argpassex04
+1635361508183:testOnly argpasstests -- -n argpassex05
+1635361515310:testOnly argpasstests
+1636492802525:testOnly subtypingtests -- -n subtypingex01
+1636492954092:testOnly subtypingtests -- -n subtypingex02
+1636493156908:testOnly subtypingtests -- -n subtypingex03
+1636493160588:testOnly subtypingtests -- -n subtyping
+1636493222402:testOnly subtypingtests -- -n subtyping01
+1636493233359:testOnly subtypingtests -- -n subtypingex01
+1636493236151:testOnly subtypingtests -- -n subtypingex02
+1636493239037:testOnly subtypingtests -- -n subtypingex03
+1637192841062:testOnly fp3tests -- -n subtypingex01
+1637192854299:testOnly fp3tests -- -n fp3ex01

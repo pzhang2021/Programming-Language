@@ -1,0 +1,262 @@
+
+¸0src/main/scala/subtyping.scala*&
+_empty_/subtyping.
+ *	subtypingÄ**
+_empty_/subtyping.Counter#*CounterÄ*7
+%_empty_/subtyping.Counter#`<init>`(). Ä@*<init>Ä*+
+_empty_/subtyping.Counter#n(). Ä*nÄ*8
+&_empty_/subtyping.Counter#increment().*	incrementÄ*8
+&_empty_/subtyping.Counter#decrement().*	decrementÄ*,
+ _empty_/subtyping.Counter#get().*getÄ*:
+#_empty_/subtyping.observeCounter().*observeCounterÄ*0
+&_empty_/subtyping.observeCounter().(f)*fÄ*
+local0*CountÄ*
+local1 Ä*xÄ*
+local2 Ä*nÄ*
+local3*	incrementÄ*
+local4*	decrementÄ*
+local5*getÄ*
+local6 Ä*yÄ*
+local7 Ä*aÄ*B
+'_empty_/subtyping.observeCounterList().*observeCounterListÄ*4
+*_empty_/subtyping.observeCounterList().(f)*fÄ*
+local8*CountÄ*
+local9 Ä*xÄ*
+local10 Ä*nÄ*
+local11*	incrementÄ*
+local12*	decrementÄ*
+local13*getÄ*
+local14 Ä*xÄ*
+local15 Ä*yÄ*
+local16 Ä*zÄ*
+local17 Ä*	countListÄ*
+local18 Ä*resÄ*D
+(_empty_/subtyping.observeCounterArray().*observeCounterArrayÄ*5
++_empty_/subtyping.observeCounterArray().(f)*fÄ*
+local19*CountÄ*
+local20 Ä*xÄ*
+local21 Ä*nÄ*
+local22*	incrementÄ*
+local23*	decrementÄ*
+local24*getÄ*
+local25 Ä*xÄ*
+local26 Ä*yÄ*
+local27 Ä*zÄ*
+local28 Ä*
+countArrayÄ*
+local29 Ä*resÄ2 
+   _empty_/subtyping.2(
+$$ _empty_/subtyping.Counter#23
+%% %_empty_/subtyping.Counter#`<init>`().2,
+%% _empty_/subtyping.Counter#n().24
+&& &_empty_/subtyping.Counter#increment().2,
+&& _empty_/subtyping.Counter#n().2 
+&& scala/Int#`+`(+4).2,
+&& _empty_/subtyping.Counter#n().24
+'' &_empty_/subtyping.Counter#decrement().2,
+'' _empty_/subtyping.Counter#n().2 
+'' scala/Int#`-`(+3).2,
+'' _empty_/subtyping.Counter#n().2.
+((  _empty_/subtyping.Counter#get().2
+(( 
+scala/Int#2,
+(( _empty_/subtyping.Counter#n().21
+99 #_empty_/subtyping.observeCounter().24
+99 &_empty_/subtyping.observeCounter().(f)2(
+99 _empty_/subtyping.Counter#2
+9#9 'scala/Unit#2
+9*9 -
+scala/Int#2
+;
+; local023
+;; %_empty_/subtyping.Counter#`<init>`().2(
+;; _empty_/subtyping.Counter#2
+<< local12
+== local22
+>> local32
+?? local22 
+?? scala/Int#`+`(+4).2
+@@ local12 
+@@ scala/Int#`+`(+4).2
+BB local42
+CC local22 
+CC scala/Int#`-`(+3).2
+DD local12 
+DD scala/Int#`+`(+4).2
+FF local52
+FF  
+scala/Int#2
+GG local12
+JJ 	local62
+JJ local02&
+KK scala/Function1#apply().24
+KK &_empty_/subtyping.observeCounter().(f)2
+KK local62
+LL 	local72
+LL 
+scala/Int#2
+LL local52
+LL local62
+MM local725
+[[ '_empty_/subtyping.observeCounterList().28
+[[ *_empty_/subtyping.observeCounterList().(f)2!
+[[  scala/package.List#2(
+[![ (_empty_/subtyping.Counter#2
+[-[ 1scala/Unit#2!
+[4[ 8scala/package.List#2
+[9[ <
+scala/Int#2
+]
+] local823
+]] %_empty_/subtyping.Counter#`<init>`().2(
+]] _empty_/subtyping.Counter#2
+^^ local92
+__ local102
+`` local112
+aa 	local102 
+a	a 	scala/Int#`+`(+4).2
+bb 	local92 
+b	b 	scala/Int#`+`(+4).2
+dd local122
+ee 	local102 
+e	e 	scala/Int#`-`(+3).2
+ff 	local92 
+f	f 	scala/Int#`+`(+4).2
+hh local132
+hh 
+scala/Int#2
+ii 	local92
+ll 	local142
+ll local82
+mm 	local152
+mm local82
+nn 	local162
+nn local82
+oo local1727
+oo )scala/collection/IterableFactory#apply().2!
+oo scala/package.List.2
+oo local142
+oo local152
+oo  local162&
+pp scala/Function1#apply().28
+pp *_empty_/subtyping.observeCounterList().(f)2
+pp local172
+qq local1827
+qq )scala/collection/IterableFactory#apply().2!
+qq scala/package.List.2
+qq local132
+qq local142
+qq !local132
+qq local152
+q'q *local132
+q%q &local162
+rr local1828
+
+ÅÅ (_empty_/subtyping.observeCounterArray().2;
+
+ÅÅ +_empty_/subtyping.observeCounterArray().(f)2
+
+ÅÅ "scala/Array#2*
+
+Å#Å *_empty_/subtyping.Counter#2
+
+Å/Å 3scala/Unit#2
+
+Å6Å ;scala/Array#2
+
+Å<Å ?
+scala/Int#2
+
+É
+É local1925
+
+ÉÉ %_empty_/subtyping.Counter#`<init>`().2*
+
+ÉÉ _empty_/subtyping.Counter#2
+
+ÑÑ local202
+
+ÖÖ local212
+
+ÜÜ local222
+
+áá 	local212"
+
+á	á 	scala/Int#`+`(+4).2
+
+àà 	local202"
+
+à	à 	scala/Int#`+`(+4).2
+
+ää local232
+
+ãã 	local212"
+
+ã	ã 	scala/Int#`-`(+3).2
+
+åå 	local202"
+
+å	å 	scala/Int#`+`(+4).2
+
+éé local242
+
+éé 
+scala/Int#2
+
+èè 	local202
+
+íí 	local252
+
+íí local192
+
+ìì 	local262
+
+ìì local192
+
+îî 	local272
+
+îî local192
+
+ïï local282
+
+ïï scala/Array#2*
+
+ïï  _empty_/subtyping.Counter#2$
+
+ï)ï )scala/Array.apply().2
+
+ï$ï )scala/Array.2
+
+ï*ï +local252
+
+ï-ï .local262
+
+ï0ï 1local272/
+
+ï2ï 2scala/reflect/ClassTag.apply().2(
+
+ññ scala/Function1#apply().2;
+
+ññ +_empty_/subtyping.observeCounterArray().(f)2
+
+ññ local282
+
+óó local292&
+
+óó scala/Array.apply(+5).2
+
+óó scala/Array.2
+
+óó local242
+
+óó local252
+
+ó ó #local242
+
+óó local262
+
+ó)ó ,local242
+
+ó'ó (local272
+
+òò local29PZ D7E04C03549EB6B017B2AAB2F0BEA9B7

@@ -1,0 +1,703 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(storagetests, org.scalatest.tools.Framework$$anon$1@4146023e, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(dynamictests, org.scalatest.tools.Framework$$anon$1@4146023e, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(fp1tests, org.scalatest.tools.Framework$$anon$1@4146023e, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(fp2tests, org.scalatest.tools.Framework$$anon$1@4146023e, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(argpasstests, org.scalatest.tools.Framework$$anon$1@4146023e, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(fp3tests, org.scalatest.tools.Framework$$anon$1@4146023e, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(subtypingtests, org.scalatest.tools.Framework$$anon$1@4146023e, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(interpretertests, org.scalatest.tools.Framework$$anon$1@4146023e, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32msubtypingtests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX01 - observeCounter *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at subtyping$.observeCounter(subtyping.scala:60)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at subtypingtests.testFun$proxy1$1(subtypingtests.scala:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at subtypingtests.$init$$$anonfun$1(subtypingtests.scala:13)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX02 - observeCounterList *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at subtyping$.observeCounterList(subtyping.scala:76)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at subtypingtests.testFun$proxy2$1(subtypingtests.scala:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at subtypingtests.$init$$$anonfun$2(subtypingtests.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX03 - observeCounterArray *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at subtyping$.observeCounterArray(subtyping.scala:93)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at subtypingtests.testFun$proxy3$1(subtypingtests.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at subtypingtests.$init$$$anonfun$3(subtypingtests.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mfp3tests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX01 - member *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3$.member(fp3.scala:48)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.testFun$proxy1$1(fp3tests.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.$init$$$anonfun$1(fp3tests.scala:13)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX02 - allEqual *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3$.allEqual(fp3.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.testFun$proxy2$1(fp3tests.scala:19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.$init$$$anonfun$2(fp3tests.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX03 - stringLengths *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3$.stringLengths(fp3.scala:75)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.testFun$proxy3$1(fp3tests.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.$init$$$anonfun$3(fp3tests.scala:30)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX04 - delete1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3$.delete1(fp3.scala:88)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.testFun$proxy4$1(fp3tests.scala:36)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.$init$$$anonfun$4(fp3tests.scala:35)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX05 - delete2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3$.delete2(fp3.scala:98)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.testFun$proxy5$1(fp3tests.scala:41)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.$init$$$anonfun$5(fp3tests.scala:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX06 - delete3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3$.delete3(fp3.scala:107)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.testFun$proxy6$1(fp3tests.scala:46)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.$init$$$anonfun$6(fp3tests.scala:45)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX07 - removeDupes1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3$.removeDupes1(fp3.scala:121)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.testFun$proxy7$1(fp3tests.scala:51)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.$init$$$anonfun$7(fp3tests.scala:50)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX08 - removeDupes2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3$.removeDupes2(fp3.scala:137)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.testFun$proxy8$1(fp3tests.scala:56)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.$init$$$anonfun$8(fp3tests.scala:55)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX09 - splitAt *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3$.splitAt(fp3.scala:171)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.testFun$proxy9$1(fp3tests.scala:61)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.$init$$$anonfun$9(fp3tests.scala:60)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX10 - allDistinct *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3$.allDistinct(fp3.scala:187)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.testFun$proxy10$1(fp3tests.scala:70)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp3tests.$init$$$anonfun$10(fp3tests.scala:69)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mdynamictests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX01 - useGreet *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at dynamic$.useGreet(dynamic.scala:49)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at dynamictests.testFun$proxy1$1$$anonfun$1$$anonfun$1(dynamictests.scala:19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.foreach(List.scala:333)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at dynamictests.testFun$proxy1$2$$anonfun$2(dynamictests.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.foreach(List.scala:333)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at dynamictests.testFun$proxy1$3(dynamictests.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at dynamictests.$init$$$anonfun$1(dynamictests.scala:13)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX02 - newEnglish *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at dynamic$.newEnglish(dynamic.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at dynamictests.testFun$proxy2$2(dynamictests.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at dynamictests.$init$$$anonfun$2(dynamictests.scala:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX03 - newFrench *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at dynamic$.newFrench(dynamic.scala:75)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at dynamictests.testFun$proxy3$2(dynamictests.scala:30)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at dynamictests.$init$$$anonfun$3(dynamictests.scala:29)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mstoragetests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX01 - constant5 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storage$.$init$$$anonfun$1(storage.scala:41)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Function0.apply$mcI$sp(Function0.scala:39)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storagetests.testFun$proxy1$1(storagetests.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storagetests.$init$$$anonfun$1(storagetests.scala:13)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX02 - constant *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storage$.$init$$$anonfun$4(storage.scala:48)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storage$.$init$$$anonfun$adapted$1(storage.scala:48)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storagetests.testFun$proxy2$1(storagetests.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storagetests.$init$$$anonfun$2(storagetests.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX03 - counter0 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storage$.$init$$$anonfun$2(storage.scala:60)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Function0.apply$mcI$sp(Function0.scala:39)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storagetests.testFun$proxy3$1(storagetests.scala:39)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storagetests.$init$$$anonfun$3(storagetests.scala:37)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX04 - counter *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storage$.$init$$$anonfun$5(storage.scala:72)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storage$.$init$$$anonfun$adapted$2(storage.scala:72)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storagetests.testFun$proxy4$1(storagetests.scala:49)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storagetests.$init$$$anonfun$4(storagetests.scala:47)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX05 - getAndSet *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storage$.$init$$$anonfun$6(storage.scala:90)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storage$.$init$$$anonfun$adapted$3(storage.scala:90)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storagetests.testFun$proxy5$1(storagetests.scala:64)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storagetests.$init$$$anonfun$5(storagetests.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX06 - getAndSetSpy *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storage$.$init$$$anonfun$3(storage.scala:119)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storagetests.testFun$proxy6$1(storagetests.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at storagetests.$init$$$anonfun$6(storagetests.scala:81)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mfp2tests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX01 - map *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2$.map(fp2.scala:44)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.testFun$proxy1$1(fp2tests.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.$init$$$anonfun$1(fp2tests.scala:13)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX02 - filter *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2$.filter(fp2.scala:53)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.testFun$proxy2$1(fp2tests.scala:19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.$init$$$anonfun$2(fp2tests.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX03 - append *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2$.append(fp2.scala:64)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.testFun$proxy3$1(fp2tests.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.$init$$$anonfun$3(fp2tests.scala:26)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX04 - flatten *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2$.flatten(fp2.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.testFun$proxy4$1(fp2tests.scala:34)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.$init$$$anonfun$4(fp2tests.scala:33)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX05 - foldLeft *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2$.foldLeft(fp2.scala:91)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.testFun$proxy5$1(fp2tests.scala:42)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.$init$$$anonfun$5(fp2tests.scala:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX06 - foldRight *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2$.foldRight(fp2.scala:103)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.testFun$proxy6$1(fp2tests.scala:48)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.$init$$$anonfun$6(fp2tests.scala:46)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX07 - joinTerminateRight *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2$.joinTerminateRight(fp2.scala:119)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.testFun$proxy7$1(fp2tests.scala:53)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.$init$$$anonfun$7(fp2tests.scala:52)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX08 - joinTerminateLeft *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2$.joinTerminateLeft(fp2.scala:135)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.testFun$proxy8$1(fp2tests.scala:59)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.$init$$$anonfun$8(fp2tests.scala:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX09 - firstNumGreaterThan *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2$.firstNumGreaterThan(fp2.scala:150)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.testFun$proxy9$1(fp2tests.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.$init$$$anonfun$9(fp2tests.scala:64)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX10 - firstIndexNumGreaterThan *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2$.firstIndexNumGreaterThan(fp2.scala:169)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.testFun$proxy10$1(fp2tests.scala:71)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp2tests.$init$$$anonfun$10(fp2tests.scala:70)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32margpasstests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX01 - refint1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpass$.refint1(argpass.scala:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpasstests.testFun$proxy1$1(argpasstests.scala:33)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpasstests.$init$$$anonfun$1(argpasstests.scala:13)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX02 - refint2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpass$.refint2(argpass.scala:76)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpasstests.testFun$proxy2$1(argpasstests.scala:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpasstests.$init$$$anonfun$2(argpasstests.scala:37)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX03 - refint3 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpass$.refint3(argpass.scala:87)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpasstests.testFun$proxy3$1(argpasstests.scala:66)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpasstests.$init$$$anonfun$3(argpasstests.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX04 - refint4 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpass$.refint4(argpass.scala:102)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpasstests.testFun$proxy4$1(argpasstests.scala:81)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpasstests.$init$$$anonfun$4(argpasstests.scala:71)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX05 - refint5 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpass$.refint5(argpass.scala:112)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpasstests.testFun$proxy5$2(argpasstests.scala:97)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at argpasstests.$init$$$anonfun$5(argpasstests.scala:93)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minterpretertests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX01 - exFiftyVal *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ClassCastException: class interpreter$$anon$1 cannot be cast to class interpreter$Val$VInt (interpreter$$anon$1 and interpreter$Val$VInt are in unnamed module of loader sbt.internal.LayeredClassLoader @49b32321)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.testFun$proxy1$1(interpretertests.scala:16)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.$init$$$anonfun$1(interpretertests.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike$$anon$1.apply(AnyPropSpecLike.scala:204)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX02 - exFiftyExp *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ClassCastException: class interpreter$$anon$1 cannot be cast to class interpreter$Val$VInt (interpreter$$anon$1 and interpreter$Val$VInt are in unnamed module of loader sbt.internal.LayeredClassLoader @49b32321)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.testFun$proxy2$1(interpretertests.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.$init$$$anonfun$2(interpretertests.scala:19)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike$$anon$1.apply(AnyPropSpecLike.scala:204)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX03 - exX *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: key not found: x[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Map$EmptyMap$.apply(Map.scala:225)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Map$EmptyMap$.apply(Map.scala:221)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.testFun$proxy3$1(interpretertests.scala:24)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.$init$$$anonfun$3(interpretertests.scala:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX04 - exXPlusFifty *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ClassCastException: class interpreter$Exp$EVal cannot be cast to class interpreter$Exp$EApp (interpreter$Exp$EVal and interpreter$Exp$EApp are in unnamed module of loader sbt.internal.LayeredClassLoader @49b32321)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.testFun$proxy4$1(interpretertests.scala:29)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.$init$$$anonfun$4(interpretertests.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike$$anon$1.apply(AnyPropSpecLike.scala:204)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX05 - exXFunPlusFifty *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ClassCastException: class interpreter$Exp$EVal cannot be cast to class interpreter$Exp$EAbs (interpreter$Exp$EVal and interpreter$Exp$EAbs are in unnamed module of loader sbt.internal.LayeredClassLoader @49b32321)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.testFun$proxy5$1(interpretertests.scala:37)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.$init$$$anonfun$5(interpretertests.scala:36)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike$$anon$1.apply(AnyPropSpecLike.scala:204)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX06 - exXFunPlusFiftyApplied *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ClassCastException: class interpreter$Exp$EVal cannot be cast to class interpreter$Exp$EApp (interpreter$Exp$EVal and interpreter$Exp$EApp are in unnamed module of loader sbt.internal.LayeredClassLoader @49b32321)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.testFun$proxy6$1(interpretertests.scala:43)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.$init$$$anonfun$6(interpretertests.scala:42)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike$$anon$1.apply(AnyPropSpecLike.scala:204)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX07 - exLetXLetY *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ClassCastException: class interpreter$Exp$EVal cannot be cast to class interpreter$Exp$ELet (interpreter$Exp$EVal and interpreter$Exp$ELet are in unnamed module of loader sbt.internal.LayeredClassLoader @49b32321)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.testFun$proxy7$1(interpretertests.scala:49)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.$init$$$anonfun$7(interpretertests.scala:48)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike$$anon$1.apply(AnyPropSpecLike.scala:204)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX08 - exLetF *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ClassCastException: class interpreter$Exp$EVal cannot be cast to class interpreter$Exp$ELet (interpreter$Exp$EVal and interpreter$Exp$ELet are in unnamed module of loader sbt.internal.LayeredClassLoader @49b32321)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.testFun$proxy8$1(interpretertests.scala:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.$init$$$anonfun$8(interpretertests.scala:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike$$anon$1.apply(AnyPropSpecLike.scala:204)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX10 - exPair *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ClassCastException: class interpreter$Exp$EVal cannot be cast to class interpreter$Exp$EPair (interpreter$Exp$EVal and interpreter$Exp$EPair are in unnamed module of loader sbt.internal.LayeredClassLoader @49b32321)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.testFun$proxy9$1(interpretertests.scala:69)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.$init$$$anonfun$9(interpretertests.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike$$anon$1.apply(AnyPropSpecLike.scala:204)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX11 - exCounter *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.ClassCastException: class interpreter$Exp$EVal cannot be cast to class interpreter$Exp$EFst (interpreter$Exp$EVal and interpreter$Exp$EFst are in unnamed module of loader sbt.internal.LayeredClassLoader @49b32321)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.testFun$proxy10$1(interpretertests.scala:80)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at interpretertests.$init$$$anonfun$10(interpretertests.scala:79)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike$$anon$1.apply(AnyPropSpecLike.scala:204)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mfp1tests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX01 - factTest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX02 - fib *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  UnsupportedOperationException was thrown during property evaluation. (fp1tests.scala:35)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    Message: "None"[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    Occurred at table row 0 (zero based, not counting headings), which had values ([0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m      n = 0,[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m      fib (n) = 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    )[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX03 - p1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  -1 did not equal 7 (fp1tests.scala:40)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX04 - t1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  -1 did not equal 7 (fp1tests.scala:46)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX05 - swap *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.UnsupportedOperationException:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp1$.swap(fp1.scala:128)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp1tests.testFun$proxy5$1(fp1tests.scala:52)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fp1tests.$init$$$anonfun$5(fp1tests.scala:51)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.propspec.AnyPropSpecLike.propertyImpl$$anonfun$1(AnyPropSpecLike.scala:123)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply$$anonfun$1(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:31)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:21)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX06 - sum *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  UnsupportedOperationException was thrown during property evaluation. (fp1tests.scala:67)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    Message: "None"[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    Occurred at table row 0 (zero based, not counting headings), which had values ([0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m      xs = List(),[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m      sum (xs) = 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    )[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX07 - sumTail *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  UnsupportedOperationException was thrown during property evaluation. (fp1tests.scala:73)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    Message: "None"[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    Occurred at table row 0 (zero based, not counting headings), which had values ([0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m      xs = List(),[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m      sum (xs) = 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    )[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX08 - max *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  NoSuchElementException was thrown during property evaluation. (fp1tests.scala:91)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    Message: "None"[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    Occurred at table row 0 (zero based, not counting headings), which had values ([0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m      xs = List(15),[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m      max (xs) = 15[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    )[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX09 - maxTailAux *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  UnsupportedOperationException was thrown during property evaluation. (fp1tests.scala:101)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    Message: "None"[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    Occurred at table row 0 (zero based, not counting headings), which had values ([0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m      xs = List(15),[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m      max (xs) = 15[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    )[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- EX10 - otpu *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  UnsupportedOperationException was thrown during property evaluation. (fp1tests.scala:116)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    Message: "None"[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    Occurred at table row 0 (zero based, not counting headings), which had values ([0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m      start = 20,[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m      end = 10,[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m      otpu (start, end) = List(20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    )[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 458 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 57[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 8, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 56, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 56 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	fp1tests[0m
+[0m[[0m[31merror[0m] [0m[0m	subtypingtests[0m
+[0m[[0m[31merror[0m] [0m[0m	fp3tests[0m
+[0m[[0m[31merror[0m] [0m[0m	interpretertests[0m
+[0m[[0m[31merror[0m] [0m[0m	fp2tests[0m
+[0m[[0m[31merror[0m] [0m[0m	storagetests[0m
+[0m[[0m[31merror[0m] [0m[0m	argpasstests[0m
+[0m[[0m[31merror[0m] [0m[0m	dynamictests[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

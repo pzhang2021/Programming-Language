@@ -1,0 +1,140 @@
+
+è'!src/test/scala/dynamictests.scala**
+_empty_/dynamictests#*dynamictests€*2
+ _empty_/dynamictests#`<init>`(). €@*<init>€*&
+_empty_/dynamictests#EX. €*EX€*
+local0*i€*
+local1
+ *T€*
+local3*greeting€*
+local4*name€*
+local5 €*res1€*
+local6 *$anon€*
+local7*greet€*
+local8*name€*
+local9 €*i18n€*
+local10*name€*
+local11 €*i18n€*
+local12*name€2
+ org/scalatest/2
+ 
+org/2;
+ 3-org/scalatest/prop/TableDrivenPropertyChecks.2!
+ org/scalatest/prop/2
+ org/scalatest/2
+ 
+org/2#
+ _empty_/dynamictests#2.
+  _empty_/dynamictests#`<init>`().2*
+# #_empty_/UnitSpec#`<init>`().2
+ #_empty_/UnitSpec#2&
+ _empty_/dynamictests#EX.2
+ scala/Predef.Map#2
+ 
+scala/Int#2 
+ org/scalatest/Tag#27
+ )scala/collection/IterableOnceOps#toMap().24
+ &scala/collection/immutable/List#map().28
+ *scala/collection/IterableOnceOps#toList().2)
+ scala/runtime/RichInt#to().26
+ (scala/LowPriorityImplicits#intWrapper().2
+	 
+local02
+ local12+
+ org/scalatest/Tag#`<init>`().2 
+ org/scalatest/Tag#22
+, 2$scala/collection/StringOps#format().2+
+ scala/Predef.augmentString().2
+4 5local02#
+ scala/Tuple2.apply().2
+ local02
+
+ local22!
+ scala/`<:<`.refl().2
+
+	
+ _empty_/dynamic.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+! ! scala/collection/MapOps#apply().2&
+ !_empty_/dynamictests#EX.28
+- -*scala/collection/immutable/List#foreach().27
+ )scala/collection/IterableFactory#apply().2!
+ scala/package.List.2
+ local328
+) )*scala/collection/immutable/List#foreach().27
+ )scala/collection/IterableFactory#apply().2!
+ scala/package.List.2
+ local42
+
+ local52)
+ _empty_/dynamic.useGreet().23
+ 3%_empty_/dynamic.Internationalization#2
+ local72
+ local82"
+  scala/Predef.String#2%
+3 4java/lang/String#`+`().2%
+- .java/lang/String#`+`().2
+$ ,local32
+5 9local82
+	 local420
+ "org/scalatest/Assertions#assert().2B
+ 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2
+ local52%
+& 'java/lang/String#`+`().2%
+  !java/lang/String#`+`().2
+ local32
+( ,local42/
+, ,!org/scalactic/Equality.default().2/
+- -!org/scalactic/Prettifier.default.23
+- -%org/scalactic/source/Position.here().2<
+- -.org/scalatest/Assertions#UseDefaultAssertions.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+# # scala/collection/MapOps#apply().2&
+! #_empty_/dynamictests#EX.2
+ local923
+ #%_empty_/dynamic.Internationalization#2+
+& 0_empty_/dynamic.newEnglish().28
+% %*scala/collection/immutable/List#foreach().27
+ )scala/collection/IterableFactory#apply().2!
+ scala/package.List.2
+ local1020
+ "org/scalatest/Assertions#assert().2B
+  #4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2;
+ -_empty_/dynamic.Internationalization#greet().2
+ local92
+ local102%
+2 3java/lang/String#`+`().2%
+, -java/lang/String#`+`().2
+4 8local102/
+8 8!org/scalactic/Equality.default().2/
+9 9!org/scalactic/Prettifier.default.23
+9 9%org/scalactic/source/Position.here().2<
+9 9.org/scalatest/Assertions#UseDefaultAssertions.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+" " scala/collection/MapOps#apply().2&
+  "_empty_/dynamictests#EX.2
+ local1123
+ #%_empty_/dynamic.Internationalization#2*
+& /_empty_/dynamic.newFrench().28
+% %*scala/collection/immutable/List#foreach().27
+ )scala/collection/IterableFactory#apply().2!
+ scala/package.List.2
+ local1220
+ "org/scalatest/Assertions#assert().2B
+  #4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2;
+ -_empty_/dynamic.Internationalization#greet().2
+ local112
+ local122%
+4 5java/lang/String#`+`().2%
+. /java/lang/String#`+`().2
+6 :local122/
+: :!org/scalactic/Equality.default().2/
+; ;!org/scalactic/Prettifier.default.23
+; ;%org/scalactic/source/Position.here().2<
+; ;.org/scalatest/Assertions#UseDefaultAssertions.PZ 452A72111C3E2BC6F3BE3F9528E36A8E

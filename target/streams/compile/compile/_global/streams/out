@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: /Users/pengju/Downloads/hw/src/main/scala/fp3.scala:66:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m66 |[0m    xs[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Found:    (xs : List[Int])[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Required: Boolean[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

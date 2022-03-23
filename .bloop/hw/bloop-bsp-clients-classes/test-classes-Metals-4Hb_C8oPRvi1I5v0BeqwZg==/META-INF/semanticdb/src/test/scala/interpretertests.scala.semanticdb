@@ -1,0 +1,643 @@
+
+Èà%src/test/scala/interpretertests.scala*2
+_empty_/interpretertests#*interpretertests€*6
+$_empty_/interpretertests#`<init>`(). €@*<init>€**
+_empty_/interpretertests#EX. €*EX€*
+local0*i€*
+local1
+ *T€2
+ org/scalatest/2
+ 
+org/2;
+ 3-org/scalatest/prop/TableDrivenPropertyChecks.2!
+ org/scalatest/prop/2
+ org/scalatest/2
+ 
+org/2'
+ _empty_/interpretertests#22
+ $_empty_/interpretertests#`<init>`().2*
+' '_empty_/UnitSpec#`<init>`().2
+ '_empty_/UnitSpec#2*
+ _empty_/interpretertests#EX.2
+ scala/Predef.Map#2
+ 
+scala/Int#2 
+ org/scalatest/Tag#27
+ )scala/collection/IterableOnceOps#toMap().24
+ &scala/collection/immutable/List#map().28
+ *scala/collection/IterableOnceOps#toList().2)
+ scala/runtime/RichInt#to().26
+ (scala/LowPriorityImplicits#intWrapper().2
+	 
+local02
+ local12+
+ org/scalatest/Tag#`<init>`().2 
+ org/scalatest/Tag#22
+0 6$scala/collection/StringOps#format().2+
+ scala/Predef.augmentString().2
+8 9local02#
+ scala/Tuple2.apply().2
+ local02
+
+ local22!
+ scala/`<:<`.refl().2"
+
+	
+ _empty_/interpreter.2&
+	 _empty_/interpreter.Val.2&
+	 _empty_/interpreter.Exp.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+# # scala/collection/MapOps#apply().2*
+! #_empty_/interpretertests#EX.20
+ 
+"org/scalatest/Assertions#assert().2B
+, /4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2-
+* +_empty_/interpreter.Val.VInt#n.2'
+ #scala/Any#asInstanceOf().2-
+ _empty_/interpreter.exFiftyVal.2+
+$ (_empty_/interpreter.Val.VInt#2/
+2 2!org/scalactic/Equality.default().2/
+3 3!org/scalactic/Prettifier.default.23
+3 3%org/scalactic/source/Position.here().2<
+3 3.org/scalatest/Assertions#UseDefaultAssertions.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+# # scala/collection/MapOps#apply().2*
+! #_empty_/interpretertests#EX.20
+ 
+"org/scalatest/Assertions#assert().2B
+A D4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2-
+? @_empty_/interpreter.Val.VInt#n.2'
+, 8scala/Any#asInstanceOf().2-
+* +_empty_/interpreter.Exp.EVal#v.2'
+ #scala/Any#asInstanceOf().2-
+ _empty_/interpreter.exFiftyExp.2+
+$ (_empty_/interpreter.Exp.EVal#2+
+9 =_empty_/interpreter.Val.VInt#2/
+G G!org/scalactic/Equality.default().2/
+H H!org/scalactic/Prettifier.default.23
+H H%org/scalactic/source/Position.here().2<
+H H.org/scalatest/Assertions#UseDefaultAssertions.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+  scala/collection/MapOps#apply().2*
+ _empty_/interpretertests#EX.20
+ 
+"org/scalatest/Assertions#assert().2B
+- 04org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2-
++ ,_empty_/interpreter.Val.VInt#n.2'
+ $scala/Any#asInstanceOf().2.
+  scala/collection/MapOps#apply().2&
+ _empty_/interpreter.exX.2+
+% )_empty_/interpreter.Val.VInt#2/
+3 3!org/scalactic/Equality.default().2/
+4 4!org/scalactic/Prettifier.default.23
+4 4%org/scalactic/source/Position.here().2<
+4 4.org/scalatest/Assertions#UseDefaultAssertions.20
+ 
+"org/scalatest/Assertions#assert().2B
+ 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().29
+ +scala/collection/immutable/MapOps#keySet().2&
+ _empty_/interpreter.exX.27
+& +)scala/collection/IterableOnceOps#toSet().27
+ )scala/collection/IterableFactory#apply().2!
+ scala/package.List.2/
++ +!org/scalactic/Equality.default().2/
+, ,!org/scalactic/Prettifier.default.23
+, ,%org/scalactic/source/Position.here().2<
+, ,.org/scalatest/Assertions#UseDefaultAssertions.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+% % scala/collection/MapOps#apply().2*
+# %_empty_/interpretertests#EX.20
+ 
+"org/scalatest/Assertions#assert().2B
+\ _4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2.
+Y [ _empty_/interpreter.Exp.EVar#nm.2'
+F Rscala/Any#asInstanceOf().2/
+B E!_empty_/interpreter.Exp.EApp#arg.2'
+/ ;scala/Any#asInstanceOf().2.
+, . _empty_/interpreter.Exp.EApp#op.2'
+ %scala/Any#asInstanceOf().2/
+ !_empty_/interpreter.exXPlusFifty.2+
+& *_empty_/interpreter.Exp.EApp#2+
+< @_empty_/interpreter.Exp.EApp#2+
+S W_empty_/interpreter.Exp.EVar#2/
+c c!org/scalactic/Equality.default().2/
+d d!org/scalactic/Prettifier.default.23
+d d%org/scalactic/source/Position.here().2<
+d d.org/scalatest/Assertions#UseDefaultAssertions.20
+ 
+"org/scalatest/Assertions#assert().2B
+Z ]4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2-
+X Y_empty_/interpreter.Val.VInt#n.2'
+E Qscala/Any#asInstanceOf().2-
+C D_empty_/interpreter.Exp.EVal#v.2'
+0 <scala/Any#asInstanceOf().2/
+, /!_empty_/interpreter.Exp.EApp#arg.2'
+ %scala/Any#asInstanceOf().2/
+ !_empty_/interpreter.exXPlusFifty.2+
+& *_empty_/interpreter.Exp.EApp#2+
+= A_empty_/interpreter.Exp.EVal#2+
+R V_empty_/interpreter.Val.VInt#2/
+` `!org/scalactic/Equality.default().2/
+a a!org/scalactic/Prettifier.default.23
+a a%org/scalactic/source/Position.here().2<
+a a.org/scalatest/Assertions#UseDefaultAssertions.20
+ 
+"org/scalatest/Assertions#assert().2B
+) ,4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2-
+ _empty_/interpreter.evaluate().2&
+ _empty_/interpreter.exX.2/
+ '!_empty_/interpreter.exXPlusFifty.23
+1 1%_empty_/interpreter.Val.VInt.apply().2+
+- 1_empty_/interpreter.Val.VInt.2/
+7 7!org/scalactic/Equality.default().2/
+8 8!org/scalactic/Prettifier.default.23
+8 8%org/scalactic/source/Position.here().2<
+8 8.org/scalatest/Assertions#UseDefaultAssertions.20
+ 
+"org/scalatest/Assertions#assert().2B
+< ?4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2-
+ _empty_/interpreter.evaluate().22
+ $scala/collection/MapFactory#apply().2
+ scala/Predef.Map.2-
+ !scala/Predef.ArrowAssoc#`->`().2(
+ scala/Predef.ArrowAssoc().23
+& &%_empty_/interpreter.Val.VInt.apply().2+
+" &_empty_/interpreter.Val.VInt.2/
+. :!_empty_/interpreter.exXPlusFifty.23
+D D%_empty_/interpreter.Val.VInt.apply().2+
+@ D_empty_/interpreter.Val.VInt.2/
+I I!org/scalactic/Equality.default().2/
+J J!org/scalactic/Prettifier.default.23
+J J%org/scalactic/source/Position.here().2<
+J J.org/scalatest/Assertions#UseDefaultAssertions.20
+   
+"org/scalatest/Assertions#assert().2B
+ *  -4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+   0org/scalactic/TripleEquals#convertToEqualizer().23
+   %_empty_/interpreter.prettyPrintExp().2/
+   (!_empty_/interpreter.exXPlusFifty.2/
+ C  C!org/scalactic/Equality.default().2/
+ D  D!org/scalactic/Prettifier.default.23
+ D  D%org/scalactic/source/Position.here().2<
+ D  D.org/scalatest/Assertions#UseDefaultAssertions.2@
+## 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+#(# ( scala/collection/MapOps#apply().2*
+#&# (_empty_/interpretertests#EX.20
+$$ 
+"org/scalatest/Assertions#assert().2B
+$5$ 84org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+$$ 0org/scalactic/TripleEquals#convertToEqualizer().21
+$/$ 4#_empty_/interpreter.Exp.EAbs#argNm.2'
+$$ (scala/Any#asInstanceOf().22
+$$ $_empty_/interpreter.exXFunPlusFifty.2+
+$)$ -_empty_/interpreter.Exp.EAbs#2/
+$<$ <!org/scalactic/Equality.default().2/
+$=$ =!org/scalactic/Prettifier.default.23
+$=$ =%org/scalactic/source/Position.here().2<
+$=$ =.org/scalatest/Assertions#UseDefaultAssertions.20
+%% 
+"org/scalatest/Assertions#assert().2B
+%G% J4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+%% 0org/scalactic/TripleEquals#convertToEqualizer().23
+%C% F%_empty_/interpreter.Val.VClosure#env.2'
+%,% 8scala/Any#asInstanceOf().2-
+%% _empty_/interpreter.evaluate().2&
+%% _empty_/interpreter.exX.22
+%% *$_empty_/interpreter.exXFunPlusFifty.2/
+%9% A!_empty_/interpreter.Val.VClosure#2&
+%K% N_empty_/interpreter.exX.2/
+%N% N!org/scalactic/Equality.default().2/
+%O% O!org/scalactic/Prettifier.default.23
+%O% O%org/scalactic/source/Position.here().2<
+%O% O.org/scalatest/Assertions#UseDefaultAssertions.20
+&& 
+"org/scalatest/Assertions#assert().2B
+&-& 04org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+&& 0org/scalactic/TripleEquals#convertToEqualizer().23
+&& %_empty_/interpreter.prettyPrintExp().22
+&& +$_empty_/interpreter.exXFunPlusFifty.2/
+&M& M!org/scalactic/Equality.default().2/
+&N& N!org/scalactic/Prettifier.default.23
+&N& N%org/scalactic/source/Position.here().2<
+&N& N.org/scalatest/Assertions#UseDefaultAssertions.2@
+)) 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+)/) / scala/collection/MapOps#apply().2*
+)-) /_empty_/interpretertests#EX.20
+** 
+"org/scalatest/Assertions#assert().2B
+*d* g4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+** 0org/scalactic/TripleEquals#convertToEqualizer().2-
+*b* c_empty_/interpreter.Val.VInt#n.2'
+*O* [scala/Any#asInstanceOf().2-
+*M* N_empty_/interpreter.Exp.EVal#v.2'
+*:* Fscala/Any#asInstanceOf().2/
+*6* 9!_empty_/interpreter.Exp.EApp#arg.2'
+*#* /scala/Any#asInstanceOf().29
+** "+_empty_/interpreter.exXFunPlusFiftyApplied.2+
+*0* 4_empty_/interpreter.Exp.EApp#2+
+*G* K_empty_/interpreter.Exp.EVal#2+
+*\* `_empty_/interpreter.Val.VInt#2/
+*j* j!org/scalactic/Equality.default().2/
+*k* k!org/scalactic/Prettifier.default.23
+*k* k%org/scalactic/source/Position.here().2<
+*k* k.org/scalatest/Assertions#UseDefaultAssertions.20
+++ 
+"org/scalatest/Assertions#assert().2B
++H+ K4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+++ 0org/scalactic/TripleEquals#convertToEqualizer().2-
++F+ G_empty_/interpreter.Val.VInt#n.2'
++3+ ?scala/Any#asInstanceOf().2-
+++ _empty_/interpreter.evaluate().2&
+++ _empty_/interpreter.exX.29
+++ 1+_empty_/interpreter.exXFunPlusFiftyApplied.2+
++@+ D_empty_/interpreter.Val.VInt#2/
++N+ N!org/scalactic/Equality.default().2/
++O+ O!org/scalactic/Prettifier.default.23
++O+ O%org/scalactic/source/Position.here().2<
++O+ O.org/scalatest/Assertions#UseDefaultAssertions.20
+,, 
+"org/scalatest/Assertions#assert().2B
+,4, 74org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+,, 0org/scalactic/TripleEquals#convertToEqualizer().23
+,, %_empty_/interpreter.prettyPrintExp().29
+,, 2+_empty_/interpreter.exXFunPlusFiftyApplied.2/
+,Y, Y!org/scalactic/Equality.default().2/
+,Z, Z!org/scalactic/Prettifier.default.23
+,Z, Z%org/scalactic/source/Position.here().2<
+,Z, Z.org/scalatest/Assertions#UseDefaultAssertions.2@
+// 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+/#/ # scala/collection/MapOps#apply().2*
+/!/ #_empty_/interpretertests#EX.20
+00 
+"org/scalatest/Assertions#assert().2B
+0-0 04org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+00 0org/scalactic/TripleEquals#convertToEqualizer().2.
+0*0 , _empty_/interpreter.Exp.ELet#nm.2'
+00 #scala/Any#asInstanceOf().2-
+00 _empty_/interpreter.exLetXLetY.2+
+0$0 (_empty_/interpreter.Exp.ELet#2/
+040 4!org/scalactic/Equality.default().2/
+050 5!org/scalactic/Prettifier.default.23
+050 5%org/scalactic/source/Position.here().2<
+050 5.org/scalatest/Assertions#UseDefaultAssertions.20
+11 
+"org/scalatest/Assertions#assert().2B
+1V1 Y4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+11 0org/scalactic/TripleEquals#convertToEqualizer().2-
+1T1 U_empty_/interpreter.Val.VInt#n.2'
+1A1 Mscala/Any#asInstanceOf().2-
+1?1 @_empty_/interpreter.Exp.EVal#v.2'
+1,1 8scala/Any#asInstanceOf().2-
+1*1 +_empty_/interpreter.Exp.ELet#e.2'
+11 #scala/Any#asInstanceOf().2-
+11 _empty_/interpreter.exLetXLetY.2+
+1$1 (_empty_/interpreter.Exp.ELet#2+
+191 =_empty_/interpreter.Exp.EVal#2+
+1N1 R_empty_/interpreter.Val.VInt#2/
+1[1 [!org/scalactic/Equality.default().2/
+1\1 \!org/scalactic/Prettifier.default.23
+1\1 \%org/scalactic/source/Position.here().2<
+1\1 \.org/scalatest/Assertions#UseDefaultAssertions.20
+22 
+"org/scalatest/Assertions#assert().2B
+2E2 H4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+22 0org/scalactic/TripleEquals#convertToEqualizer().2.
+2B2 D _empty_/interpreter.Exp.ELet#nm.2'
+2/2 ;scala/Any#asInstanceOf().20
+2*2 ."_empty_/interpreter.Exp.ELet#body.2'
+22 #scala/Any#asInstanceOf().2-
+22 _empty_/interpreter.exLetXLetY.2+
+2$2 (_empty_/interpreter.Exp.ELet#2+
+2<2 @_empty_/interpreter.Exp.ELet#2/
+2L2 L!org/scalactic/Equality.default().2/
+2M2 M!org/scalactic/Prettifier.default.23
+2M2 M%org/scalactic/source/Position.here().2<
+2M2 M.org/scalatest/Assertions#UseDefaultAssertions.20
+33 
+"org/scalatest/Assertions#assert().2B
+3n3 q4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+33 0org/scalactic/TripleEquals#convertToEqualizer().2-
+3l3 m_empty_/interpreter.Val.VInt#n.2'
+3Y3 escala/Any#asInstanceOf().2-
+3W3 X_empty_/interpreter.Exp.EVal#v.2'
+3D3 Pscala/Any#asInstanceOf().2-
+3B3 C_empty_/interpreter.Exp.ELet#e.2'
+3/3 ;scala/Any#asInstanceOf().20
+3*3 ."_empty_/interpreter.Exp.ELet#body.2'
+33 #scala/Any#asInstanceOf().2-
+33 _empty_/interpreter.exLetXLetY.2+
+3$3 (_empty_/interpreter.Exp.ELet#2+
+3<3 @_empty_/interpreter.Exp.ELet#2+
+3Q3 U_empty_/interpreter.Exp.EVal#2+
+3f3 j_empty_/interpreter.Val.VInt#2/
+3s3 s!org/scalactic/Equality.default().2/
+3t3 t!org/scalactic/Prettifier.default.23
+3t3 t%org/scalactic/source/Position.here().2<
+3t3 t.org/scalatest/Assertions#UseDefaultAssertions.20
+44 
+"org/scalatest/Assertions#assert().2B
+4A4 D4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+44 0org/scalactic/TripleEquals#convertToEqualizer().2-
+4?4 @_empty_/interpreter.Val.VInt#n.2'
+4,4 8scala/Any#asInstanceOf().2-
+44 _empty_/interpreter.evaluate().2+
+44 _empty_/interpreter.emptyEnv.2-
+4 4 *_empty_/interpreter.exLetXLetY.2+
+494 =_empty_/interpreter.Val.VInt#2/
+4G4 G!org/scalactic/Equality.default().2/
+4H4 H!org/scalactic/Prettifier.default.23
+4H4 H%org/scalactic/source/Position.here().2<
+4H4 H.org/scalatest/Assertions#UseDefaultAssertions.20
+55 
+"org/scalatest/Assertions#assert().2B
+5(5 +4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+55 0org/scalactic/TripleEquals#convertToEqualizer().23
+55 %_empty_/interpreter.prettyPrintExp().2-
+55 &_empty_/interpreter.exLetXLetY.2/
+5^5 ^!org/scalactic/Equality.default().2/
+5_5 _!org/scalactic/Prettifier.default.23
+5_5 _%org/scalactic/source/Position.here().2<
+5_5 _.org/scalatest/Assertions#UseDefaultAssertions.2@
+88 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+88  scala/collection/MapOps#apply().2*
+88 _empty_/interpretertests#EX.20
+99 
+"org/scalatest/Assertions#assert().2
+9)9 +scala/Any#`==`().2.
+9&9 ( _empty_/interpreter.Exp.ELet#nm.2'
+99 scala/Any#asInstanceOf().2)
+99 _empty_/interpreter.exLetF.2+
+9 9 $_empty_/interpreter.Exp.ELet#2/
+909 0!org/scalactic/Prettifier.default.23
+909 0%org/scalactic/source/Position.here().2<
+909 0.org/scalatest/Assertions#UseDefaultAssertions.20
+:: 
+"org/scalatest/Assertions#assert().2
+:A: Cscala/Any#`==`().21
+:;: @#_empty_/interpreter.Exp.EAbs#argNm.2'
+:(: 4scala/Any#asInstanceOf().2-
+:&: '_empty_/interpreter.Exp.ELet#e.2'
+:: scala/Any#asInstanceOf().2)
+:: _empty_/interpreter.exLetF.2+
+: : $_empty_/interpreter.Exp.ELet#2+
+:5: 9_empty_/interpreter.Exp.EAbs#2/
+:H: H!org/scalactic/Prettifier.default.23
+:H: H%org/scalactic/source/Position.here().2<
+:H: H.org/scalatest/Assertions#UseDefaultAssertions.20
+;; 
+"org/scalatest/Assertions#assert().2
+;W; Yscala/Any#`==`().2.
+;T; V _empty_/interpreter.Exp.EVar#nm.2'
+;A; Mscala/Any#asInstanceOf().2.
+;>; @ _empty_/interpreter.Exp.EApp#op.2'
+;+; 7scala/Any#asInstanceOf().20
+;&; *"_empty_/interpreter.Exp.ELet#body.2'
+;; scala/Any#asInstanceOf().2)
+;; _empty_/interpreter.exLetF.2+
+; ; $_empty_/interpreter.Exp.ELet#2+
+;8; <_empty_/interpreter.Exp.EApp#2+
+;N; R_empty_/interpreter.Exp.EVar#2/
+;^; ^!org/scalactic/Prettifier.default.23
+;^; ^%org/scalactic/source/Position.here().2<
+;^; ^.org/scalatest/Assertions#UseDefaultAssertions.20
+<< 
+"org/scalatest/Assertions#assert().2!
+<l< nscala/Int#`==`(+3).2-
+<j< k_empty_/interpreter.Val.VInt#n.2'
+<W< cscala/Any#asInstanceOf().2-
+<U< V_empty_/interpreter.Exp.EVal#v.2'
+<B< Nscala/Any#asInstanceOf().2/
+<>< A!_empty_/interpreter.Exp.EApp#arg.2'
+<+< 7scala/Any#asInstanceOf().20
+<&< *"_empty_/interpreter.Exp.ELet#body.2'
+<< scala/Any#asInstanceOf().2)
+<< _empty_/interpreter.exLetF.2+
+< < $_empty_/interpreter.Exp.ELet#2+
+<8< <_empty_/interpreter.Exp.EApp#2+
+<O< S_empty_/interpreter.Exp.EVal#2+
+<d< h_empty_/interpreter.Val.VInt#2/
+<q< q!org/scalactic/Prettifier.default.23
+<q< q%org/scalactic/source/Position.here().2<
+<q< q.org/scalatest/Assertions#UseDefaultAssertions.20
+== 
+"org/scalatest/Assertions#assert().2!
+=== ?scala/Int#`==`(+3).2-
+=;= <_empty_/interpreter.Val.VInt#n.2'
+=(= 4scala/Any#asInstanceOf().2-
+== _empty_/interpreter.evaluate().2+
+== _empty_/interpreter.emptyEnv.2)
+= = &_empty_/interpreter.exLetF.2+
+=5= 9_empty_/interpreter.Val.VInt#2/
+=C= C!org/scalactic/Prettifier.default.23
+=C= C%org/scalactic/source/Position.here().2<
+=C= C.org/scalatest/Assertions#UseDefaultAssertions.20
+>> 
+"org/scalatest/Assertions#assert().2B
+>$> '4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+>> 0org/scalactic/TripleEquals#convertToEqualizer().23
+>> %_empty_/interpreter.prettyPrintExp().2)
+>> "_empty_/interpreter.exLetF.2/
+>W> W!org/scalactic/Equality.default().2/
+>X> X!org/scalactic/Prettifier.default.23
+>X> X%org/scalactic/source/Position.here().2<
+>X> X.org/scalatest/Assertions#UseDefaultAssertions.2@
+CC 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+CC  scala/collection/MapOps#apply().2*
+CC _empty_/interpretertests#EX.20
+DD 
+"org/scalatest/Assertions#assert().2B
+DUD X4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+DD 0org/scalactic/TripleEquals#convertToEqualizer().2-
+DSD T_empty_/interpreter.Val.VInt#n.2'
+D@D Lscala/Any#asInstanceOf().2-
+D>D ?_empty_/interpreter.Exp.EVal#v.2'
+D+D 7scala/Any#asInstanceOf().20
+D'D *"_empty_/interpreter.Exp.EPair#fst.2'
+DD scala/Any#asInstanceOf().2)
+DD _empty_/interpreter.exPair.2,
+D D %_empty_/interpreter.Exp.EPair#2+
+D8D <_empty_/interpreter.Exp.EVal#2+
+DMD Q_empty_/interpreter.Val.VInt#2/
+DZD Z!org/scalactic/Equality.default().2/
+D[D [!org/scalactic/Prettifier.default.23
+D[D [%org/scalactic/source/Position.here().2<
+D[D [.org/scalatest/Assertions#UseDefaultAssertions.20
+EE 
+"org/scalatest/Assertions#assert().2B
+EDE G4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+EE 0org/scalactic/TripleEquals#convertToEqualizer().21
+E>E C#_empty_/interpreter.Exp.EAbs#argNm.2'
+E+E 7scala/Any#asInstanceOf().20
+E'E *"_empty_/interpreter.Exp.EPair#snd.2'
+EE scala/Any#asInstanceOf().2)
+EE _empty_/interpreter.exPair.2,
+E E %_empty_/interpreter.Exp.EPair#2+
+E8E <_empty_/interpreter.Exp.EAbs#2/
+EKE K!org/scalactic/Equality.default().2/
+ELE L!org/scalactic/Prettifier.default.23
+ELE L%org/scalactic/source/Position.here().2<
+ELE L.org/scalatest/Assertions#UseDefaultAssertions.20
+FF 
+"org/scalatest/Assertions#assert().2B
+FmF p4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+FF 0org/scalactic/TripleEquals#convertToEqualizer().2-
+FkF l_empty_/interpreter.Val.VInt#n.2'
+FXF dscala/Any#asInstanceOf().2-
+FVF W_empty_/interpreter.Exp.EVal#v.2'
+FCF Oscala/Any#asInstanceOf().20
+F>F B"_empty_/interpreter.Exp.EAbs#body.2'
+F+F 7scala/Any#asInstanceOf().20
+F'F *"_empty_/interpreter.Exp.EPair#snd.2'
+FF scala/Any#asInstanceOf().2)
+FF _empty_/interpreter.exPair.2,
+F F %_empty_/interpreter.Exp.EPair#2+
+F8F <_empty_/interpreter.Exp.EAbs#2+
+FPF T_empty_/interpreter.Exp.EVal#2+
+FeF i_empty_/interpreter.Val.VInt#2/
+FrF r!org/scalactic/Equality.default().2/
+FsF s!org/scalactic/Prettifier.default.23
+FsF s%org/scalactic/source/Position.here().2<
+FsF s.org/scalatest/Assertions#UseDefaultAssertions.20
+GG 
+"org/scalatest/Assertions#assert().2B
+GUG X4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+GG 0org/scalactic/TripleEquals#convertToEqualizer().2-
+GSG T_empty_/interpreter.Val.VInt#n.2'
+G@G Lscala/Any#asInstanceOf().20
+G<G ?"_empty_/interpreter.Val.VPair#fst.2'
+G(G 4scala/Any#asInstanceOf().2-
+GG _empty_/interpreter.evaluate().2+
+GG _empty_/interpreter.emptyEnv.2)
+G G &_empty_/interpreter.exPair.2,
+G5G :_empty_/interpreter.Val.VPair#2+
+GMG Q_empty_/interpreter.Val.VInt#2/
+GZG Z!org/scalactic/Equality.default().2/
+G[G [!org/scalactic/Prettifier.default.23
+G[G [%org/scalactic/source/Position.here().2<
+G[G [.org/scalatest/Assertions#UseDefaultAssertions.20
+HH 
+"org/scalatest/Assertions#assert().2B
+H[H ^4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+HH 0org/scalactic/TripleEquals#convertToEqualizer().23
+HWH Z%_empty_/interpreter.Val.VClosure#env.2'
+H@H Lscala/Any#asInstanceOf().20
+H<H ?"_empty_/interpreter.Val.VPair#snd.2'
+H(H 4scala/Any#asInstanceOf().2-
+HH _empty_/interpreter.evaluate().2+
+HH _empty_/interpreter.emptyEnv.2)
+H H &_empty_/interpreter.exPair.2,
+H5H :_empty_/interpreter.Val.VPair#2/
+HMH U!_empty_/interpreter.Val.VClosure#2+
+H_H g_empty_/interpreter.emptyEnv.2/
+HgH g!org/scalactic/Equality.default().2/
+HhH h!org/scalactic/Prettifier.default.23
+HhH h%org/scalactic/source/Position.here().2<
+HhH h.org/scalatest/Assertions#UseDefaultAssertions.20
+II 
+"org/scalatest/Assertions#assert().2B
+I]I `4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+II 0org/scalactic/TripleEquals#convertToEqualizer().25
+IWI \'_empty_/interpreter.Val.VClosure#argNm.2'
+I@I Lscala/Any#asInstanceOf().20
+I<I ?"_empty_/interpreter.Val.VPair#snd.2'
+I(I 4scala/Any#asInstanceOf().2-
+II _empty_/interpreter.evaluate().2+
+II _empty_/interpreter.emptyEnv.2)
+I I &_empty_/interpreter.exPair.2,
+I5I :_empty_/interpreter.Val.VPair#2/
+IMI U!_empty_/interpreter.Val.VClosure#2/
+IdI d!org/scalactic/Equality.default().2/
+IeI e!org/scalactic/Prettifier.default.23
+IeI e%org/scalactic/source/Position.here().2<
+IeI e.org/scalatest/Assertions#UseDefaultAssertions.20
+JJ 
+"org/scalatest/Assertions#assert().2D
+
+J†J ‰4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+JJ 0org/scalactic/TripleEquals#convertToEqualizer().2/
+
+J„J …_empty_/interpreter.Val.VInt#n.2'
+JqJ }scala/Any#asInstanceOf().2-
+JoJ p_empty_/interpreter.Exp.EVal#v.2'
+J\J hscala/Any#asInstanceOf().24
+JWJ [&_empty_/interpreter.Val.VClosure#body.2'
+J@J Lscala/Any#asInstanceOf().20
+J<J ?"_empty_/interpreter.Val.VPair#snd.2'
+J(J 4scala/Any#asInstanceOf().2-
+JJ _empty_/interpreter.evaluate().2+
+JJ _empty_/interpreter.emptyEnv.2)
+J J &_empty_/interpreter.exPair.2,
+J5J :_empty_/interpreter.Val.VPair#2/
+JMJ U!_empty_/interpreter.Val.VClosure#2+
+JiJ m_empty_/interpreter.Exp.EVal#2,
+	J~J ‚_empty_/interpreter.Val.VInt#21
+
+J‹J ‹!org/scalactic/Equality.default().21
+
+JŒJ Œ!org/scalactic/Prettifier.default.25
+
+JŒJ Œ%org/scalactic/source/Position.here().2>
+
+JŒJ Œ.org/scalatest/Assertions#UseDefaultAssertions.20
+KK 
+"org/scalatest/Assertions#assert().2B
+K$K '4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+KK 0org/scalactic/TripleEquals#convertToEqualizer().23
+KK %_empty_/interpreter.prettyPrintExp().2)
+KK "_empty_/interpreter.exPair.2/
+K7K 7!org/scalactic/Equality.default().2/
+K8K 8!org/scalactic/Prettifier.default.23
+K8K 8%org/scalactic/source/Position.here().2<
+K8K 8.org/scalatest/Assertions#UseDefaultAssertions.2@
+NN 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+N"N " scala/collection/MapOps#apply().2*
+N N "_empty_/interpretertests#EX.20
+OO 
+"org/scalatest/Assertions#assert().2
+OWO Yscala/Any#`==`().2-
+OUO V_empty_/interpreter.Exp.EVal#v.2'
+OBO Nscala/Any#asInstanceOf().2/
+O>O A!_empty_/interpreter.Exp.EApp#arg.2'
+O+O 7scala/Any#asInstanceOf().2-
+O)O *_empty_/interpreter.Exp.EFst#e.2'
+OO "scala/Any#asInstanceOf().2,
+OO _empty_/interpreter.exCounter.2+
+O#O '_empty_/interpreter.Exp.EFst#2+
+O8O <_empty_/interpreter.Exp.EApp#2+
+OOO S_empty_/interpreter.Exp.EVal#2+
+OZO ^_empty_/interpreter.Val.VNil.2/
+O_O _!org/scalactic/Prettifier.default.23
+O_O _%org/scalactic/source/Position.here().2<
+O_O _.org/scalatest/Assertions#UseDefaultAssertions.20
+PP 
+"org/scalatest/Assertions#assert().2B
+P'P *4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+PP 0org/scalactic/TripleEquals#convertToEqualizer().23
+PP %_empty_/interpreter.prettyPrintExp().2,
+PP %_empty_/interpreter.exCounter.21
+
+PP !org/scalactic/Equality.default().21
+
+P‘P ‘!org/scalactic/Prettifier.default.25
+
+P‘P ‘%org/scalactic/source/Position.here().2>
+
+P‘P ‘.org/scalatest/Assertions#UseDefaultAssertions.PZ 9B7A2539C4DAB08BF1A161E0BC025068

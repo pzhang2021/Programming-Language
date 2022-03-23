@@ -1,0 +1,423 @@
+
+€d!src/test/scala/argpasstests.scala**
+_empty_/argpasstests#*argpasstests€*2
+ _empty_/argpasstests#`<init>`(). €@*<init>€*&
+_empty_/argpasstests#EX. €*EX€*
+local0*i€*
+local1
+ *T€*
+local3 €*rand€*
+local4 €*x1€*
+local5 €*x2€*
+local6 €*x3€*
+local7 €*placeholder€*
+local8 €*r1€*
+local9 €*state€*
+local10 €*res€*
+local11*x$1€*
+local12 €*r€*
+local13 €*rand€*
+local14 €*x1€*
+local15 €*x2€*
+local16 €*x3€*
+local17 €*placeholder€*
+local18 €*r1€*
+local19 €*r2€*
+local20 €*r3€*
+local21 €*state€*
+local22 €*res€*
+local23*x$1€*
+local24 €*r€*
+local25*s€*
+local26 €*rand€*
+local27 €*x1€*
+local28 €*r1€*
+local29 €*r2€*
+local30 €*rand€*
+local31 €*x1€*
+local32 €*r1€*
+local33*x$1€*
+local34 €*r2€*
+local35*x$1€*
+local36 €*r2€*
+local37 €*rand€*
+local38 €*xs€*
+local39*x€*
+local40 €*ys€*
+local41*x€*
+local42 €*changed€*
+local43*x$1€*
+local44 €*x€*
+local45 €*r€2
+ org/scalatest/2
+ 
+org/2;
+ 3-org/scalatest/prop/TableDrivenPropertyChecks.2!
+ org/scalatest/prop/2
+ org/scalatest/2
+ 
+org/2#
+ _empty_/argpasstests#2.
+  _empty_/argpasstests#`<init>`().2*
+# #_empty_/UnitSpec#`<init>`().2
+ #_empty_/UnitSpec#2&
+ _empty_/argpasstests#EX.2
+ scala/Predef.Map#2
+ 
+scala/Int#2 
+ org/scalatest/Tag#27
+ )scala/collection/IterableOnceOps#toMap().24
+ &scala/collection/immutable/List#map().28
+ *scala/collection/IterableOnceOps#toList().2)
+ scala/runtime/RichInt#to().26
+ (scala/LowPriorityImplicits#intWrapper().2
+	 
+local02
+ local12+
+ org/scalatest/Tag#`<init>`().2 
+ org/scalatest/Tag#22
+, 2$scala/collection/StringOps#format().2+
+ scala/Predef.augmentString().2
+4 5local02#
+ scala/Tuple2.apply().2
+ local02
+
+ local22!
+ scala/`<:<`.refl().2
+
+	
+ _empty_/argpass.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+    scala/collection/MapOps#apply().2&
+  _empty_/argpasstests#EX.2
+ local32 
+  scala/util/Random.2
+ scala/util/2
+ scala/2
+ 
+local42,
+ scala/util/Random#nextInt(+1).2
+ local32
+ 
+local52,
+ scala/util/Random#nextInt(+1).2
+ local32
+ 
+local62,
+ scala/util/Random#nextInt(+1).2
+ local32
+ local720
+ "_empty_/argpass.RefInt#`<init>`().2%
+ _empty_/argpass.RefInt#2,
+" )scala/util/Random#nextInt(+1).2
+ !local32
+ 
+local82%
+ _empty_/argpass.RefInt#2
+ !local72
+ local92
+ local102(
+ _empty_/argpass.refint1().2
+ local112
+ local122$
+ java/lang/Object#eq().2
+ local82
+ local72
+
+ local82
+ local122(
+ scala/Boolean#`unary_!`().2$
+ java/lang/Object#eq().2
+ local82
+ local1226
+" "(java/lang/RuntimeException#`<init>`(+1).2)
+ "java/lang/RuntimeException#2
+ local92
+ local82
+ local122+
+ !_empty_/argpass.RefInt#set().2
+ local122
+# %local42
+( -local92 
+6 7scala/Int#`+`(+4).2
+0 5local92+
+ _empty_/argpass.RefInt#set().2
+ local122
+ local52
+  %local92 
+. /scala/Int#`+`(+4).2
+( -local92+
+ _empty_/argpass.RefInt#set().2
+ local122
+ local62
+  %local92 
+. /scala/Int#`+`(+4).2
+( -local926
+* *(java/lang/RuntimeException#`<init>`(+1).2)
+ *java/lang/RuntimeException#20
+!! 
+"org/scalatest/Assertions#assert().2B
+!! 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+!! 0org/scalactic/TripleEquals#convertToEqualizer().2
+!! local102#
+!! scala/Tuple3.apply().2
+!! local42
+!! local52
+!! local62/
+! !  !org/scalactic/Equality.default().2/
+!!! !!org/scalactic/Prettifier.default.23
+!!! !%org/scalactic/source/Position.here().2<
+!!! !.org/scalatest/Assertions#UseDefaultAssertions.2@
+$$ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+$ $   scala/collection/MapOps#apply().2&
+$$  _empty_/argpasstests#EX.2
+%% local132 
+%%  scala/util/Random.2
+%% scala/util/2
+%% scala/2
+&& 
+local142,
+&& scala/util/Random#nextInt(+1).2
+&& local132
+'' 
+local152,
+'' scala/util/Random#nextInt(+1).2
+'' local132
+(( 
+local162,
+(( scala/util/Random#nextInt(+1).2
+(( local132
+)) local1720
+)) "_empty_/argpass.RefInt#`<init>`().2%
+)) _empty_/argpass.RefInt#2,
+)") )scala/util/Random#nextInt(+1).2
+)) !local132
+** 
+local182%
+** _empty_/argpass.RefInt#2
+** !local172
+++ 
+local192%
+++ _empty_/argpass.RefInt#2
+++ !local172
+,, 
+local202%
+,, _empty_/argpass.RefInt#2
+,, !local172
+-- local212
+.. local222(
+.. _empty_/argpass.refint2().2
+// local232
+// local2428
+0"0 "*scala/collection/immutable/List#foreach().27
+00 )scala/collection/IterableFactory#apply().2!
+00 scala/package.List.2
+00 local182
+00 local192
+00 !local202
+00 local252#
+1!1 #scala/Boolean#`&&`().2(
+11  scala/Boolean#`unary_!`().2$
+11 java/lang/Object#eq().2
+11 local242
+11 local172$
+1'1 )java/lang/Object#eq().2
+1%1 &local242
+1*1 +local2526
+2"2 "(java/lang/RuntimeException#`<init>`(+1).2)
+22 "java/lang/RuntimeException#2
+33 local212
+44 local182
+44 local242+
+44 !_empty_/argpass.RefInt#set().2
+44 local242
+4(4 -local212 
+464 7scala/Int#`+`(+4).2
+404 5local212
+55 local192
+55 local242+
+55 !_empty_/argpass.RefInt#set().2
+55 local242
+5(5 -local212 
+565 7scala/Int#`+`(+4).2
+505 5local212
+66 local202
+66 local242+
+66 "_empty_/argpass.RefInt#set().2
+66 local182
+6$6 &local142+
+6,6 /_empty_/argpass.RefInt#set().2
+6)6 +local192
+616 3local152+
+696 <_empty_/argpass.RefInt#set().2
+666 8local202
+6>6 @local162
+6C6 Hlocal212 
+6Q6 Rscala/Int#`+`(+4).2
+6K6 Plocal2126
+7*7 *(java/lang/RuntimeException#`<init>`(+1).2)
+77 *java/lang/RuntimeException#20
+:: 
+"org/scalatest/Assertions#assert().2B
+:: 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+:: 0org/scalactic/TripleEquals#convertToEqualizer().2
+:: local222#
+:: scala/Tuple3.apply().2
+:: local142
+:: local152
+:: local162/
+: :  !org/scalactic/Equality.default().2/
+:!: !!org/scalactic/Prettifier.default.23
+:!: !%org/scalactic/source/Position.here().2<
+:!: !.org/scalatest/Assertions#UseDefaultAssertions.2@
+== 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+= =   scala/collection/MapOps#apply().2&
+==  _empty_/argpasstests#EX.2
+>> local262 
+>>  scala/util/Random.2
+>> scala/util/2
+>> scala/2
+?? 
+local272,
+?? scala/util/Random#nextInt(+1).2
+?? local262
+@@ 
+local282%
+@@ _empty_/argpass.RefInt#20
+@@ "_empty_/argpass.RefInt#`<init>`().2%
+@@ _empty_/argpass.RefInt#2
+@@  local272
+AA 
+local292%
+AA _empty_/argpass.RefInt#2(
+AA _empty_/argpass.refint3().2
+AA !local2820
+BB 
+"org/scalatest/Assertions#assert().2!
+BB scala/Int#`==`(+3).2+
+BB _empty_/argpass.RefInt#get().2
+BB local282 
+BB scala/Int#`+`(+4).2
+BB local272/
+BB !org/scalactic/Prettifier.default.23
+BB %org/scalactic/source/Position.here().2<
+BB .org/scalatest/Assertions#UseDefaultAssertions.20
+CC 
+"org/scalatest/Assertions#assert().2!
+CC scala/Int#`==`(+3).2+
+CC _empty_/argpass.RefInt#get().2
+CC local292 
+CC scala/Int#`*`(+3).2
+CC local272/
+CC !org/scalactic/Prettifier.default.23
+CC %org/scalactic/source/Position.here().2<
+CC .org/scalatest/Assertions#UseDefaultAssertions.2@
+FF 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+F F   scala/collection/MapOps#apply().2&
+FF  _empty_/argpasstests#EX.2
+GG local302 
+GG  scala/util/Random.2
+GG scala/util/2
+GG scala/2
+HH 
+local312,
+HH scala/util/Random#nextInt(+1).2
+HH local302
+II 
+local322%
+II _empty_/argpass.RefInt#20
+II "_empty_/argpass.RefInt#`<init>`().2%
+II _empty_/argpass.RefInt#2
+II  local3120
+KK 
+"org/scalatest/Assertions#assert().2#
+PP 	scala/Boolean#`==`().2(
+KK _empty_/argpass.refint4().2
+KK local322
+LL local332
+LL local342$
+MM java/lang/Object#eq().2
+MM local322
+MM local3426
+N N  (java/lang/RuntimeException#`<init>`(+1).2)
+NN  java/lang/RuntimeException#2/
+PP !org/scalactic/Prettifier.default.23
+PP %org/scalactic/source/Position.here().2<
+PP .org/scalatest/Assertions#UseDefaultAssertions.20
+RR 
+"org/scalatest/Assertions#assert().2#
+XX 	scala/Boolean#`==`().2(
+RR _empty_/argpass.refint4().2
+RR local322
+SS local352
+SS local362$
+TT java/lang/Object#eq().2
+TT local322
+TT local3626
+U U  (java/lang/RuntimeException#`<init>`(+1).2)
+UU  java/lang/RuntimeException#2+
+WW _empty_/argpass.RefInt#set().2
+WW 
+local362 
+WW scala/Int#`+`(+4).2+
+WW _empty_/argpass.RefInt#get().2
+WW local362/
+XX !org/scalactic/Prettifier.default.23
+XX %org/scalactic/source/Position.here().2<
+XX .org/scalatest/Assertions#UseDefaultAssertions.2@
+\\ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+\ \   scala/collection/MapOps#apply().2&
+\\  _empty_/argpasstests#EX.2
+]] local372 
+]]  scala/util/Random.2
+]] scala/util/2
+]] scala/2
+^^ 
+local382!
+^^ scala/package.List#2
+^^ 
+scala/Int#24
+^)^ ,&scala/collection/immutable/List#map().28
+^"^ (*scala/collection/IterableOnceOps#toList().2)
+^^ scala/runtime/RichInt#to().26
+^^ (scala/LowPriorityImplicits#intWrapper().2
+^.^ /local392,
+^8^ ?scala/util/Random#nextInt(+1).2
+^3^ 7local372
+__ 
+local402!
+__ scala/package.List#2%
+__ _empty_/argpass.RefInt#24
+__ "&scala/collection/immutable/List#map().2
+__ local382
+_$_ %local4120
+_/_ /"_empty_/argpass.RefInt#`<init>`().2%
+_)_ /_empty_/argpass.RefInt#2
+_1_ 2local412(
+`` _empty_/argpass.refint5().2
+`` local402
+aa local4228
+bb *scala/collection/immutable/List#foreach().2@
+bb 2scala/collection/StrictOptimizedIterableOps#zip().2
+bb local382
+bb local402
+bb local432%
+b	b 	scala/Tuple2.unapply().2
+b	b 
+local442
+bb local452!
+cc scala/Int#`!=`(+3).2
+c	c 
+local442+
+cc _empty_/argpass.RefInt#get().2
+cc local452
+dd local422(
+gg scala/Boolean#`unary_!`().2
+gg local4226
+hh (java/lang/RuntimeException#`<init>`(+1).2)
+hh java/lang/RuntimeException#PZ 01B2B73A0F6A67A4BCF6AFF7A2A5E788

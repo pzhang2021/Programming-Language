@@ -1,0 +1,67 @@
+
+Àsrc/test/scala/UnitSpec.scala*$
+_empty_/UnitSpec# *UnitSpec€*.
+_empty_/UnitSpec#`<init>`(). €@*<init>€*0
+_empty_/UnitSpec#timeLimit. €*	timeLimit€*D
+%_empty_/UnitSpec#defaultTestSignaler. €*defaultTestSignaler€*
+local0 *$anon€*
+local1*apply€*
+local2*
+testThread€2,
+! )"org/scalatest/concurrent/Signaler.2,
+! )"org/scalatest/concurrent/Signaler#24
++ ;*org/scalatest/concurrent/TimeLimitedTests.2#
+ org/scalatest/concurrent/2
+ org/scalatest/2
+ 
+org/25
+% -'org/scalatest/matchers/should/Matchers.25
+% -'org/scalatest/matchers/should/Matchers#2,
+ $org/scalatest/matchers/should/2%
+ org/scalatest/matchers/2
+ org/scalatest/2
+ 
+org/21
+ )#org/scalatest/propspec/AnyPropSpec#2%
+ org/scalatest/propspec/2
+ org/scalatest/2
+ 
+org/2(
+ !org/scalatest/time/Second.2&
+# 'org/scalatest/time/Span.2&
+# 'org/scalatest/time/Span#2!
+ org/scalatest/time/2
+ org/scalatest/2
+ 
+org/2
+ _empty_/UnitSpec#2*
+
+ 
+_empty_/UnitSpec#`<init>`().2<
+ .org/scalatest/propspec/AnyPropSpec#`<init>`().21
+
+ #org/scalatest/propspec/AnyPropSpec#25
+	 'org/scalatest/matchers/should/Matchers#28
+	 *org/scalatest/concurrent/TimeLimitedTests#2)
+
+
+ _empty_/UnitSpec#timeLimit.2.
+
+
+  org/scalatest/time/Span.apply().2&
+
+
+ org/scalatest/time/Span.2(
+
+
+  org/scalatest/time/Second.23
+ "%_empty_/UnitSpec#defaultTestSignaler.20
+) 1"org/scalatest/concurrent/Signaler#2
+ scala/deprecated#2
+ local12
+ "local22
+$ *java/lang/Thread#2
+. 2scala/Unit#2'
+ scala/Predef.println(+1).2&
+ java/lang/Thread#stop().2
+ local2PZ 7E5A7379AD61B825CBF657AE2B63ECEA

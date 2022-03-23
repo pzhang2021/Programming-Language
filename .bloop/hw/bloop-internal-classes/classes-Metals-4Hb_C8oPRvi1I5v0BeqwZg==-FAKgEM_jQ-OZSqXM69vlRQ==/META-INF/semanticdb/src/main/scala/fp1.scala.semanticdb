@@ -1,0 +1,414 @@
+
+ÏGsrc/main/scala/fp1.scala*
+_empty_/fp1.
+ *fp1Ä*
+_empty_/fp1.log().*logÄ*
+_empty_/fp1.log().[X]	*XÄ*)
+_empty_/fp1.log().(prefix)*prefixÄ*7
+!_empty_/fp1.log().(computeResult)*computeResultÄ*
+local0 Ä*resultÄ* 
+_empty_/fp1.fact().*factÄ* 
+_empty_/fp1.fact().(n)*nÄ*&
+_empty_/fp1.factLog().*factLogÄ*#
+_empty_/fp1.factLog().(n)*nÄ*)
+_empty_/fp1.factTest. Ä*factTestÄ*
+local1 Ä*elem$5Ä*
+local2 Ä*elem$4Ä*
+local3 Ä*elem$3Ä*
+local4 Ä*elem$2Ä*
+local5 Ä*elem$1Ä*
+_empty_/fp1.fib().*fibÄ*
+_empty_/fp1.fib().(n)*nÄ*
+_empty_/fp1.p1. Ä*p1Ä*
+_empty_/fp1.t1. Ä*t1Ä* 
+_empty_/fp1.swap().*swapÄ* 
+_empty_/fp1.swap().(p)*pÄ*
+_empty_/fp1.sum().*sumÄ*!
+_empty_/fp1.sum().(xs)*xsÄ*,
+_empty_/fp1.sumTailAux().*
+sumTailAuxÄ*(
+_empty_/fp1.sumTailAux().(xs)*xsÄ*:
+&_empty_/fp1.sumTailAux().(accumulator)*accumulatorÄ*
+local6 Ä*yÄ*
+local7 Ä*ysÄ*&
+_empty_/fp1.sumTail().*sumTailÄ*%
+_empty_/fp1.sumTail().(xs)*xsÄ*
+_empty_/fp1.max().*maxÄ*!
+_empty_/fp1.max().(xs)*xsÄ*,
+_empty_/fp1.maxTailAux().*
+maxTailAuxÄ*(
+_empty_/fp1.maxTailAux().(xs)*xsÄ*:
+&_empty_/fp1.maxTailAux().(accumulator)*accumulatorÄ*&
+_empty_/fp1.maxTail().*maxTailÄ*%
+_empty_/fp1.maxTail().(xs)*xsÄ*
+local8 Ä*yÄ*
+local9 Ä*ysÄ* 
+_empty_/fp1.otpu().*otpuÄ*(
+_empty_/fp1.otpu().(start)*startÄ*$
+_empty_/fp1.otpu().(end)*endÄ2/
+   '!java/util/NoSuchElementException#2
+   
+java/util/2
+   java/2
+!! 
+_empty_/fp1.2 
+&& 	_empty_/fp1.log().2#
+&
+& _empty_/fp1.log().[X]2(
+&& _empty_/fp1.log().(prefix)2"
+&& scala/Predef.String#2/
+&& *!_empty_/fp1.log().(computeResult)2#
+&/& 0_empty_/fp1.log().[X]2'
+'' scala/Predef.println(+1).2(
+'' _empty_/fp1.log().(prefix)2
+(( local02/
+(( !_empty_/fp1.log().(computeResult)2'
+)) scala/Predef.println(+1).2&
+))  scala/StringContext#s().2*
+)) scala/StringContext.apply().2(
+)) _empty_/fp1.log().(prefix)2
+)) local02
+** 
+local02!
+00 
+_empty_/fp1.fact().2$
+00 _empty_/fp1.fact().(n)2
+00 
+scala/Int#2
+00 
+scala/Int#2!
+1	1 scala/Int#`<=`(+3).2$
+11 _empty_/fp1.fact().(n)2 
+22 scala/Int#`*`(+3).2$
+2	2 
+_empty_/fp1.fact().(n)2!
+22 _empty_/fp1.fact().2 
+22 scala/Int#`-`(+3).2$
+22 _empty_/fp1.fact().(n)2$
+55 _empty_/fp1.factLog().2'
+55 _empty_/fp1.factLog().(n)2
+55 
+scala/Int#2
+55 
+scala/Int#2 
+66 _empty_/fp1.log().2&
+66 scala/StringContext#s().2*
+6
+6 
+scala/StringContext.apply().2'
+66 _empty_/fp1.factLog().(n)2!
+77 scala/Int#`<=`(+3).2'
+7	7 
+_empty_/fp1.factLog().(n)2 
+88 scala/Int#`*`(+3).2'
+88 _empty_/fp1.factLog().(n)2$
+88 _empty_/fp1.factLog().2 
+88 scala/Int#`-`(+3).2'
+88 _empty_/fp1.factLog().(n)2#
+\\ _empty_/fp1.factTest.2!
+\\ scala/package.List#2
+\\ 
+scala/Int#25
+^>^ >'scala/collection/immutable/List#`::`().2 
+^;^ >scala/package.Nil.2
+^4^ 4local52
+^)^ )local42
+^^ local32
+^^ local22
+^^ local12 
+gg 	_empty_/fp1.fib().2#
+g
+g _empty_/fp1.fib().(n)2
+gg 
+scala/Int#2
+gg 
+scala/Int#2#
+jj _empty_/fp1.fib().(n)2 
+mm scala/Int#`+`(+4).2 
+mm _empty_/fp1.fib().2 
+mm scala/Int#`-`(+3).2#
+mm _empty_/fp1.fib().(n)2 
+mm  _empty_/fp1.fib().2 
+m#m $scala/Int#`-`(+3).2#
+m!m "_empty_/fp1.fib().(n)2
+qq _empty_/fp1.p1.2
+qq 
+scala/Int#2"
+qq scala/Predef.String#2#
+ss scala/Tuple2.apply().2
+ww _empty_/fp1.t1.2
+ww 
+scala/Int#2"
+ww scala/Predef.String#2
+ww scala/Boolean#2#
+yy scala/Tuple3.apply().2#
+
+ÅÅ 
+_empty_/fp1.swap().2&
+
+ÅÅ _empty_/fp1.swap().(p)2
+
+ÅÅ 
+scala/Int#2$
+
+ÅÅ scala/Predef.String#2$
+
+ÅÅ %scala/Predef.String#2
+
+Å'Å *
+scala/Int#2%
+
+ÉÉ scala/Tuple2.apply().2 
+
+ÉÉ 	scala/Tuple2#_2.2&
+
+ÉÉ _empty_/fp1.swap().(p)2 
+
+ÉÉ scala/Tuple2#_1.2&
+
+ÉÉ _empty_/fp1.swap().(p)2"
+
+ää 	_empty_/fp1.sum().2&
+
+ä
+ä _empty_/fp1.sum().(xs)2#
+
+ää scala/package.List#2
+
+ää 
+scala/Int#2
+
+ää 
+scala/Int#2:
+
+çç *scala/collection/immutable/List#isEmpty().2&
+
+çç 
+_empty_/fp1.sum().(xs)2"
+
+ç(ç )scala/Int#`+`(+4).24
+
+ç#ç '$scala/collection/IterableOps#head().2&
+
+ç ç "_empty_/fp1.sum().(xs)2"
+
+ç*ç -_empty_/fp1.sum().24
+
+ç1ç 5$scala/collection/IterableOps#tail().2&
+
+ç.ç 0_empty_/fp1.sum().(xs)2)
+
+ññ _empty_/fp1.sumTailAux().2-
+
+ññ _empty_/fp1.sumTailAux().(xs)2#
+
+ññ scala/package.List#2
+
+ññ 
+scala/Int#26
+
+ñ ñ +&_empty_/fp1.sumTailAux().(accumulator)2
+
+ñ-ñ 0
+scala/Int#2
+
+ñ3ñ 6
+scala/Int#2-
+
+óó _empty_/fp1.sumTailAux().(xs)2"
+
+òò scala/package.Nil.26
+
+òò !&_empty_/fp1.sumTailAux().(accumulator)2:
+
+ôô *scala/collection/immutable/`::`.unapply().2#
+
+ôô scala/package.`::`.2
+
+ôô local62
+
+ôô local72)
+
+ôô  _empty_/fp1.sumTailAux().2
+
+ô!ô #local72"
+
+ô1ô 2scala/Int#`+`(+4).26
+
+ô%ô 0&_empty_/fp1.sumTailAux().(accumulator)2
+
+ô3ô 4local62&
+
+õõ _empty_/fp1.sumTail().2*
+
+õõ _empty_/fp1.sumTail().(xs)2#
+
+õõ scala/package.List#2
+
+õõ 
+scala/Int#2
+
+õõ !
+scala/Int#2)
+
+ûû _empty_/fp1.sumTailAux().2*
+
+ûû _empty_/fp1.sumTail().(xs)2"
+
+™™ 	_empty_/fp1.max().2&
+
+™
+™ _empty_/fp1.max().(xs)2#
+
+™™ scala/package.List#2
+
+™™ 
+scala/Int#2
+
+™™ 
+scala/Int#2:
+
+¨¨ *scala/collection/immutable/List#isEmpty().2&
+
+¨¨ 
+_empty_/fp1.max().(xs)2<
+
+¨5¨ 5,java/util/NoSuchElementException#`<init>`().21
+
+¨¨ 5!java/util/NoSuchElementException#2#
+
+≠≠ scala/Int#`==`(+3).29
+
+≠≠ )scala/collection/immutable/List#length().2&
+
+≠≠ _empty_/fp1.max().(xs)24
+
+≠%≠ )$scala/collection/IterableOps#head().2&
+
+≠"≠ $_empty_/fp1.max().(xs)2,
+
+ÆÆ scala/runtime/RichInt#max().28
+
+Æ	Æ 	(scala/LowPriorityImplicits#intWrapper().24
+
+ÆÆ $scala/collection/IterableOps#head().2&
+
+Æ	Æ _empty_/fp1.max().(xs)2"
+
+ÆÆ _empty_/fp1.max().24
+
+ÆÆ  $scala/collection/IterableOps#tail().2&
+
+ÆÆ _empty_/fp1.max().(xs)2)
+
+∏∏ _empty_/fp1.maxTailAux().2-
+
+∏∏ _empty_/fp1.maxTailAux().(xs)2#
+
+∏∏ scala/package.List#2
+
+∏∏ 
+scala/Int#26
+
+∏ ∏ +&_empty_/fp1.maxTailAux().(accumulator)2
+
+∏-∏ 0
+scala/Int#2
+
+∏3∏ 6
+scala/Int#2:
+
+ªª *scala/collection/immutable/List#isEmpty().2-
+
+ªª 
+_empty_/fp1.maxTailAux().(xs)26
+
+ªª $&_empty_/fp1.maxTailAux().(accumulator)2)
+
+º	º _empty_/fp1.maxTailAux().24
+
+ºº $scala/collection/IterableOps#tail().2-
+
+ºº _empty_/fp1.maxTailAux().(xs)2,
+
+º)º ,scala/runtime/RichInt#max().28
+
+ºº (scala/LowPriorityImplicits#intWrapper().26
+
+ºº (&_empty_/fp1.maxTailAux().(accumulator)24
+
+º0º 4$scala/collection/IterableOps#head().2-
+
+º-º /_empty_/fp1.maxTailAux().(xs)2&
+
+ææ _empty_/fp1.maxTail().2*
+
+ææ _empty_/fp1.maxTail().(xs)2#
+
+ææ scala/package.List#2
+
+ææ 
+scala/Int#2
+
+ææ !
+scala/Int#2*
+
+øø _empty_/fp1.maxTail().(xs)2"
+
+¿¿ scala/package.Nil.2<
+
+¿2¿ 2,java/util/NoSuchElementException#`<init>`().21
+
+¿¿ 2!java/util/NoSuchElementException#2:
+
+¡¡ *scala/collection/immutable/`::`.unapply().2#
+
+¡¡ scala/package.`::`.2
+
+¡¡ local82
+
+¡¡ local92)
+
+¡¡  _empty_/fp1.maxTailAux().2
+
+¡!¡ #local92
+
+¡%¡ &local82#
+
+ÕÕ 
+_empty_/fp1.otpu().2*
+
+ÕÕ _empty_/fp1.otpu().(start)2
+
+ÕÕ 
+scala/Int#2(
+
+ÕÕ _empty_/fp1.otpu().(end)2
+
+ÕÕ 
+scala/Int#2#
+
+Õ"Õ &scala/package.List#2
+
+Õ'Õ *
+scala/Int#2"
+
+–– scala/Int#`<`(+3).2*
+
+–– _empty_/fp1.otpu().(start)2(
+
+–– _empty_/fp1.otpu().(end)2"
+
+–– scala/package.Nil.27
+
+—&— &'scala/collection/immutable/List#`::`().2#
+
+—— _empty_/fp1.otpu().2"
+
+—— scala/Int#`-`(+3).2*
+
+—— _empty_/fp1.otpu().(start)2(
+
+—"— %_empty_/fp1.otpu().(end)2*
+
+—	— _empty_/fp1.otpu().(start)PZ A96FD6C4B89AA4E8E76B617314E0F8A3

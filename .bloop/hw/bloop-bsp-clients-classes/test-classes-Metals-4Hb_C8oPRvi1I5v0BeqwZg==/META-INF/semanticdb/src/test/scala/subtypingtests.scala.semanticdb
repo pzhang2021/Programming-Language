@@ -1,0 +1,232 @@
+
+›>#src/test/scala/subtypingtests.scala*.
+_empty_/subtypingtests#*subtypingtests€*4
+"_empty_/subtypingtests#`<init>`(). €@*<init>€*(
+_empty_/subtypingtests#EX. €*EX€*
+local0*i€*
+local1
+ *T€*
+local3 €*rand€*
+local4 €*total€*
+local5 €*res€*
+local6*x$1€*
+local7 €*c€*
+local8*i€*
+local9 €*rand€*
+local10 €*totals€*
+local11 €*res€*
+local12*x$1€*
+local13 €*cs€*
+local14*x$1€*
+local15 €*total€*
+local16 €*c€*
+local17*i€*
+local18 €*rand€*
+local19 €*totals€*
+local20 €*res€*
+local21*x$1€*
+local22 €*cs€*
+local23*x$1€*
+local24 €*total€*
+local25 €*c€*
+local26*i€2
+ org/scalatest/2
+ 
+org/2;
+ 3-org/scalatest/prop/TableDrivenPropertyChecks.2!
+ org/scalatest/prop/2
+ org/scalatest/2
+ 
+org/2%
+ _empty_/subtypingtests#20
+ "_empty_/subtypingtests#`<init>`().2*
+% %_empty_/UnitSpec#`<init>`().2
+ %_empty_/UnitSpec#2(
+ _empty_/subtypingtests#EX.2
+ scala/Predef.Map#2
+ 
+scala/Int#2 
+ org/scalatest/Tag#27
+ )scala/collection/IterableOnceOps#toMap().24
+ &scala/collection/immutable/List#map().28
+ *scala/collection/IterableOnceOps#toList().2)
+ scala/runtime/RichInt#to().26
+ (scala/LowPriorityImplicits#intWrapper().2
+	 
+local02
+ local12+
+ org/scalatest/Tag#`<init>`().2 
+ org/scalatest/Tag#22
+. 4$scala/collection/StringOps#format().2+
+ scala/Predef.augmentString().2
+6 7local02#
+ scala/Tuple2.apply().2
+ local02
+
+ local22!
+ scala/`<:<`.refl().2 
+
+	
+ _empty_/subtyping.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+' ' scala/collection/MapOps#apply().2(
+% '_empty_/subtypingtests#EX.2
+ local32 
+  scala/util/Random.2
+ scala/util/2
+ scala/2
+ local42,
+ scala/util/Random#nextInt(+1).2
+ local32
+ local521
+ #_empty_/subtyping.observeCounter().2
+ local62
+ local72(
+ _empty_/subtyping.Counter#29
+ +scala/collection/immutable/Range#foreach().2)
+ scala/runtime/RichInt#to().26
+ (scala/LowPriorityImplicits#intWrapper().2
+ local42
+ local82.
+  scala/util/Random#nextBoolean().2
+ local324
+ &_empty_/subtyping.Counter#increment().2
+ local724
+ &_empty_/subtyping.Counter#decrement().2
+ local720
+ 
+"org/scalatest/Assertions#assert().2B
+ 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2
+ local52
+ local42/
+ !org/scalactic/Equality.default().2/
+ !org/scalactic/Prettifier.default.23
+ %org/scalactic/source/Position.here().2<
+ .org/scalatest/Assertions#UseDefaultAssertions.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
++ + scala/collection/MapOps#apply().2(
+) +_empty_/subtypingtests#EX.2
+ local92 
+  scala/util/Random.2
+ scala/util/2
+ scala/2
+ local102!
+ scala/package.List#2
+ 
+scala/Int#24
+- 0&scala/collection/immutable/List#map().28
+& ,*scala/collection/IterableOnceOps#toList().2)
+  "scala/runtime/RichInt#to().26
+ (scala/LowPriorityImplicits#intWrapper().2,
+< Cscala/util/Random#nextInt(+1).2
+7 ;local92
+ local112!
+ scala/package.List#2
+ 
+scala/Int#25
+ ,'_empty_/subtyping.observeCounterList().2
+ local122
+ local132!
+ scala/package.List#2(
+ _empty_/subtyping.Counter#2!
+ scala/Int#`!=`(+3).27
+ )scala/collection/immutable/List#length().2
+ local1326
+     (java/lang/RuntimeException#`<init>`(+1).2)
+    java/lang/RuntimeException#28
+!)! )*scala/collection/immutable/List#foreach().2@
+!!! $2scala/collection/StrictOptimizedIterableOps#zip().2
+!!  local102
+!&! (local132
+!! local142%
+!! scala/Tuple2.unapply().2
+!! local152
+!! local1629
+"" +scala/collection/immutable/Range#foreach().2)
+"" scala/runtime/RichInt#to().26
+"" (scala/LowPriorityImplicits#intWrapper().2
+"" local152
+"" local172.
+##  scala/util/Random#nextBoolean().2
+## local924
+$$ &_empty_/subtyping.Counter#increment().2
+$$ local1624
+&& &_empty_/subtyping.Counter#decrement().2
+&& local1620
+(( 
+"org/scalatest/Assertions#assert().2B
+(( 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+(( 0org/scalactic/TripleEquals#convertToEqualizer().2
+(( local112
+(( local102/
+(( !org/scalactic/Equality.default().2/
+(( !org/scalactic/Prettifier.default.23
+(( %org/scalactic/source/Position.here().2<
+(( .org/scalatest/Assertions#UseDefaultAssertions.2@
+++ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
++,+ , scala/collection/MapOps#apply().2(
++*+ ,_empty_/subtypingtests#EX.2
+,, local182 
+,,  scala/util/Random.2
+,, scala/util/2
+,, scala/2
+-- local192!
+-- scala/package.List#2
+-- 
+scala/Int#24
+--- 0&scala/collection/immutable/List#map().28
+-&- ,*scala/collection/IterableOnceOps#toList().2)
+- - "scala/runtime/RichInt#to().26
+-- (scala/LowPriorityImplicits#intWrapper().2,
+-<- Cscala/util/Random#nextInt(+1).2
+-7- ;local182
+.. local202
+.. scala/Array#2
+.. 
+scala/Int#26
+.. .(_empty_/subtyping.observeCounterArray().2
+// local212
+// local222
+// scala/Array#2(
+// _empty_/subtyping.Counter#2!
+00 scala/Int#`!=`(+3).2#
+00 scala/Array#length().2
+00 local2226
+1 1  (java/lang/RuntimeException#`<init>`(+1).2)
+11  java/lang/RuntimeException#28
+2)2 )*scala/collection/immutable/List#foreach().2@
+2!2 $2scala/collection/StrictOptimizedIterableOps#zip().2
+22  local1928
+2&2 &*scala/LowPriorityImplicits#wrapRefArray().2
+2&2 (local222
+22 local232%
+22 scala/Tuple2.unapply().2
+22 local242
+22 local2529
+33 +scala/collection/immutable/Range#foreach().2)
+33 scala/runtime/RichInt#to().26
+33 (scala/LowPriorityImplicits#intWrapper().2
+33 local242
+33 local262.
+44  scala/util/Random#nextBoolean().2
+44 local1824
+55 &_empty_/subtyping.Counter#increment().2
+55 local2524
+77 &_empty_/subtyping.Counter#decrement().2
+77 local2520
+99 
+"org/scalatest/Assertions#assert().2B
+99 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+99 0org/scalactic/TripleEquals#convertToEqualizer().28
+99 *scala/collection/IterableOnceOps#toList().28
+99 *scala/LowPriorityImplicits#wrapIntArray().2
+99 local202
+99 !local192/
+9!9 !!org/scalactic/Equality.default().2/
+9"9 "!org/scalactic/Prettifier.default.23
+9"9 "%org/scalactic/source/Position.here().2<
+9"9 ".org/scalatest/Assertions#UseDefaultAssertions.PZ 5E68FF070A0557C4305A1E9DDA19587A

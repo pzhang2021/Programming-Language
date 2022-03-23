@@ -1,0 +1,468 @@
+
+¤”src/test/scala/fp1tests.scala*"
+_empty_/fp1tests#*fp1tests€*.
+_empty_/fp1tests#`<init>`(). €@*<init>€*"
+_empty_/fp1tests#EX. €*EX€*
+local0*i€*
+local1
+ *T€*
+local3 €*fibTable€*
+local4*n€*
+local5*res€*.
+_empty_/fp1tests#sumTable. €*sumTable€*
+local6*xs€*
+local7*res€*
+local8*xs€*
+local9*res€*.
+_empty_/fp1tests#maxTable. €*maxTable€*
+local10 €*prefix$1€*8
+_empty_/fp1tests#maxEmptyTable. €*maxEmptyTable€*
+local11*xs€*
+local12*res€*
+local13*xs€*
+local14*xs€*
+local15*res€*
+local16*xs€*
+local17 €*	otpuTable€*
+local18*start€*
+local19*end€*
+local20*res€2
+ org/scalatest/2
+ 
+org/2;
+ 3-org/scalatest/prop/TableDrivenPropertyChecks.2!
+ org/scalatest/prop/2
+ org/scalatest/2
+ 
+org/2
+ _empty_/fp1tests#2*
+ _empty_/fp1tests#`<init>`().2*
+ _empty_/UnitSpec#`<init>`().2
+ _empty_/UnitSpec#2"
+ _empty_/fp1tests#EX.2
+ scala/Predef.Map#2
+ 
+scala/Int#2 
+ org/scalatest/Tag#27
+ )scala/collection/IterableOnceOps#toMap().24
+ &scala/collection/immutable/List#map().28
+ *scala/collection/IterableOnceOps#toList().2)
+ scala/runtime/RichInt#to().26
+ (scala/LowPriorityImplicits#intWrapper().2
+	 
+local02
+ local12+
+ org/scalatest/Tag#`<init>`().2 
+ org/scalatest/Tag#22
+( .$scala/collection/StringOps#format().2+
+ scala/Predef.augmentString().2
+0 1local02#
+ scala/Tuple2.apply().2
+ local02
+
+ local22!
+ scala/`<:<`.refl().2
+
+	
+ _empty_/fp1.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+! ! scala/collection/MapOps#apply().2"
+ !_empty_/fp1tests#EX.20
+ 
+"org/scalatest/Assertions#assert().2B
+ 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+ 0org/scalactic/TripleEquals#convertToEqualizer().2#
+ _empty_/fp1.factTest.27
+ )scala/collection/IterableFactory#apply().2!
+ scala/package.List.2/
+0 0!org/scalactic/Equality.default().2/
+1 1!org/scalactic/Prettifier.default.23
+1 1%org/scalactic/source/Position.here().2<
+1 1.org/scalatest/Assertions#UseDefaultAssertions.2@
+ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+  scala/collection/MapOps#apply().2"
+ _empty_/fp1tests#EX.2
+ local328
+ *org/scalatest/prop/Tables#Table.apply(+1).2.
+  org/scalatest/prop/Tables#Table.2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2#
+ scala/Tuple2.apply().2F
+   
+8org/scalatest/prop/TableDrivenPropertyChecks#forAll(+1).2
+   local32
+   local42
+    
+scala/Int#2
+ "  %local52
+ (  +
+scala/Int#20
+!! "org/scalatest/Assertions#assert().2B
+!! 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+!! 0org/scalactic/TripleEquals#convertToEqualizer().2 
+!! _empty_/fp1.fib().2
+!! local42
+!! local52/
+!! !org/scalactic/Equality.default().2/
+!! !org/scalactic/Prettifier.default.23
+!! %org/scalactic/source/Position.here().2<
+!! .org/scalatest/Assertions#UseDefaultAssertions.2Q
+"" Corg/scalatest/enablers/TableAsserting.assertingNatureOfAssertion().2/
+"" !org/scalactic/Prettifier.default.23
+"" %org/scalactic/source/Position.here().2@
+%% 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+%%  scala/collection/MapOps#apply().2"
+%% _empty_/fp1tests#EX.2I
+&& ;org/scalatest/matchers/dsl/ResultOfNotWordForAny#equal(+2).2@
+&& 2org/scalatest/matchers/should/Matchers#should(+3).2
+&& _empty_/fp1.p1.23
+&& %org/scalactic/source/Position.here().2/
+&& !org/scalactic/Prettifier.default.2:
+&& ,org/scalatest/matchers/dsl/MatcherWords#not.20
+'' 
+"org/scalatest/Assertions#assert().2B
+'' 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+'' 0org/scalactic/TripleEquals#convertToEqualizer().2*
+'' scala/NonEmptyTuple#apply().2
+'' _empty_/fp1.p1.2/
+'' !org/scalactic/Equality.default().2/
+'' !org/scalactic/Prettifier.default.23
+'' %org/scalactic/source/Position.here().2<
+'' .org/scalatest/Assertions#UseDefaultAssertions.20
+(( 
+"org/scalatest/Assertions#assert().2B
+(( 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+(( 0org/scalactic/TripleEquals#convertToEqualizer().2*
+(( scala/NonEmptyTuple#apply().2
+(( _empty_/fp1.p1.2/
+(( !org/scalactic/Equality.default().2/
+(( !org/scalactic/Prettifier.default.23
+(( %org/scalactic/source/Position.here().2<
+(( .org/scalatest/Assertions#UseDefaultAssertions.2@
+++ 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+++  scala/collection/MapOps#apply().2"
+++ _empty_/fp1tests#EX.2I
+,, ;org/scalatest/matchers/dsl/ResultOfNotWordForAny#equal(+2).2@
+,, 2org/scalatest/matchers/should/Matchers#should(+3).2
+,, _empty_/fp1.t1.23
+,, %org/scalactic/source/Position.here().2/
+,, !org/scalactic/Prettifier.default.2:
+,, ,org/scalatest/matchers/dsl/MatcherWords#not.20
+-- 
+"org/scalatest/Assertions#assert().2B
+-- 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+-- 0org/scalactic/TripleEquals#convertToEqualizer().2*
+-- scala/NonEmptyTuple#apply().2
+-- _empty_/fp1.t1.2/
+-- !org/scalactic/Equality.default().2/
+-- !org/scalactic/Prettifier.default.23
+-- %org/scalactic/source/Position.here().2<
+-- .org/scalatest/Assertions#UseDefaultAssertions.20
+.. 
+"org/scalatest/Assertions#assert().2B
+.. 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+.. 0org/scalactic/TripleEquals#convertToEqualizer().2*
+.. scala/NonEmptyTuple#apply().2
+.. _empty_/fp1.t1.2/
+.. !org/scalactic/Equality.default().2/
+.. !org/scalactic/Prettifier.default.23
+.. %org/scalactic/source/Position.here().2<
+.. .org/scalatest/Assertions#UseDefaultAssertions.20
+// 
+"org/scalatest/Assertions#assert().2B
+// 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+// 0org/scalactic/TripleEquals#convertToEqualizer().2*
+// scala/NonEmptyTuple#apply().2
+// _empty_/fp1.t1.2/
+// !org/scalactic/Equality.default().2/
+// !org/scalactic/Prettifier.default.23
+// %org/scalactic/source/Position.here().2<
+// .org/scalatest/Assertions#UseDefaultAssertions.2@
+22 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+22  scala/collection/MapOps#apply().2"
+22 _empty_/fp1tests#EX.2I
+3'3 .;org/scalatest/matchers/dsl/ResultOfNotWordForAny#equal(+2).2@
+33 "2org/scalatest/matchers/should/Matchers#should(+3).2!
+33 _empty_/fp1.swap().2#
+33 scala/Tuple2.apply().23
+3"3 "%org/scalactic/source/Position.here().2/
+3"3 "!org/scalactic/Prettifier.default.2:
+3#3 &,org/scalatest/matchers/dsl/MatcherWords#not.20
+44 
+"org/scalatest/Assertions#assert().2B
+4"4 %4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+44 0org/scalactic/TripleEquals#convertToEqualizer().2!
+44 _empty_/fp1.swap().2#
+44 scala/Tuple2.apply().2#
+4'4 'scala/Tuple2.apply().2/
+424 2!org/scalactic/Equality.default().2/
+444 4!org/scalactic/Prettifier.default.23
+444 4%org/scalactic/source/Position.here().2<
+444 4.org/scalatest/Assertions#UseDefaultAssertions.20
+55 
+"org/scalatest/Assertions#assert().2B
+5"5 %4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+55 0org/scalactic/TripleEquals#convertToEqualizer().2!
+55 _empty_/fp1.swap().2#
+55 scala/Tuple2.apply().2#
+5'5 'scala/Tuple2.apply().2/
+525 2!org/scalactic/Equality.default().2/
+545 4!org/scalactic/Prettifier.default.23
+545 4%org/scalactic/source/Position.here().2<
+545 4.org/scalatest/Assertions#UseDefaultAssertions.2(
+88 _empty_/fp1tests#sumTable.28
+88 *org/scalatest/prop/Tables#Table.apply(+1).2.
+88  org/scalatest/prop/Tables#Table.2#
+99 scala/Tuple2.apply().2#
+:: scala/Tuple2.apply().2 
+:: scala/package.Nil.2#
+;; scala/Tuple2.apply().27
+;	; 	)scala/collection/IterableFactory#apply().2!
+;; 	scala/package.List.2#
+<< scala/Tuple2.apply().28
+<< *scala/collection/IterableOnceOps#toList().2)
+<< 
+scala/runtime/RichInt#to().26
+<< (scala/LowPriorityImplicits#intWrapper().2@
+?? 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+??  scala/collection/MapOps#apply().2"
+?? _empty_/fp1tests#EX.2F
+@@ 
+8org/scalatest/prop/TableDrivenPropertyChecks#forAll(+1).2(
+@@ _empty_/fp1tests#sumTable.2
+@@ local62!
+@@ "scala/package.List#2
+@#@ &
+scala/Int#2
+@)@ ,local72
+@/@ 2
+scala/Int#20
+AA "org/scalatest/Assertions#assert().2B
+AA 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+AA 0org/scalactic/TripleEquals#convertToEqualizer().2 
+AA _empty_/fp1.sum().2
+AA local62
+AA local72/
+AA !org/scalactic/Equality.default().2/
+A A  !org/scalactic/Prettifier.default.23
+A A  %org/scalactic/source/Position.here().2<
+A A  .org/scalatest/Assertions#UseDefaultAssertions.2Q
+BB Corg/scalatest/enablers/TableAsserting.assertingNatureOfAssertion().2/
+BB !org/scalactic/Prettifier.default.23
+BB %org/scalactic/source/Position.here().2@
+EE 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+E E   scala/collection/MapOps#apply().2"
+EE  _empty_/fp1tests#EX.2F
+FF 
+8org/scalatest/prop/TableDrivenPropertyChecks#forAll(+1).2(
+FF _empty_/fp1tests#sumTable.2
+FF local82!
+FF "scala/package.List#2
+F#F &
+scala/Int#2
+F)F ,local92
+F/F 2
+scala/Int#20
+GG "org/scalatest/Assertions#assert().2B
+GG 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+GG 0org/scalactic/TripleEquals#convertToEqualizer().2$
+GG _empty_/fp1.sumTail().2
+GG local82
+G G #local92/
+G#G #!org/scalactic/Equality.default().2/
+G$G $!org/scalactic/Prettifier.default.23
+G$G $%org/scalactic/source/Position.here().2<
+G$G $.org/scalatest/Assertions#UseDefaultAssertions.2Q
+HH Corg/scalatest/enablers/TableAsserting.assertingNatureOfAssertion().2/
+HH !org/scalactic/Prettifier.default.23
+HH %org/scalactic/source/Position.here().2(
+KK _empty_/fp1tests#maxTable.28
+KK *org/scalatest/prop/Tables#Table.apply(+1).2.
+KK  org/scalatest/prop/Tables#Table.2#
+LL scala/Tuple2.apply().2#
+MM scala/Tuple2.apply().27
+M	M 	)scala/collection/IterableFactory#apply().2!
+MM 	scala/package.List.2#
+NN scala/Tuple2.apply().28
+NN *scala/collection/IterableOnceOps#toList().2)
+NN 
+scala/runtime/RichInt#to().26
+NN (scala/LowPriorityImplicits#intWrapper().2#
+OO scala/Tuple2.apply().28
+OO *scala/collection/immutable/List#reverse().28
+OO *scala/collection/IterableOnceOps#toList().2)
+OO 
+scala/runtime/RichInt#to().26
+OO (scala/LowPriorityImplicits#intWrapper().2#
+PP scala/Tuple2.apply().26
+P4P 5(scala/collection/immutable/List#`:::`().28
+P-P 4*scala/collection/immutable/List#reverse().28
+P&P ,*scala/collection/IterableOnceOps#toList().2)
+PP !scala/runtime/RichInt#to().26
+PP (scala/LowPriorityImplicits#intWrapper().2
+PP local102-
+RR _empty_/fp1tests#maxEmptyTable.26
+RR (org/scalatest/prop/Tables#Table.apply().2.
+RR  org/scalatest/prop/Tables#Table.2 
+TT scala/package.Nil.2@
+WW 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+WW  scala/collection/MapOps#apply().2"
+WW _empty_/fp1tests#EX.2F
+XX 
+8org/scalatest/prop/TableDrivenPropertyChecks#forAll(+1).2(
+XX _empty_/fp1tests#maxTable.2
+XX local112!
+XX "scala/package.List#2
+X#X &
+scala/Int#2
+X)X ,local122
+X/X 2
+scala/Int#20
+YY "org/scalatest/Assertions#assert().2B
+YY 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+YY 0org/scalactic/TripleEquals#convertToEqualizer().2 
+YY _empty_/fp1.max().2
+YY local112
+YY local122/
+YY !org/scalactic/Equality.default().2/
+Y Y  !org/scalactic/Prettifier.default.23
+Y Y  %org/scalactic/source/Position.here().2<
+Y Y  .org/scalatest/Assertions#UseDefaultAssertions.2Q
+ZZ Corg/scalatest/enablers/TableAsserting.assertingNatureOfAssertion().2/
+ZZ !org/scalactic/Prettifier.default.23
+ZZ %org/scalactic/source/Position.here().2D
+[[ 
+6org/scalatest/prop/TableDrivenPropertyChecks#forAll().2-
+[[ _empty_/fp1tests#maxEmptyTable.2
+[[  local132!
+[#[ 'scala/package.List#2
+[([ +
+scala/Int#2K
+\-\ 5=org/scalatest/matchers/dsl/ResultOfBeWordForAType#thrownBy().2J
+\!\ )<org/scalatest/matchers/dsl/ResultOfATypeInvocation#should().29
+\\ +org/scalatest/matchers/should/Matchers#a().23
+\	\ %scala/package.NoSuchElementException#2-
+\ \  scala/reflect/ClassTag.apply().29
+\*\ ,+org/scalatest/matchers/dsl/MatcherWords#be.2/
+\,\ ,!org/scalactic/Prettifier.default.23
+\,\ ,%org/scalactic/source/Position.here().2 
+\8\ ;_empty_/fp1.max().2
+\<\ >local132Q
+]] Corg/scalatest/enablers/TableAsserting.assertingNatureOfAssertion().2/
+]] !org/scalactic/Prettifier.default.23
+]] %org/scalactic/source/Position.here().2@
+aa 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+a#a # scala/collection/MapOps#apply().2"
+a!a #_empty_/fp1tests#EX.2F
+bb 
+8org/scalatest/prop/TableDrivenPropertyChecks#forAll(+1).2(
+bb _empty_/fp1tests#maxTable.2
+bb local142!
+bb "scala/package.List#2
+b#b &
+scala/Int#2
+b)b ,local152
+b/b 2
+scala/Int#20
+cc "org/scalatest/Assertions#assert().2B
+cc 4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+cc 0org/scalactic/TripleEquals#convertToEqualizer().2$
+cc _empty_/fp1.maxTail().2
+cc local142
+c c #local152/
+c#c #!org/scalactic/Equality.default().2/
+c$c $!org/scalactic/Prettifier.default.23
+c$c $%org/scalactic/source/Position.here().2<
+c$c $.org/scalatest/Assertions#UseDefaultAssertions.2Q
+dd Corg/scalatest/enablers/TableAsserting.assertingNatureOfAssertion().2/
+dd !org/scalactic/Prettifier.default.23
+dd %org/scalactic/source/Position.here().2D
+ee 
+6org/scalatest/prop/TableDrivenPropertyChecks#forAll().2-
+ee _empty_/fp1tests#maxEmptyTable.2
+ee  local162!
+e#e 'scala/package.List#2
+e(e +
+scala/Int#2K
+f-f 5=org/scalatest/matchers/dsl/ResultOfBeWordForAType#thrownBy().2J
+f!f )<org/scalatest/matchers/dsl/ResultOfATypeInvocation#should().29
+ff +org/scalatest/matchers/should/Matchers#a().23
+f	f %scala/package.NoSuchElementException#2-
+f f  scala/reflect/ClassTag.apply().29
+f*f ,+org/scalatest/matchers/dsl/MatcherWords#be.2/
+f,f ,!org/scalactic/Prettifier.default.23
+f,f ,%org/scalactic/source/Position.here().2$
+f8f ?_empty_/fp1.maxTail().2
+f@f Blocal162Q
+gg Corg/scalatest/enablers/TableAsserting.assertingNatureOfAssertion().2/
+gg !org/scalactic/Prettifier.default.23
+gg %org/scalactic/source/Position.here().2@
+jj 
+2org/scalatest/propspec/AnyPropSpecLike#property().2.
+jj  scala/collection/MapOps#apply().2"
+jj _empty_/fp1tests#EX.2
+kk local1728
+kk *org/scalatest/prop/Tables#Table.apply(+2).2.
+kk  org/scalatest/prop/Tables#Table.2#
+ll scala/Tuple3.apply().2#
+mm scala/Tuple3.apply().28
+m"m )*scala/collection/immutable/List#reverse().28
+mm !*scala/collection/IterableOnceOps#toList().2)
+mm scala/runtime/RichInt#to().26
+mm (scala/LowPriorityImplicits#intWrapper().2#
+nn scala/Tuple3.apply().28
+n"n )*scala/collection/immutable/List#reverse().28
+nn !*scala/collection/IterableOnceOps#toList().2)
+nn scala/runtime/RichInt#to().26
+nn (scala/LowPriorityImplicits#intWrapper().2#
+oo scala/Tuple3.apply().28
+o"o )*scala/collection/immutable/List#reverse().28
+oo !*scala/collection/IterableOnceOps#toList().2)
+oo scala/runtime/RichInt#to().26
+oo (scala/LowPriorityImplicits#intWrapper().2F
+qq 
+8org/scalatest/prop/TableDrivenPropertyChecks#forAll(+2).2
+qq local172
+qq local182
+q"q %
+scala/Int#2
+q'q *local192
+q-q 0
+scala/Int#2
+q2q 5local202!
+q8q <scala/package.List#2
+q=q @
+scala/Int#20
+rr "org/scalatest/Assertions#assert().2B
+r r #4org/scalactic/TripleEqualsSupport#Equalizer#`===`().2>
+rr 0org/scalactic/TripleEquals#convertToEqualizer().2!
+rr _empty_/fp1.otpu().2
+rr local182
+rr local192
+r%r (local202/
+r(r (!org/scalactic/Equality.default().2/
+r)r )!org/scalactic/Prettifier.default.23
+r)r )%org/scalactic/source/Position.here().2<
+r)r ).org/scalatest/Assertions#UseDefaultAssertions.2Q
+ss Corg/scalatest/enablers/TableAsserting.assertingNatureOfAssertion().2/
+ss !org/scalactic/Prettifier.default.23
+ss %org/scalactic/source/Position.here().PZ 4C306849F217F767C01F7C0F138CBF47

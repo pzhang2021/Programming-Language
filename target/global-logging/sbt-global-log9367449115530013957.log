@@ -1,0 +1,56 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly fp2tests, Some(620365ea-2d9d-493f-9484-46bcbab89d52), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@3af4b14e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"249","parents":[]},"eventTime":1632946064868,"message":"Compiling hw","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/main/scala/storage.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/main/scala/subtyping.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/main/scala/fp1.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/main/scala/fp3.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/main/scala/dynamic.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/main/scala/fp2.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/main/scala/interpreter.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/main/scala/argpass.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"249","parents":[]},"eventTime":1632946064874,"message":"Compiled hw","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Compile"},"errors":0,"warnings":0,"time":6}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"250","parents":[]},"eventTime":1632946064877,"message":"Compiling hw-test","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/test/scala/subtypingtests.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/test/scala/storagetests.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/test/scala/UnitSpec.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/test/scala/dynamictests.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/test/scala/fp3tests.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/test/scala/interpretertests.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/test/scala/fp1tests.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/test/scala/argpasstests.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/pengju/Downloads/hw/src/test/scala/fp2tests.scala"},"buildTarget":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"250","parents":[]},"eventTime":1632946064882,"message":"Compiled hw-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/Users/pengju/Downloads/hw/#hw/Test"},"errors":0,"warnings":0,"time":5}})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mfp2tests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX01 - map[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX02 - filter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX03 - append[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX04 - flatten[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX05 - foldLeft[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX06 - foldRight[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX07 - joinTerminateRight[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX08 - joinTerminateLeft[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX09 - firstNumGreaterThan[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX10 - firstIndexNumGreaterThan[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mfp2tests:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX01 - map\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX02 - filter\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX03 - append\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX04 - flatten\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX05 - foldLeft\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX06 - foldRight\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX07 - joinTerminateRight\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX08 - joinTerminateLeft\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX09 - firstNumGreaterThan\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX10 - firstIndexNumGreaterThan\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 229 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 10[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[36mRun completed in 229 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 10\u001b[0m\n\u001b[36mSuites: completed 1, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m"})[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Sep 29, 2021, 2:07:45 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled request received: shutdown: JsonRpcRequestMessage(2.0, ♨48, shutdown, null})[0m

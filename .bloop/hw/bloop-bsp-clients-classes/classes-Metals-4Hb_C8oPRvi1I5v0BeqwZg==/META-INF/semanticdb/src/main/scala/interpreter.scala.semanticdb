@@ -1,0 +1,1964 @@
+
+≠Ã src/main/scala/interpreter.scala**
+_empty_/interpreter.
+ *interpreterÄ*(
+_empty_/interpreter.Val# îÄ*ValÄ*5
+#_empty_/interpreter.Val#`<init>`(). Ä@*<init>Ä*&
+_empty_/interpreter.Val.
+ *ValÄ*.
+_empty_/interpreter.Val.VInt# àÅ*VIntÄ*:
+(_empty_/interpreter.Val.VInt#`<init>`(). Ä@*<init>Ä*8
++_empty_/interpreter.Val.VInt#`<init>`().(n) Ä*nÄ*,
+_empty_/interpreter.Val.VInt#n. Ä*nÄ*1
+$_empty_/interpreter.Val.VInt#copy().*copyÄ*1
+'_empty_/interpreter.Val.VInt#copy().(n)*nÄ*E
+._empty_/interpreter.Val.VInt#copy$default$1().*copy$default$1Ä*7
+'_empty_/interpreter.Val.VInt#ordinal().*ordinalÄ*-
+"_empty_/interpreter.Val.VInt#_1().*_1Ä*,
+_empty_/interpreter.Val.VInt.
+ *VIntÄ*3
+%_empty_/interpreter.Val.VInt.apply().*applyÄ*2
+(_empty_/interpreter.Val.VInt.apply().(n)*nÄ*7
+'_empty_/interpreter.Val.VInt.unapply().*unapplyÄ*8
+,_empty_/interpreter.Val.VInt.unapply().(x$1)*x$1Ä*9
+(_empty_/interpreter.Val.VInt.toString().*toStringÄ*.
+_empty_/interpreter.Val.VStr# àÅ*VStrÄ*:
+(_empty_/interpreter.Val.VStr#`<init>`(). Ä@*<init>Ä*8
++_empty_/interpreter.Val.VStr#`<init>`().(s) Ä*sÄ*,
+_empty_/interpreter.Val.VStr#s. Ä*sÄ*1
+$_empty_/interpreter.Val.VStr#copy().*copyÄ*1
+'_empty_/interpreter.Val.VStr#copy().(s)*sÄ*E
+._empty_/interpreter.Val.VStr#copy$default$1().*copy$default$1Ä*7
+'_empty_/interpreter.Val.VStr#ordinal().*ordinalÄ*-
+"_empty_/interpreter.Val.VStr#_1().*_1Ä*,
+_empty_/interpreter.Val.VStr.
+ *VStrÄ*3
+%_empty_/interpreter.Val.VStr.apply().*applyÄ*2
+(_empty_/interpreter.Val.VStr.apply().(s)*sÄ*7
+'_empty_/interpreter.Val.VStr.unapply().*unapplyÄ*8
+,_empty_/interpreter.Val.VStr.unapply().(x$1)*x$1Ä*9
+(_empty_/interpreter.Val.VStr.toString().*toStringÄ*.
+_empty_/interpreter.Val.VNil. Ä©*VNilÄ*0
+_empty_/interpreter.Val.VPair# àÅ*VPairÄ*;
+)_empty_/interpreter.Val.VPair#`<init>`(). Ä@*<init>Ä*=
+._empty_/interpreter.Val.VPair#`<init>`().(fst) Ä*fstÄ*=
+._empty_/interpreter.Val.VPair#`<init>`().(snd) Ä*sndÄ*1
+"_empty_/interpreter.Val.VPair#fst. Ä*fstÄ*1
+"_empty_/interpreter.Val.VPair#snd. Ä*sndÄ*2
+%_empty_/interpreter.Val.VPair#copy().*copyÄ*6
+*_empty_/interpreter.Val.VPair#copy().(fst)*fstÄ*6
+*_empty_/interpreter.Val.VPair#copy().(snd)*sndÄ*F
+/_empty_/interpreter.Val.VPair#copy$default$1().*copy$default$1Ä*F
+/_empty_/interpreter.Val.VPair#copy$default$2().*copy$default$2Ä*8
+(_empty_/interpreter.Val.VPair#ordinal().*ordinalÄ*.
+#_empty_/interpreter.Val.VPair#_1().*_1Ä*.
+#_empty_/interpreter.Val.VPair#_2().*_2Ä*.
+_empty_/interpreter.Val.VPair.
+ *VPairÄ*4
+&_empty_/interpreter.Val.VPair.apply().*applyÄ*7
++_empty_/interpreter.Val.VPair.apply().(fst)*fstÄ*7
++_empty_/interpreter.Val.VPair.apply().(snd)*sndÄ*8
+(_empty_/interpreter.Val.VPair.unapply().*unapplyÄ*9
+-_empty_/interpreter.Val.VPair.unapply().(x$1)*x$1Ä*:
+)_empty_/interpreter.Val.VPair.toString().*toStringÄ*6
+!_empty_/interpreter.Val.VPrimFun# àÅ*VPrimFunÄ*>
+,_empty_/interpreter.Val.VPrimFun#`<init>`(). Ä@*<init>Ä*H
+5_empty_/interpreter.Val.VPrimFun#`<init>`().(display) Ä*displayÄ*<
+/_empty_/interpreter.Val.VPrimFun#`<init>`().(f) Ä*fÄ*<
+)_empty_/interpreter.Val.VPrimFun#display. Ä*displayÄ*0
+#_empty_/interpreter.Val.VPrimFun#f. Ä*fÄ*5
+(_empty_/interpreter.Val.VPrimFun#copy().*copyÄ*A
+1_empty_/interpreter.Val.VPrimFun#copy().(display)*displayÄ*5
++_empty_/interpreter.Val.VPrimFun#copy().(f)*fÄ*I
+2_empty_/interpreter.Val.VPrimFun#copy$default$1().*copy$default$1Ä*I
+2_empty_/interpreter.Val.VPrimFun#copy$default$2().*copy$default$2Ä*;
++_empty_/interpreter.Val.VPrimFun#ordinal().*ordinalÄ*1
+&_empty_/interpreter.Val.VPrimFun#_1().*_1Ä*1
+&_empty_/interpreter.Val.VPrimFun#_2().*_2Ä*4
+!_empty_/interpreter.Val.VPrimFun.
+ *VPrimFunÄ*7
+)_empty_/interpreter.Val.VPrimFun.apply().*applyÄ*B
+2_empty_/interpreter.Val.VPrimFun.apply().(display)*displayÄ*6
+,_empty_/interpreter.Val.VPrimFun.apply().(f)*fÄ*;
++_empty_/interpreter.Val.VPrimFun.unapply().*unapplyÄ*<
+0_empty_/interpreter.Val.VPrimFun.unapply().(x$1)*x$1Ä*=
+,_empty_/interpreter.Val.VPrimFun.toString().*toStringÄ*6
+!_empty_/interpreter.Val.VClosure# àÅ*VClosureÄ*>
+,_empty_/interpreter.Val.VClosure#`<init>`(). Ä@*<init>Ä*@
+1_empty_/interpreter.Val.VClosure#`<init>`().(env) Ä*envÄ*D
+3_empty_/interpreter.Val.VClosure#`<init>`().(argNm) Ä*argNmÄ*B
+2_empty_/interpreter.Val.VClosure#`<init>`().(body) Ä*bodyÄ*4
+%_empty_/interpreter.Val.VClosure#env. Ä*envÄ*8
+'_empty_/interpreter.Val.VClosure#argNm. Ä*argNmÄ*6
+&_empty_/interpreter.Val.VClosure#body. Ä*bodyÄ*5
+(_empty_/interpreter.Val.VClosure#copy().*copyÄ*9
+-_empty_/interpreter.Val.VClosure#copy().(env)*envÄ*=
+/_empty_/interpreter.Val.VClosure#copy().(argNm)*argNmÄ*;
+._empty_/interpreter.Val.VClosure#copy().(body)*bodyÄ*I
+2_empty_/interpreter.Val.VClosure#copy$default$1().*copy$default$1Ä*I
+2_empty_/interpreter.Val.VClosure#copy$default$2().*copy$default$2Ä*I
+2_empty_/interpreter.Val.VClosure#copy$default$3().*copy$default$3Ä*;
++_empty_/interpreter.Val.VClosure#ordinal().*ordinalÄ*1
+&_empty_/interpreter.Val.VClosure#_1().*_1Ä*1
+&_empty_/interpreter.Val.VClosure#_2().*_2Ä*1
+&_empty_/interpreter.Val.VClosure#_3().*_3Ä*4
+!_empty_/interpreter.Val.VClosure.
+ *VClosureÄ*7
+)_empty_/interpreter.Val.VClosure.apply().*applyÄ*:
+._empty_/interpreter.Val.VClosure.apply().(env)*envÄ*>
+0_empty_/interpreter.Val.VClosure.apply().(argNm)*argNmÄ*<
+/_empty_/interpreter.Val.VClosure.apply().(body)*bodyÄ*;
++_empty_/interpreter.Val.VClosure.unapply().*unapplyÄ*<
+0_empty_/interpreter.Val.VClosure.unapply().(x$1)*x$1Ä*=
+,_empty_/interpreter.Val.VClosure.toString().*toStringÄ*<
+$_empty_/interpreter.Val.VRecClosure# àÅ*VRecClosureÄ*A
+/_empty_/interpreter.Val.VRecClosure#`<init>`(). Ä@*<init>Ä*C
+4_empty_/interpreter.Val.VRecClosure#`<init>`().(env) Ä*envÄ*G
+6_empty_/interpreter.Val.VRecClosure#`<init>`().(funNm) Ä*funNmÄ*G
+6_empty_/interpreter.Val.VRecClosure#`<init>`().(argNm) Ä*argNmÄ*E
+5_empty_/interpreter.Val.VRecClosure#`<init>`().(body) Ä*bodyÄ*7
+(_empty_/interpreter.Val.VRecClosure#env. Ä*envÄ*;
+*_empty_/interpreter.Val.VRecClosure#funNm. Ä*funNmÄ*;
+*_empty_/interpreter.Val.VRecClosure#argNm. Ä*argNmÄ*9
+)_empty_/interpreter.Val.VRecClosure#body. Ä*bodyÄ*8
++_empty_/interpreter.Val.VRecClosure#copy().*copyÄ*<
+0_empty_/interpreter.Val.VRecClosure#copy().(env)*envÄ*@
+2_empty_/interpreter.Val.VRecClosure#copy().(funNm)*funNmÄ*@
+2_empty_/interpreter.Val.VRecClosure#copy().(argNm)*argNmÄ*>
+1_empty_/interpreter.Val.VRecClosure#copy().(body)*bodyÄ*L
+5_empty_/interpreter.Val.VRecClosure#copy$default$1().*copy$default$1Ä*L
+5_empty_/interpreter.Val.VRecClosure#copy$default$2().*copy$default$2Ä*L
+5_empty_/interpreter.Val.VRecClosure#copy$default$3().*copy$default$3Ä*L
+5_empty_/interpreter.Val.VRecClosure#copy$default$4().*copy$default$4Ä*>
+._empty_/interpreter.Val.VRecClosure#ordinal().*ordinalÄ*4
+)_empty_/interpreter.Val.VRecClosure#_1().*_1Ä*4
+)_empty_/interpreter.Val.VRecClosure#_2().*_2Ä*4
+)_empty_/interpreter.Val.VRecClosure#_3().*_3Ä*4
+)_empty_/interpreter.Val.VRecClosure#_4().*_4Ä*:
+$_empty_/interpreter.Val.VRecClosure.
+ *VRecClosureÄ*:
+,_empty_/interpreter.Val.VRecClosure.apply().*applyÄ*=
+1_empty_/interpreter.Val.VRecClosure.apply().(env)*envÄ*A
+3_empty_/interpreter.Val.VRecClosure.apply().(funNm)*funNmÄ*A
+3_empty_/interpreter.Val.VRecClosure.apply().(argNm)*argNmÄ*?
+2_empty_/interpreter.Val.VRecClosure.apply().(body)*bodyÄ*>
+._empty_/interpreter.Val.VRecClosure.unapply().*unapplyÄ*?
+3_empty_/interpreter.Val.VRecClosure.unapply().(x$1)*x$1Ä*@
+/_empty_/interpreter.Val.VRecClosure.toString().*toStringÄ*,
+_empty_/interpreter.Val.$new().*$newÄ*<
+*_empty_/interpreter.Val.$new().(_$ordinal)*	_$ordinalÄ*4
+&_empty_/interpreter.Val.$new().($name)*$nameÄ*:
+&_empty_/interpreter.Val.fromOrdinal().*fromOrdinalÄ*?
+/_empty_/interpreter.Val.fromOrdinal().(ordinal)*ordinalÄ*(
+_empty_/interpreter.Exp# îÄ*ExpÄ*5
+#_empty_/interpreter.Exp#`<init>`(). Ä@*<init>Ä*&
+_empty_/interpreter.Exp.
+ *ExpÄ*.
+_empty_/interpreter.Exp.EVal# àÅ*EValÄ*:
+(_empty_/interpreter.Exp.EVal#`<init>`(). Ä@*<init>Ä*8
++_empty_/interpreter.Exp.EVal#`<init>`().(v) Ä*vÄ*,
+_empty_/interpreter.Exp.EVal#v. Ä*vÄ*1
+$_empty_/interpreter.Exp.EVal#copy().*copyÄ*1
+'_empty_/interpreter.Exp.EVal#copy().(v)*vÄ*E
+._empty_/interpreter.Exp.EVal#copy$default$1().*copy$default$1Ä*7
+'_empty_/interpreter.Exp.EVal#ordinal().*ordinalÄ*-
+"_empty_/interpreter.Exp.EVal#_1().*_1Ä*,
+_empty_/interpreter.Exp.EVal.
+ *EValÄ*3
+%_empty_/interpreter.Exp.EVal.apply().*applyÄ*2
+(_empty_/interpreter.Exp.EVal.apply().(v)*vÄ*7
+'_empty_/interpreter.Exp.EVal.unapply().*unapplyÄ*8
+,_empty_/interpreter.Exp.EVal.unapply().(x$1)*x$1Ä*9
+(_empty_/interpreter.Exp.EVal.toString().*toStringÄ*.
+_empty_/interpreter.Exp.EVar# àÅ*EVarÄ*:
+(_empty_/interpreter.Exp.EVar#`<init>`(). Ä@*<init>Ä*:
+,_empty_/interpreter.Exp.EVar#`<init>`().(nm) Ä*nmÄ*.
+ _empty_/interpreter.Exp.EVar#nm. Ä*nmÄ*1
+$_empty_/interpreter.Exp.EVar#copy().*copyÄ*3
+(_empty_/interpreter.Exp.EVar#copy().(nm)*nmÄ*E
+._empty_/interpreter.Exp.EVar#copy$default$1().*copy$default$1Ä*7
+'_empty_/interpreter.Exp.EVar#ordinal().*ordinalÄ*-
+"_empty_/interpreter.Exp.EVar#_1().*_1Ä*,
+_empty_/interpreter.Exp.EVar.
+ *EVarÄ*3
+%_empty_/interpreter.Exp.EVar.apply().*applyÄ*4
+)_empty_/interpreter.Exp.EVar.apply().(nm)*nmÄ*7
+'_empty_/interpreter.Exp.EVar.unapply().*unapplyÄ*8
+,_empty_/interpreter.Exp.EVar.unapply().(x$1)*x$1Ä*9
+(_empty_/interpreter.Exp.EVar.toString().*toStringÄ*2
+_empty_/interpreter.Exp.EPrint# àÅ*EPrintÄ*<
+*_empty_/interpreter.Exp.EPrint#`<init>`(). Ä@*<init>Ä*:
+-_empty_/interpreter.Exp.EPrint#`<init>`().(e) Ä*eÄ*.
+!_empty_/interpreter.Exp.EPrint#e. Ä*eÄ*3
+&_empty_/interpreter.Exp.EPrint#copy().*copyÄ*3
+)_empty_/interpreter.Exp.EPrint#copy().(e)*eÄ*G
+0_empty_/interpreter.Exp.EPrint#copy$default$1().*copy$default$1Ä*9
+)_empty_/interpreter.Exp.EPrint#ordinal().*ordinalÄ*/
+$_empty_/interpreter.Exp.EPrint#_1().*_1Ä*0
+_empty_/interpreter.Exp.EPrint.
+ *EPrintÄ*5
+'_empty_/interpreter.Exp.EPrint.apply().*applyÄ*4
+*_empty_/interpreter.Exp.EPrint.apply().(e)*eÄ*9
+)_empty_/interpreter.Exp.EPrint.unapply().*unapplyÄ*:
+._empty_/interpreter.Exp.EPrint.unapply().(x$1)*x$1Ä*;
+*_empty_/interpreter.Exp.EPrint.toString().*toStringÄ*0
+_empty_/interpreter.Exp.EPair# àÅ*EPairÄ*;
+)_empty_/interpreter.Exp.EPair#`<init>`(). Ä@*<init>Ä*=
+._empty_/interpreter.Exp.EPair#`<init>`().(fst) Ä*fstÄ*=
+._empty_/interpreter.Exp.EPair#`<init>`().(snd) Ä*sndÄ*1
+"_empty_/interpreter.Exp.EPair#fst. Ä*fstÄ*1
+"_empty_/interpreter.Exp.EPair#snd. Ä*sndÄ*2
+%_empty_/interpreter.Exp.EPair#copy().*copyÄ*6
+*_empty_/interpreter.Exp.EPair#copy().(fst)*fstÄ*6
+*_empty_/interpreter.Exp.EPair#copy().(snd)*sndÄ*F
+/_empty_/interpreter.Exp.EPair#copy$default$1().*copy$default$1Ä*F
+/_empty_/interpreter.Exp.EPair#copy$default$2().*copy$default$2Ä*8
+(_empty_/interpreter.Exp.EPair#ordinal().*ordinalÄ*.
+#_empty_/interpreter.Exp.EPair#_1().*_1Ä*.
+#_empty_/interpreter.Exp.EPair#_2().*_2Ä*.
+_empty_/interpreter.Exp.EPair.
+ *EPairÄ*4
+&_empty_/interpreter.Exp.EPair.apply().*applyÄ*7
++_empty_/interpreter.Exp.EPair.apply().(fst)*fstÄ*7
++_empty_/interpreter.Exp.EPair.apply().(snd)*sndÄ*8
+(_empty_/interpreter.Exp.EPair.unapply().*unapplyÄ*9
+-_empty_/interpreter.Exp.EPair.unapply().(x$1)*x$1Ä*:
+)_empty_/interpreter.Exp.EPair.toString().*toStringÄ*.
+_empty_/interpreter.Exp.EApp# àÅ*EAppÄ*:
+(_empty_/interpreter.Exp.EApp#`<init>`(). Ä@*<init>Ä*:
+,_empty_/interpreter.Exp.EApp#`<init>`().(op) Ä*opÄ*<
+-_empty_/interpreter.Exp.EApp#`<init>`().(arg) Ä*argÄ*.
+ _empty_/interpreter.Exp.EApp#op. Ä*opÄ*0
+!_empty_/interpreter.Exp.EApp#arg. Ä*argÄ*1
+$_empty_/interpreter.Exp.EApp#copy().*copyÄ*3
+(_empty_/interpreter.Exp.EApp#copy().(op)*opÄ*5
+)_empty_/interpreter.Exp.EApp#copy().(arg)*argÄ*E
+._empty_/interpreter.Exp.EApp#copy$default$1().*copy$default$1Ä*E
+._empty_/interpreter.Exp.EApp#copy$default$2().*copy$default$2Ä*7
+'_empty_/interpreter.Exp.EApp#ordinal().*ordinalÄ*-
+"_empty_/interpreter.Exp.EApp#_1().*_1Ä*-
+"_empty_/interpreter.Exp.EApp#_2().*_2Ä*,
+_empty_/interpreter.Exp.EApp.
+ *EAppÄ*3
+%_empty_/interpreter.Exp.EApp.apply().*applyÄ*4
+)_empty_/interpreter.Exp.EApp.apply().(op)*opÄ*6
+*_empty_/interpreter.Exp.EApp.apply().(arg)*argÄ*7
+'_empty_/interpreter.Exp.EApp.unapply().*unapplyÄ*8
+,_empty_/interpreter.Exp.EApp.unapply().(x$1)*x$1Ä*9
+(_empty_/interpreter.Exp.EApp.toString().*toStringÄ*.
+_empty_/interpreter.Exp.ELet# àÅ*ELetÄ*:
+(_empty_/interpreter.Exp.ELet#`<init>`(). Ä@*<init>Ä*:
+,_empty_/interpreter.Exp.ELet#`<init>`().(nm) Ä*nmÄ*8
++_empty_/interpreter.Exp.ELet#`<init>`().(e) Ä*eÄ*>
+._empty_/interpreter.Exp.ELet#`<init>`().(body) Ä*bodyÄ*.
+ _empty_/interpreter.Exp.ELet#nm. Ä*nmÄ*,
+_empty_/interpreter.Exp.ELet#e. Ä*eÄ*2
+"_empty_/interpreter.Exp.ELet#body. Ä*bodyÄ*1
+$_empty_/interpreter.Exp.ELet#copy().*copyÄ*3
+(_empty_/interpreter.Exp.ELet#copy().(nm)*nmÄ*1
+'_empty_/interpreter.Exp.ELet#copy().(e)*eÄ*7
+*_empty_/interpreter.Exp.ELet#copy().(body)*bodyÄ*E
+._empty_/interpreter.Exp.ELet#copy$default$1().*copy$default$1Ä*E
+._empty_/interpreter.Exp.ELet#copy$default$2().*copy$default$2Ä*E
+._empty_/interpreter.Exp.ELet#copy$default$3().*copy$default$3Ä*7
+'_empty_/interpreter.Exp.ELet#ordinal().*ordinalÄ*-
+"_empty_/interpreter.Exp.ELet#_1().*_1Ä*-
+"_empty_/interpreter.Exp.ELet#_2().*_2Ä*-
+"_empty_/interpreter.Exp.ELet#_3().*_3Ä*,
+_empty_/interpreter.Exp.ELet.
+ *ELetÄ*3
+%_empty_/interpreter.Exp.ELet.apply().*applyÄ*4
+)_empty_/interpreter.Exp.ELet.apply().(nm)*nmÄ*2
+(_empty_/interpreter.Exp.ELet.apply().(e)*eÄ*8
++_empty_/interpreter.Exp.ELet.apply().(body)*bodyÄ*7
+'_empty_/interpreter.Exp.ELet.unapply().*unapplyÄ*8
+,_empty_/interpreter.Exp.ELet.unapply().(x$1)*x$1Ä*9
+(_empty_/interpreter.Exp.ELet.toString().*toStringÄ*.
+_empty_/interpreter.Exp.EAbs# àÅ*EAbsÄ*:
+(_empty_/interpreter.Exp.EAbs#`<init>`(). Ä@*<init>Ä*@
+/_empty_/interpreter.Exp.EAbs#`<init>`().(argNm) Ä*argNmÄ*>
+._empty_/interpreter.Exp.EAbs#`<init>`().(body) Ä*bodyÄ*4
+#_empty_/interpreter.Exp.EAbs#argNm. Ä*argNmÄ*2
+"_empty_/interpreter.Exp.EAbs#body. Ä*bodyÄ*1
+$_empty_/interpreter.Exp.EAbs#copy().*copyÄ*9
++_empty_/interpreter.Exp.EAbs#copy().(argNm)*argNmÄ*7
+*_empty_/interpreter.Exp.EAbs#copy().(body)*bodyÄ*E
+._empty_/interpreter.Exp.EAbs#copy$default$1().*copy$default$1Ä*E
+._empty_/interpreter.Exp.EAbs#copy$default$2().*copy$default$2Ä*7
+'_empty_/interpreter.Exp.EAbs#ordinal().*ordinalÄ*-
+"_empty_/interpreter.Exp.EAbs#_1().*_1Ä*-
+"_empty_/interpreter.Exp.EAbs#_2().*_2Ä*,
+_empty_/interpreter.Exp.EAbs.
+ *EAbsÄ*3
+%_empty_/interpreter.Exp.EAbs.apply().*applyÄ*:
+,_empty_/interpreter.Exp.EAbs.apply().(argNm)*argNmÄ*8
++_empty_/interpreter.Exp.EAbs.apply().(body)*bodyÄ*7
+'_empty_/interpreter.Exp.EAbs.unapply().*unapplyÄ*8
+,_empty_/interpreter.Exp.EAbs.unapply().(x$1)*x$1Ä*9
+(_empty_/interpreter.Exp.EAbs.toString().*toStringÄ*4
+ _empty_/interpreter.Exp.ERecAbs# àÅ*ERecAbsÄ*=
++_empty_/interpreter.Exp.ERecAbs#`<init>`(). Ä@*<init>Ä*C
+2_empty_/interpreter.Exp.ERecAbs#`<init>`().(funNm) Ä*funNmÄ*C
+2_empty_/interpreter.Exp.ERecAbs#`<init>`().(argNm) Ä*argNmÄ*A
+1_empty_/interpreter.Exp.ERecAbs#`<init>`().(body) Ä*bodyÄ*7
+&_empty_/interpreter.Exp.ERecAbs#funNm. Ä*funNmÄ*7
+&_empty_/interpreter.Exp.ERecAbs#argNm. Ä*argNmÄ*5
+%_empty_/interpreter.Exp.ERecAbs#body. Ä*bodyÄ*4
+'_empty_/interpreter.Exp.ERecAbs#copy().*copyÄ*<
+._empty_/interpreter.Exp.ERecAbs#copy().(funNm)*funNmÄ*<
+._empty_/interpreter.Exp.ERecAbs#copy().(argNm)*argNmÄ*:
+-_empty_/interpreter.Exp.ERecAbs#copy().(body)*bodyÄ*H
+1_empty_/interpreter.Exp.ERecAbs#copy$default$1().*copy$default$1Ä*H
+1_empty_/interpreter.Exp.ERecAbs#copy$default$2().*copy$default$2Ä*H
+1_empty_/interpreter.Exp.ERecAbs#copy$default$3().*copy$default$3Ä*:
+*_empty_/interpreter.Exp.ERecAbs#ordinal().*ordinalÄ*0
+%_empty_/interpreter.Exp.ERecAbs#_1().*_1Ä*0
+%_empty_/interpreter.Exp.ERecAbs#_2().*_2Ä*0
+%_empty_/interpreter.Exp.ERecAbs#_3().*_3Ä*2
+ _empty_/interpreter.Exp.ERecAbs.
+ *ERecAbsÄ*6
+(_empty_/interpreter.Exp.ERecAbs.apply().*applyÄ*=
+/_empty_/interpreter.Exp.ERecAbs.apply().(funNm)*funNmÄ*=
+/_empty_/interpreter.Exp.ERecAbs.apply().(argNm)*argNmÄ*;
+._empty_/interpreter.Exp.ERecAbs.apply().(body)*bodyÄ*:
+*_empty_/interpreter.Exp.ERecAbs.unapply().*unapplyÄ*;
+/_empty_/interpreter.Exp.ERecAbs.unapply().(x$1)*x$1Ä*<
++_empty_/interpreter.Exp.ERecAbs.toString().*toStringÄ*.
+_empty_/interpreter.Exp.EFst# àÅ*EFstÄ*:
+(_empty_/interpreter.Exp.EFst#`<init>`(). Ä@*<init>Ä*8
++_empty_/interpreter.Exp.EFst#`<init>`().(e) Ä*eÄ*,
+_empty_/interpreter.Exp.EFst#e. Ä*eÄ*1
+$_empty_/interpreter.Exp.EFst#copy().*copyÄ*1
+'_empty_/interpreter.Exp.EFst#copy().(e)*eÄ*E
+._empty_/interpreter.Exp.EFst#copy$default$1().*copy$default$1Ä*7
+'_empty_/interpreter.Exp.EFst#ordinal().*ordinalÄ*-
+"_empty_/interpreter.Exp.EFst#_1().*_1Ä*,
+_empty_/interpreter.Exp.EFst.
+ *EFstÄ*3
+%_empty_/interpreter.Exp.EFst.apply().*applyÄ*2
+(_empty_/interpreter.Exp.EFst.apply().(e)*eÄ*7
+'_empty_/interpreter.Exp.EFst.unapply().*unapplyÄ*8
+,_empty_/interpreter.Exp.EFst.unapply().(x$1)*x$1Ä*9
+(_empty_/interpreter.Exp.EFst.toString().*toStringÄ*.
+_empty_/interpreter.Exp.ESnd# àÅ*ESndÄ*:
+(_empty_/interpreter.Exp.ESnd#`<init>`(). Ä@*<init>Ä*8
++_empty_/interpreter.Exp.ESnd#`<init>`().(e) Ä*eÄ*,
+_empty_/interpreter.Exp.ESnd#e. Ä*eÄ*1
+$_empty_/interpreter.Exp.ESnd#copy().*copyÄ*1
+'_empty_/interpreter.Exp.ESnd#copy().(e)*eÄ*E
+._empty_/interpreter.Exp.ESnd#copy$default$1().*copy$default$1Ä*7
+'_empty_/interpreter.Exp.ESnd#ordinal().*ordinalÄ*-
+"_empty_/interpreter.Exp.ESnd#_1().*_1Ä*,
+_empty_/interpreter.Exp.ESnd.
+ *ESndÄ*3
+%_empty_/interpreter.Exp.ESnd.apply().*applyÄ*2
+(_empty_/interpreter.Exp.ESnd.apply().(e)*eÄ*7
+'_empty_/interpreter.Exp.ESnd.unapply().*unapplyÄ*8
+,_empty_/interpreter.Exp.ESnd.unapply().(x$1)*x$1Ä*9
+(_empty_/interpreter.Exp.ESnd.toString().*toStringÄ*:
+&_empty_/interpreter.Exp.fromOrdinal().*fromOrdinalÄ*?
+/_empty_/interpreter.Exp.fromOrdinal().(ordinal)*ordinalÄ*$
+_empty_/interpreter.Env#*EnvÄ*1
+_empty_/interpreter.emptyEnv. Ä*emptyEnvÄ**
+_empty_/interpreter.error().*errorÄ*)
+_empty_/interpreter.error().(s)*sÄ*0
+_empty_/interpreter.evaluate().*evaluateÄ*0
+$_empty_/interpreter.evaluate().(env)*envÄ*,
+"_empty_/interpreter.evaluate().(e)*eÄ*
+local0 Ä*resultÄ*
+local1 Ä*vÄ*
+local2 Ä*nmÄ*
+local3 Ä*envContentsÄ*
+local4 Ä*vÄ*
+local5 Ä*eÄ*
+local6 Ä*eValÄ*
+local7 Ä*fstÄ*
+local8 Ä*sndÄ*
+local9 Ä*fstValÄ*
+local10 Ä*sndValÄ*
+local11 Ä*opÄ*
+local12 Ä*argÄ*
+local13 Ä*opValÄ*
+local14 Ä*fÄ*
+local15 Ä*argValÄ*
+local16 Ä*envCÄ*
+local17 Ä*argNmÄ*
+local18 Ä*bodyÄ*
+local19 Ä*argValÄ*
+local20 Ä*envCÄ*
+local21 Ä*funNmÄ*
+local22 Ä*argNmÄ*
+local23 Ä*bodyÄ*
+local24 Ä*argValÄ*
+local25 Ä*nmÄ*
+local26 Ä*eÄ*
+local27 Ä*bodyÄ*
+local28 Ä*eValÄ*
+local29 Ä*argNmÄ*
+local30 Ä*bodyÄ*
+local31 Ä*funNmÄ*
+local32 Ä*argNmÄ*
+local33 Ä*bodyÄ*
+local34 Ä*eÄ*
+local35 Ä*eValÄ*
+local36 Ä*fstÄ*
+local37 Ä*eÄ*
+local38 Ä*eValÄ*
+local39 Ä*sndÄ*<
+%_empty_/interpreter.prettyPrintVal().*prettyPrintValÄ*2
+(_empty_/interpreter.prettyPrintVal().(v)*vÄ*
+local40 Ä*nÄ*
+local41 Ä*sÄ*
+local42 Ä*fstÄ*
+local43 Ä*sndÄ*
+local44 Ä*displayÄ*
+local45 Ä*fÄ*
+local46 Ä*envÄ*
+local47 Ä*argNmÄ*
+local48 Ä*bodyÄ*
+local49 Ä*envÄ*
+local50 Ä*funNmÄ*
+local51 Ä*argNmÄ*
+local52 Ä*bodyÄ*<
+%_empty_/interpreter.prettyPrintExp().*prettyPrintExpÄ*2
+(_empty_/interpreter.prettyPrintExp().(e)*eÄ*
+local53 Ä*vÄ*
+local54 Ä*nmÄ*
+local55 Ä*eÄ*
+local56 Ä*fstÄ*
+local57 Ä*sndÄ*
+local58 Ä*opÄ*
+local59 Ä*argÄ*
+local60 Ä*nmÄ*
+local61 Ä*eÄ*
+local62 Ä*bodyÄ*
+local63 Ä*argNmÄ*
+local64 Ä*bodyÄ*
+local65 Ä*funNmÄ*
+local66 Ä*argNmÄ*
+local67 Ä*bodyÄ*
+local68 Ä*eÄ*
+local69 Ä*eÄ*/
+_empty_/interpreter.primAdd. Ä*primAddÄ*
+local70*x$1Ä*
+local71 Ä*n1Ä*
+local72*x$1Ä*
+local73 Ä*n2Ä*/
+_empty_/interpreter.primMul. Ä*primMulÄ*
+local74*x$1Ä*
+local75 Ä*n1Ä*
+local76*x$1Ä*
+local77 Ä*n2Ä*3
+_empty_/interpreter.primEqInt. Ä*	primEqIntÄ*
+local78*x$1Ä*
+local79 Ä*n1Ä*
+local80*x$1Ä*
+local81 Ä*n2Ä*-
+_empty_/interpreter.prog01. Ä*prog01Ä*-
+_empty_/interpreter.prog02. Ä*prog02Ä*-
+_empty_/interpreter.prog03. Ä*prog03Ä*?
+$_empty_/interpreter.counterFunction. Ä*counterFunctionÄ*/
+_empty_/interpreter.counter. Ä*counterÄ*3
+_empty_/interpreter.printTest. Ä*	printTestÄ*/
+_empty_/interpreter.todoVal. Ä*todoValÄ*/
+_empty_/interpreter.todoExp. Ä*todoExpÄ*/
+_empty_/interpreter.todoEnv. Ä*todoEnvÄ*5
+_empty_/interpreter.exFiftyVal. Ä*
+exFiftyValÄ*5
+_empty_/interpreter.exFiftyExp. Ä*
+exFiftyExpÄ*'
+_empty_/interpreter.exX. Ä*exXÄ*9
+!_empty_/interpreter.exXPlusFifty. Ä*exXPlusFiftyÄ*<
+%_empty_/interpreter.testXPlusFifty().*testXPlusFiftyÄ*
+local82 Ä*vÄ*?
+$_empty_/interpreter.exXFunPlusFifty. Ä*exXFunPlusFiftyÄ*M
++_empty_/interpreter.exXFunPlusFiftyApplied. Ä*exXFunPlusFiftyAppliedÄ*5
+_empty_/interpreter.exLetXLetY. Ä*
+exLetXLetYÄ*-
+_empty_/interpreter.exLetF. Ä*exLetFÄ*-
+_empty_/interpreter.exPair. Ä*exPairÄ*7
+ _empty_/interpreter.counterTest. Ä*counterTestÄ*3
+_empty_/interpreter.exCounter. Ä*	exCounterÄ*6
+"_empty_/interpreter.testExample().*testExampleÄ*/
+%_empty_/interpreter.testExample().(e)*eÄ*
+local83 Ä*vÄ*
+local84 Ä*eÄ*(
+_empty_/interpreter.main().*mainÄ*.
+!_empty_/interpreter.main().(args)*argsÄ2"
+ _empty_/interpreter.2&
+ 
+_empty_/interpreter.Val#21
+ #_empty_/interpreter.Val#`<init>`().2+
+	 _empty_/interpreter.Val.VInt#26
+ (_empty_/interpreter.Val.VInt#`<init>`().2
+ 
+scala/Int#2-
+ _empty_/interpreter.Val.VInt#n.2+
+!	! _empty_/interpreter.Val.VStr#26
+!! (_empty_/interpreter.Val.VStr#`<init>`().2"
+!! scala/Predef.String#2-
+!! _empty_/interpreter.Val.VStr#s.2+
+#	# _empty_/interpreter.Val.VNil.2,
+'	' _empty_/interpreter.Val.VPair#27
+'' )_empty_/interpreter.Val.VPair#`<init>`().2&
+'' _empty_/interpreter.Val#2&
+'' !_empty_/interpreter.Val#20
+'' "_empty_/interpreter.Val.VPair#fst.20
+'' "_empty_/interpreter.Val.VPair#snd.2/
+)	) !_empty_/interpreter.Val.VPrimFun#2:
+)) ,_empty_/interpreter.Val.VPrimFun#`<init>`().2
+)) !scala/Option#2"
+)") (scala/Predef.String#2&
+).) 1_empty_/interpreter.Val#2&
+)5) 8_empty_/interpreter.Val#27
+)) )_empty_/interpreter.Val.VPrimFun#display.21
+)+) ,#_empty_/interpreter.Val.VPrimFun#f.2/
+-	- !_empty_/interpreter.Val.VClosure#2:
+-- ,_empty_/interpreter.Val.VClosure#`<init>`().2&
+-- _empty_/interpreter.Env#2"
+-#- )scala/Predef.String#2&
+-1- 4_empty_/interpreter.Exp#23
+-- %_empty_/interpreter.Val.VClosure#env.25
+-- !'_empty_/interpreter.Val.VClosure#argNm.24
+-+- /&_empty_/interpreter.Val.VClosure#body.22
+0	0 $_empty_/interpreter.Val.VRecClosure#2=
+00 /_empty_/interpreter.Val.VRecClosure#`<init>`().2&
+00 _empty_/interpreter.Env#2"
+0&0 ,scala/Predef.String#2"
+050 ;scala/Predef.String#2&
+0C0 F_empty_/interpreter.Exp#26
+00 (_empty_/interpreter.Val.VRecClosure#env.28
+00 $*_empty_/interpreter.Val.VRecClosure#funNm.28
+0.0 3*_empty_/interpreter.Val.VRecClosure#argNm.27
+0=0 A)_empty_/interpreter.Val.VRecClosure#body.2&
+22 
+_empty_/interpreter.Exp#21
+44 #_empty_/interpreter.Exp#`<init>`().2+
+4	4 _empty_/interpreter.Exp.EVal#26
+44 (_empty_/interpreter.Exp.EVal#`<init>`().2&
+44 _empty_/interpreter.Val#2-
+44 _empty_/interpreter.Exp.EVal#v.2+
+6	6 _empty_/interpreter.Exp.EVar#26
+66 (_empty_/interpreter.Exp.EVar#`<init>`().2"
+66 scala/Predef.String#2.
+66  _empty_/interpreter.Exp.EVar#nm.2-
+9	9 _empty_/interpreter.Exp.EPrint#28
+99 *_empty_/interpreter.Exp.EPrint#`<init>`().2&
+99 _empty_/interpreter.Exp#2/
+99 !_empty_/interpreter.Exp.EPrint#e.2,
+<	< _empty_/interpreter.Exp.EPair#27
+<< )_empty_/interpreter.Exp.EPair#`<init>`().2&
+<< _empty_/interpreter.Exp#2&
+<< !_empty_/interpreter.Exp#20
+<< "_empty_/interpreter.Exp.EPair#fst.20
+<< "_empty_/interpreter.Exp.EPair#snd.2+
+?	? _empty_/interpreter.Exp.EApp#26
+?? (_empty_/interpreter.Exp.EApp#`<init>`().2&
+?? _empty_/interpreter.Exp#2&
+?? _empty_/interpreter.Exp#2.
+??  _empty_/interpreter.Exp.EApp#op.2/
+?? !_empty_/interpreter.Exp.EApp#arg.2+
+B	B _empty_/interpreter.Exp.ELet#26
+BB (_empty_/interpreter.Exp.ELet#`<init>`().2"
+BB scala/Predef.String#2&
+BB  _empty_/interpreter.Exp#2&
+B(B +_empty_/interpreter.Exp#2.
+BB  _empty_/interpreter.Exp.ELet#nm.2-
+BB _empty_/interpreter.Exp.ELet#e.20
+B"B &"_empty_/interpreter.Exp.ELet#body.2+
+E	E _empty_/interpreter.Exp.EAbs#26
+EE (_empty_/interpreter.Exp.EAbs#`<init>`().2"
+EE scala/Predef.String#2&
+E#E &_empty_/interpreter.Exp#21
+EE #_empty_/interpreter.Exp.EAbs#argNm.20
+EE !"_empty_/interpreter.Exp.EAbs#body.2.
+K	K  _empty_/interpreter.Exp.ERecAbs#29
+KK +_empty_/interpreter.Exp.ERecAbs#`<init>`().2"
+KK scala/Predef.String#2"
+K'K -scala/Predef.String#2&
+K5K 8_empty_/interpreter.Exp#24
+KK &_empty_/interpreter.Exp.ERecAbs#funNm.24
+K K %&_empty_/interpreter.Exp.ERecAbs#argNm.23
+K/K 3%_empty_/interpreter.Exp.ERecAbs#body.2+
+M	M _empty_/interpreter.Exp.EFst#26
+MM (_empty_/interpreter.Exp.EFst#`<init>`().2&
+MM _empty_/interpreter.Exp#2-
+MM _empty_/interpreter.Exp.EFst#e.2+
+O	O _empty_/interpreter.Exp.ESnd#26
+OO (_empty_/interpreter.Exp.ESnd#`<init>`().2&
+OO _empty_/interpreter.Exp#2-
+OO _empty_/interpreter.Exp.ESnd#e.2&
+X	X _empty_/interpreter.Val.2&
+Y	Y _empty_/interpreter.Exp.2&
+[[ 
+_empty_/interpreter.Env#2-
+[([ +scala/collection/immutable/Map#2)
+[[ 'scala/collection/immutable/2
+[[ scala/collection/2
+[[ scala/2"
+[,[ 2scala/Predef.String#2&
+[4[ 7_empty_/interpreter.Val#2+
+\\ _empty_/interpreter.emptyEnv.2&
+\\ _empty_/interpreter.Env#25
+\5\ :'scala/collection/immutable/Map.empty().2-
+\1\ 4scala/collection/immutable/Map.2)
+\'\ 0scala/collection/immutable/2
+\\ &scala/collection/2
+\\ scala/2*
+^^ _empty_/interpreter.error().2-
+^^ _empty_/interpreter.error().(s)2"
+^^ scala/Predef.String#26
+^3^ 3(java/lang/RuntimeException#`<init>`(+1).2-
+^#^ 3scala/package.RuntimeException#2-
+^4^ 5_empty_/interpreter.error().(s)2-
+`` _empty_/interpreter.evaluate().22
+`` $_empty_/interpreter.evaluate().(env)2&
+`` _empty_/interpreter.Env#20
+`` "_empty_/interpreter.evaluate().(e)2&
+`` _empty_/interpreter.Exp#2&
+`"` %_empty_/interpreter.Val#2
+ee local02&
+ee _empty_/interpreter.Val#20
+ee "_empty_/interpreter.evaluate().(e)25
+ff '_empty_/interpreter.Exp.EVal.unapply().2+
+ff _empty_/interpreter.Exp.EVal.2
+ff local12
+ff local125
+hh '_empty_/interpreter.Exp.EVar.unapply().2+
+hh _empty_/interpreter.Exp.EVar.2
+hh local22
+ii local32
+ii scala/Option#2&
+i i #_empty_/interpreter.Val#2,
+i+i .scala/collection/MapOps#get().22
+i'i *$_empty_/interpreter.evaluate().(env)2
+i/i 1local22
+jj local32
+kk scala/None.2*
+kk _empty_/interpreter.error().2%
+k1k 2java/lang/String#`+`().2%
+k,k -java/lang/String#`+`().2
+k.k 0local22#
+ll scala/Some.unapply().2
+ll scala/Some.2
+ll local42
+ll local427
+nn )_empty_/interpreter.Exp.EPrint.unapply().2-
+nn _empty_/interpreter.Exp.EPrint.2
+nn local52
+oo local62&
+oo _empty_/interpreter.Val#2-
+oo  _empty_/interpreter.evaluate().22
+o!o $$_empty_/interpreter.evaluate().(env)2
+o&o 'local52'
+pp scala/Predef.println(+1).23
+pp %_empty_/interpreter.prettyPrintVal().2
+pp #local62+
+qq _empty_/interpreter.Val.VNil.26
+ss (_empty_/interpreter.Exp.EPair.unapply().2,
+ss _empty_/interpreter.Exp.EPair.2
+ss local72
+ss local82
+tt local92&
+tt _empty_/interpreter.Val#2-
+tt "_empty_/interpreter.evaluate().22
+t#t &$_empty_/interpreter.evaluate().(env)2
+t(t +local72
+uu local102&
+uu _empty_/interpreter.Val#2-
+uu "_empty_/interpreter.evaluate().22
+u#u &$_empty_/interpreter.evaluate().(env)2
+u(u +local824
+vv &_empty_/interpreter.Val.VPair.apply().2,
+vv _empty_/interpreter.Val.VPair.2
+vv local92
+vv local1025
+xx '_empty_/interpreter.Exp.EApp.unapply().2+
+xx _empty_/interpreter.Exp.EApp.2
+xx local112
+xx local122
+yy local132&
+yy _empty_/interpreter.Val#2-
+yy !_empty_/interpreter.evaluate().22
+y"y %$_empty_/interpreter.evaluate().(env)2
+y'y )local112
+zz local1329
+{{ +_empty_/interpreter.Val.VPrimFun.unapply().2/
+{{ !_empty_/interpreter.Val.VPrimFun.2
+{{ local142
+|| local152&
+|| _empty_/interpreter.Val#2-
+|| &_empty_/interpreter.evaluate().22
+|'| *$_empty_/interpreter.evaluate().(env)2
+|,| /local122&
+}} scala/Function1#apply().2
+}} local142
+}} local152;
+
+ÇÇ +_empty_/interpreter.Val.VClosure.unapply().21
+
+ÇÇ !_empty_/interpreter.Val.VClosure.2
+
+ÇÇ local162
+
+ÇÇ #local172
+
+Ç%Ç )local182
+
+ÉÉ local192(
+
+ÉÉ _empty_/interpreter.Val#2/
+
+ÉÉ &_empty_/interpreter.evaluate().24
+
+É'É *$_empty_/interpreter.evaluate().(env)2
+
+É,É /local122/
+
+ÑÑ _empty_/interpreter.evaluate().28
+
+ÑÑ (scala/collection/immutable/MapOps#`+`().2
+
+ÑÑ local162%
+
+ÑÑ scala/Tuple2.apply().2
+
+ÑÑ #local172
+
+Ñ%Ñ +local192
+
+Ñ/Ñ 3local182>
+
+ää ._empty_/interpreter.Val.VRecClosure.unapply().24
+
+ää $_empty_/interpreter.Val.VRecClosure.2
+
+ää local202
+
+ä!ä &local212
+
+ä(ä -local222
+
+ä/ä 3local232
+
+ãã local242(
+
+ãã _empty_/interpreter.Val#2/
+
+ãã &_empty_/interpreter.evaluate().24
+
+ã'ã *$_empty_/interpreter.evaluate().(env)2
+
+ã,ã /local122/
+
+åå _empty_/interpreter.evaluate().28
+
+å.å /(scala/collection/immutable/MapOps#`+`().28
+
+åå (scala/collection/immutable/MapOps#`+`().2
+
+åå local202%
+
+åå scala/Tuple2.apply().2
+
+åå #local222
+
+å%å +local242%
+
+å2å 2scala/Tuple2.apply().2
+
+å2å 7local212
+
+å9å >local132
+
+åBå Flocal232,
+
+éé _empty_/interpreter.error().27
+
+êê '_empty_/interpreter.Exp.ELet.unapply().2-
+
+êê _empty_/interpreter.Exp.ELet.2
+
+êê local252
+
+êê local262
+
+êê local272
+
+ëë local282(
+
+ëë _empty_/interpreter.Val#2/
+
+ëë  _empty_/interpreter.evaluate().24
+
+ë!ë $$_empty_/interpreter.evaluate().(env)2
+
+ë&ë 'local262/
+
+íí _empty_/interpreter.evaluate().28
+
+íí (scala/collection/immutable/MapOps#`+`().24
+
+íí $_empty_/interpreter.evaluate().(env)2%
+
+íí scala/Tuple2.apply().2
+
+íí local252
+
+íí !local282
+
+í%í )local2727
+
+òò '_empty_/interpreter.Exp.EAbs.unapply().2-
+
+òò _empty_/interpreter.Exp.EAbs.2
+
+òò local292
+
+òò local3029
+
+ôô )_empty_/interpreter.Val.VClosure.apply().21
+
+ôô !_empty_/interpreter.Val.VClosure.24
+
+ôô $_empty_/interpreter.evaluate().(env)2
+
+ôô local292
+
+ôô !local302:
+
+ùù *_empty_/interpreter.Exp.ERecAbs.unapply().20
+
+ùù  _empty_/interpreter.Exp.ERecAbs.2
+
+ùù local312
+
+ùù local322
+
+ù!ù %local332<
+
+ûû ,_empty_/interpreter.Val.VRecClosure.apply().24
+
+ûû $_empty_/interpreter.Val.VRecClosure.24
+
+ûû $_empty_/interpreter.evaluate().(env)2
+
+ûû local312
+
+û û %local322
+
+û'û +local3327
+
+†† '_empty_/interpreter.Exp.EFst.unapply().2-
+
+†† _empty_/interpreter.Exp.EFst.2
+
+†† local342
+
+°° local352(
+
+°° _empty_/interpreter.Val#2/
+
+°°  _empty_/interpreter.evaluate().24
+
+°!° $$_empty_/interpreter.evaluate().(env)2
+
+°&° 'local342
+
+¢¢ local3528
+
+££ (_empty_/interpreter.Val.VPair.unapply().2.
+
+££ _empty_/interpreter.Val.VPair.2
+
+££ local362
+
+£ £ #local362,
+
+§ § %_empty_/interpreter.error().27
+
+¶¶ '_empty_/interpreter.Exp.ESnd.unapply().2-
+
+¶¶ _empty_/interpreter.Exp.ESnd.2
+
+¶¶ local372
+
+ßß local382(
+
+ßß _empty_/interpreter.Val#2/
+
+ßß  _empty_/interpreter.evaluate().24
+
+ß!ß $$_empty_/interpreter.evaluate().(env)2
+
+ß&ß 'local372
+
+®® local3828
+
+©© (_empty_/interpreter.Val.VPair.unapply().2.
+
+©© _empty_/interpreter.Val.VPair.2
+
+©© local392
+
+© © #local392,
+
+™ ™ %_empty_/interpreter.error().2
+
+≤≤ 
+local025
+
+µµ %_empty_/interpreter.prettyPrintVal().28
+
+µµ (_empty_/interpreter.prettyPrintVal().(v)2(
+
+µµ _empty_/interpreter.Val#2$
+
+µµ $scala/Predef.String#28
+
+µ'µ ((_empty_/interpreter.prettyPrintVal().(v)27
+
+∂∂ '_empty_/interpreter.Val.VInt.unapply().2-
+
+∂	∂ _empty_/interpreter.Val.VInt.2
+
+∂∂ local402/
+
+∂∂ $java/lang/Integer#toString(+2).2"
+
+∂∂ java/lang/Integer#2
+
+∂%∂ &local4027
+
+∑∑ '_empty_/interpreter.Val.VStr.unapply().2-
+
+∑	∑ _empty_/interpreter.Val.VStr.2
+
+∑∑ local412
+
+∑∑ local412-
+
+∏	∏ _empty_/interpreter.Val.VNil.28
+
+ππ (_empty_/interpreter.Val.VPair.unapply().2.
+
+π	π _empty_/interpreter.Val.VPair.2
+
+ππ local422
+
+ππ local432'
+
+∫=∫ >java/lang/String#`+`().2'
+
+∫'∫ (java/lang/String#`+`().2'
+
+∫ ∫ !java/lang/String#`+`().2'
+
+∫
+∫ java/lang/String#`+`().25
+
+∫∫ %_empty_/interpreter.prettyPrintVal().2
+
+∫∫ local4225
+
+∫)∫ 7%_empty_/interpreter.prettyPrintVal().2
+
+∫8∫ ;local432;
+
+ªª +_empty_/interpreter.Val.VPrimFun.unapply().21
+
+ª	ª !_empty_/interpreter.Val.VPrimFun.2
+
+ªª local442
+
+ªª local452'
+
+ªCª Djava/lang/String#`+`().2'
+
+ª*ª +java/lang/String#`+`().2)
+
+ª4ª =scala/Option#getOrElse().2
+
+ª,ª 3local442;
+
+ºº +_empty_/interpreter.Val.VClosure.unapply().21
+
+º	º !_empty_/interpreter.Val.VClosure.2
+
+ºº local462
+
+ºº local472
+
+ºº "local482'
+
+Ω?Ω @java/lang/String#`+`().2'
+
+Ω(Ω )java/lang/String#`+`().2'
+
+ΩΩ  java/lang/String#`+`().2'
+
+ΩΩ java/lang/String#`+`().2'
+
+ΩΩ java/lang/String#`+`().2'
+
+Ω
+Ω java/lang/String#`+`().2
+
+ΩΩ local462
+
+ΩΩ local4725
+
+Ω*Ω 8%_empty_/interpreter.prettyPrintExp().2
+
+Ω9Ω =local482>
+
+ææ ._empty_/interpreter.Val.VRecClosure.unapply().24
+
+æ	æ $_empty_/interpreter.Val.VRecClosure.2
+
+ææ local492
+
+ææ local502
+
+æ!æ &local512
+
+æ(æ ,local522'
+
+¡¡ 	java/lang/String#`+`().2'
+
+ø7ø 8java/lang/String#`+`().2'
+
+ø.ø /java/lang/String#`+`().2'
+
+ø&ø 'java/lang/String#`+`().2'
+
+øø  java/lang/String#`+`().2'
+
+øø java/lang/String#`+`().2'
+
+øø java/lang/String#`+`().2'
+
+ø
+ø java/lang/String#`+`().2
+
+øø local492
+
+øø local502
+
+ø(ø -local5125
+
+ø9ø G%_empty_/interpreter.prettyPrintExp().2
+
+¿¿ local5225
+
+ƒƒ %_empty_/interpreter.prettyPrintExp().28
+
+ƒƒ (_empty_/interpreter.prettyPrintExp().(e)2(
+
+ƒƒ _empty_/interpreter.Exp#2$
+
+ƒƒ $scala/Predef.String#28
+
+ƒ'ƒ ((_empty_/interpreter.prettyPrintExp().(e)27
+
+≈≈ '_empty_/interpreter.Exp.EVal.unapply().2-
+
+≈	≈ _empty_/interpreter.Exp.EVal.2
+
+≈≈ local5325
+
+≈≈ $%_empty_/interpreter.prettyPrintVal().2
+
+≈%≈ &local5327
+
+∆∆ '_empty_/interpreter.Exp.EVar.unapply().2-
+
+∆	∆ _empty_/interpreter.Exp.EVar.2
+
+∆∆ local542
+
+∆∆ local5429
+
+«« )_empty_/interpreter.Exp.EPrint.unapply().2/
+
+«	« _empty_/interpreter.Exp.EPrint.2
+
+«« local552'
+
+«4« 5java/lang/String#`+`().2'
+
+« « !java/lang/String#`+`().25
+
+«"« 0%_empty_/interpreter.prettyPrintExp().2
+
+«1« 2local5528
+
+»» (_empty_/interpreter.Exp.EPair.unapply().2.
+
+»	» _empty_/interpreter.Exp.EPair.2
+
+»» local562
+
+»» local572'
+
+…=… >java/lang/String#`+`().2'
+
+…'… (java/lang/String#`+`().2'
+
+… … !java/lang/String#`+`().2'
+
+…
+… java/lang/String#`+`().25
+
+…… %_empty_/interpreter.prettyPrintExp().2
+
+…… local5625
+
+…)… 7%_empty_/interpreter.prettyPrintExp().2
+
+…8… ;local5727
+
+   '_empty_/interpreter.Exp.EApp.unapply().2-
+
+ 	  _empty_/interpreter.Exp.EApp.2
+
+   local582
+
+   local592'
+
+À;À <java/lang/String#`+`().2'
+
+À%À &java/lang/String#`+`().2'
+
+ÀÀ  java/lang/String#`+`().2'
+
+À
+À java/lang/String#`+`().25
+
+ÀÀ %_empty_/interpreter.prettyPrintExp().2
+
+ÀÀ local5825
+
+À'À 5%_empty_/interpreter.prettyPrintExp().2
+
+À6À 9local5927
+
+ÃÃ '_empty_/interpreter.Exp.ELet.unapply().2-
+
+Ã	Ã _empty_/interpreter.Exp.ELet.2
+
+ÃÃ local602
+
+ÃÃ local612
+
+ÃÃ local622'
+
+œœ 	java/lang/String#`+`().2'
+
+Õ8Õ 9java/lang/String#`+`().2'
+
+Õ/Õ 0java/lang/String#`+`().2'
+
+ÕÕ java/lang/String#`+`().2'
+
+ÕÕ java/lang/String#`+`().2'
+
+ÕÕ java/lang/String#`+`().2
+
+ÕÕ local6025
+
+ÕÕ +%_empty_/interpreter.prettyPrintExp().2
+
+Õ,Õ -local6125
+
+Õ:Õ H%_empty_/interpreter.prettyPrintExp().2
+
+ŒŒ local6227
+
+–– '_empty_/interpreter.Exp.EAbs.unapply().2-
+
+–	– _empty_/interpreter.Exp.EAbs.2
+
+–– local632
+
+–– local642'
+
+–J– Kjava/lang/String#`+`().2'
+
+–3– 4java/lang/String#`+`().2'
+
+–*– +java/lang/String#`+`().2'
+
+–"– #java/lang/String#`+`().2
+
+–$– )local6325
+
+–5– C%_empty_/interpreter.prettyPrintExp().2
+
+–D– Hlocal642:
+
+—— *_empty_/interpreter.Exp.ERecAbs.unapply().20
+
+—	—  _empty_/interpreter.Exp.ERecAbs.2
+
+—— local652
+
+—— local662
+
+—— #local672'
+
+“@“ Ajava/lang/String#`+`().2'
+
+“)“ *java/lang/String#`+`().2'
+
+“ “ !java/lang/String#`+`().2'
+
+““ java/lang/String#`+`().2'
+
+““ java/lang/String#`+`().2'
+
+“
+“ java/lang/String#`+`().2
+
+““ local652
+
+““ local6625
+
+“+“ 9%_empty_/interpreter.prettyPrintExp().2
+
+“:“ >local6727
+
+”” '_empty_/interpreter.Exp.EFst.unapply().2-
+
+”	” _empty_/interpreter.Exp.EFst.2
+
+”” local682'
+
+”0” 1java/lang/String#`+`().2'
+
+”” java/lang/String#`+`().25
+
+”” ,%_empty_/interpreter.prettyPrintExp().2
+
+”-” .local6827
+
+‘‘ '_empty_/interpreter.Exp.ESnd.unapply().2-
+
+‘	‘ _empty_/interpreter.Exp.ESnd.2
+
+‘‘ local692'
+
+‘0‘ 1java/lang/String#`+`().2'
+
+‘‘ java/lang/String#`+`().25
+
+‘‘ ,%_empty_/interpreter.prettyPrintExp().2
+
+‘-‘ .local692,
+
+‚‚ _empty_/interpreter.primAdd.2(
+
+‚‚ _empty_/interpreter.Val#29
+
+‚‚ )_empty_/interpreter.Val.VPrimFun.apply().21
+
+‚‚ !_empty_/interpreter.Val.VPrimFun.2#
+
+„„ scala/Some.apply().2
+
+„„ scala/Some.2
+
+ÂÂ local7027
+
+ÂÂ '_empty_/interpreter.Val.VInt.unapply().2-
+
+ÂÂ _empty_/interpreter.Val.VInt.2
+
+ÂÂ local7129
+
+ÊÊ )_empty_/interpreter.Val.VPrimFun.apply().21
+
+ÊÊ !_empty_/interpreter.Val.VPrimFun.2
+
+Á
+Á scala/None.2
+
+ÈÈ local7227
+
+ÈÈ '_empty_/interpreter.Val.VInt.unapply().2-
+
+ÈÈ _empty_/interpreter.Val.VInt.2
+
+ÈÈ local7325
+
+È!È !%_empty_/interpreter.Val.VInt.apply().2-
+
+ÈÈ !_empty_/interpreter.Val.VInt.2"
+
+È%È &scala/Int#`+`(+4).2
+
+È"È $local712
+
+È'È )local7328
+
+Î(Î ((java/lang/RuntimeException#`<init>`(+1).2/
+
+ÎÎ (scala/package.RuntimeException#28
+
+Ó*Ó *(java/lang/RuntimeException#`<init>`(+1).2/
+
+ÓÓ *scala/package.RuntimeException#2,
+
+ÙÙ _empty_/interpreter.primMul.2(
+
+ÙÙ _empty_/interpreter.Val#29
+
+ÙÙ )_empty_/interpreter.Val.VPrimFun.apply().21
+
+ÙÙ !_empty_/interpreter.Val.VPrimFun.2#
+
+ıı scala/Some.apply().2
+
+ıı scala/Some.2
+
+˜˜ local7427
+
+˜˜ '_empty_/interpreter.Val.VInt.unapply().2-
+
+˜˜ _empty_/interpreter.Val.VInt.2
+
+˜˜ local7529
+
+¯¯ )_empty_/interpreter.Val.VPrimFun.apply().21
+
+¯¯ !_empty_/interpreter.Val.VPrimFun.2
+
+˘
+˘ scala/None.2
+
+˚˚ local7627
+
+˚˚ '_empty_/interpreter.Val.VInt.unapply().2-
+
+˚˚ _empty_/interpreter.Val.VInt.2
+
+˚˚ local7725
+
+˚!˚ !%_empty_/interpreter.Val.VInt.apply().2-
+
+˚˚ !_empty_/interpreter.Val.VInt.2"
+
+˚%˚ &scala/Int#`*`(+3).2
+
+˚"˚ $local752
+
+˚'˚ )local7728
+
+˝(˝ ((java/lang/RuntimeException#`<init>`(+1).2/
+
+˝˝ (scala/package.RuntimeException#28
+
+Ä*Ä *(java/lang/RuntimeException#`<init>`(+1).2/
+
+ÄÄ *scala/package.RuntimeException#2.
+
+ÜÜ _empty_/interpreter.primEqInt.29
+
+ÜÜ )_empty_/interpreter.Val.VPrimFun.apply().21
+
+ÜÜ !_empty_/interpreter.Val.VPrimFun.2#
+
+áá scala/Some.apply().2
+
+áá scala/Some.2
+
+ââ local7827
+
+ââ '_empty_/interpreter.Val.VInt.unapply().2-
+
+ââ _empty_/interpreter.Val.VInt.2
+
+ââ local7929
+
+ää )_empty_/interpreter.Val.VPrimFun.apply().21
+
+ää !_empty_/interpreter.Val.VPrimFun.2
+
+ã
+ã scala/None.2
+
+çç local8027
+
+çç '_empty_/interpreter.Val.VInt.unapply().2-
+
+çç _empty_/interpreter.Val.VInt.2
+
+çç local8125
+
+ç!ç !%_empty_/interpreter.Val.VInt.apply().2-
+
+çç !_empty_/interpreter.Val.VInt.2#
+
+ç(ç *scala/Int#`==`(+3).2
+
+ç%ç 'local792
+
+ç+ç -local8128
+
+è(è ((java/lang/RuntimeException#`<init>`(+1).2/
+
+èè (scala/package.RuntimeException#28
+
+í*í *(java/lang/RuntimeException#`<init>`(+1).2/
+
+íí *scala/package.RuntimeException#2+
+
+óó _empty_/interpreter.prog01.2(
+
+óó _empty_/interpreter.Exp#25
+
+òò %_empty_/interpreter.Exp.ELet.apply().2-
+
+òò _empty_/interpreter.Exp.ELet.25
+
+ö
+ö 
+%_empty_/interpreter.Exp.EApp.apply().2-
+
+öö 
+_empty_/interpreter.Exp.EApp.25
+
+öö %_empty_/interpreter.Exp.EApp.apply().2-
+
+öö _empty_/interpreter.Exp.EApp.25
+
+öö %_empty_/interpreter.Exp.EVal.apply().2-
+
+öö _empty_/interpreter.Exp.EVal.2,
+
+öö _empty_/interpreter.primAdd.25
+
+ö#ö #%_empty_/interpreter.Exp.EVal.apply().2-
+
+öö #_empty_/interpreter.Exp.EVal.25
+
+ö(ö (%_empty_/interpreter.Val.VInt.apply().2-
+
+ö$ö (_empty_/interpreter.Val.VInt.25
+
+ö3ö 3%_empty_/interpreter.Exp.EVal.apply().2-
+
+ö/ö 3_empty_/interpreter.Exp.EVal.25
+
+ö8ö 8%_empty_/interpreter.Val.VInt.apply().2-
+
+ö4ö 8_empty_/interpreter.Val.VInt.25
+
+õ
+õ 
+%_empty_/interpreter.Exp.EVar.apply().2-
+
+õõ 
+_empty_/interpreter.Exp.EVar.2+
+
+üü _empty_/interpreter.prog02.2(
+
+üü _empty_/interpreter.Exp#25
+
+†† %_empty_/interpreter.Exp.ELet.apply().2-
+
+†† _empty_/interpreter.Exp.ELet.25
+
+¢
+¢ 
+%_empty_/interpreter.Exp.EApp.apply().2-
+
+¢¢ 
+_empty_/interpreter.Exp.EApp.25
+
+¢¢ %_empty_/interpreter.Exp.EApp.apply().2-
+
+¢¢ _empty_/interpreter.Exp.EApp.25
+
+¢¢ %_empty_/interpreter.Exp.EVal.apply().2-
+
+¢¢ _empty_/interpreter.Exp.EVal.2,
+
+¢¢ _empty_/interpreter.primAdd.25
+
+¢#¢ #%_empty_/interpreter.Exp.EVal.apply().2-
+
+¢¢ #_empty_/interpreter.Exp.EVal.25
+
+¢(¢ (%_empty_/interpreter.Val.VInt.apply().2-
+
+¢$¢ (_empty_/interpreter.Val.VInt.25
+
+¢3¢ 3%_empty_/interpreter.Exp.EVal.apply().2-
+
+¢/¢ 3_empty_/interpreter.Exp.EVal.25
+
+¢8¢ 8%_empty_/interpreter.Val.VInt.apply().2-
+
+¢4¢ 8_empty_/interpreter.Val.VInt.25
+
+£
+£ 
+%_empty_/interpreter.Exp.ELet.apply().2-
+
+££ 
+_empty_/interpreter.Exp.ELet.25
+
+•• %_empty_/interpreter.Exp.EVal.apply().2-
+
+•• _empty_/interpreter.Exp.EVal.25
+
+•• %_empty_/interpreter.Val.VInt.apply().2-
+
+•• _empty_/interpreter.Val.VInt.25
+
+¶¶ %_empty_/interpreter.Exp.EApp.apply().2-
+
+¶¶ _empty_/interpreter.Exp.EApp.25
+
+¶¶ %_empty_/interpreter.Exp.EApp.apply().2-
+
+¶¶ _empty_/interpreter.Exp.EApp.25
+
+¶¶ %_empty_/interpreter.Exp.EVal.apply().2-
+
+¶¶ _empty_/interpreter.Exp.EVal.2,
+
+¶¶ _empty_/interpreter.primMul.25
+
+¶%¶ %%_empty_/interpreter.Exp.EVar.apply().2-
+
+¶!¶ %_empty_/interpreter.Exp.EVar.25
+
+¶1¶ 1%_empty_/interpreter.Exp.EVar.apply().2-
+
+¶-¶ 1_empty_/interpreter.Exp.EVar.2+
+
+´´ _empty_/interpreter.prog03.2(
+
+´´ _empty_/interpreter.Exp#25
+
+¨¨ %_empty_/interpreter.Exp.EApp.apply().2-
+
+¨¨ _empty_/interpreter.Exp.EApp.25
+
+≠
+≠ 
+%_empty_/interpreter.Exp.ELet.apply().2-
+
+≠≠ 
+_empty_/interpreter.Exp.ELet.25
+
+ØØ %_empty_/interpreter.Exp.EVal.apply().2-
+
+ØØ _empty_/interpreter.Exp.EVal.25
+
+ØØ %_empty_/interpreter.Val.VInt.apply().2-
+
+ØØ _empty_/interpreter.Val.VInt.25
+
+∞∞ %_empty_/interpreter.Exp.EAbs.apply().2-
+
+∞∞ _empty_/interpreter.Exp.EAbs.25
+
+≤≤ %_empty_/interpreter.Exp.EApp.apply().2-
+
+≤
+≤ _empty_/interpreter.Exp.EApp.25
+
+≤≤ %_empty_/interpreter.Exp.EApp.apply().2-
+
+≤≤ _empty_/interpreter.Exp.EApp.25
+
+≤≤ %_empty_/interpreter.Exp.EVal.apply().2-
+
+≤≤ _empty_/interpreter.Exp.EVal.2,
+
+≤≤  _empty_/interpreter.primAdd.25
+
+≤'≤ '%_empty_/interpreter.Exp.EVar.apply().2-
+
+≤#≤ '_empty_/interpreter.Exp.EVar.25
+
+≤3≤ 3%_empty_/interpreter.Exp.EVar.apply().2-
+
+≤/≤ 3_empty_/interpreter.Exp.EVar.25
+
+µ
+µ 
+%_empty_/interpreter.Exp.EVal.apply().2-
+
+µµ 
+_empty_/interpreter.Exp.EVal.25
+
+µµ %_empty_/interpreter.Val.VInt.apply().2-
+
+µµ _empty_/interpreter.Val.VInt.24
+
+ÌÌ $_empty_/interpreter.counterFunction.2(
+
+ÌÌ _empty_/interpreter.Exp#28
+
+ÓÓ (_empty_/interpreter.Exp.ERecAbs.apply().20
+
+ÓÓ  _empty_/interpreter.Exp.ERecAbs.25
+
+Ò
+Ò 
+%_empty_/interpreter.Exp.EAbs.apply().2-
+
+ÒÒ 
+_empty_/interpreter.Exp.EAbs.26
+
+ÛÛ &_empty_/interpreter.Exp.EPair.apply().2.
+
+ÛÛ _empty_/interpreter.Exp.EPair.25
+
+ÙÙ %_empty_/interpreter.Exp.EVar.apply().2-
+
+Ù
+Ù _empty_/interpreter.Exp.EVar.25
+
+ıı %_empty_/interpreter.Exp.EApp.apply().2-
+
+ı
+ı _empty_/interpreter.Exp.EApp.25
+
+ˆˆ %_empty_/interpreter.Exp.EVar.apply().2-
+
+ˆˆ _empty_/interpreter.Exp.EVar.25
+
+˜˜ %_empty_/interpreter.Exp.EApp.apply().2-
+
+˜˜ _empty_/interpreter.Exp.EApp.25
+
+¯¯ %_empty_/interpreter.Exp.EApp.apply().2-
+
+¯¯ _empty_/interpreter.Exp.EApp.25
+
+˘˘ %_empty_/interpreter.Exp.EVal.apply().2-
+
+˘˘ _empty_/interpreter.Exp.EVal.2,
+
+˘˘ _empty_/interpreter.primAdd.25
+
+˙˙ %_empty_/interpreter.Exp.EVar.apply().2-
+
+˙˙ _empty_/interpreter.Exp.EVar.25
+
+¸¸ %_empty_/interpreter.Exp.EVal.apply().2-
+
+¸¸ _empty_/interpreter.Exp.EVal.25
+
+¸¸ %_empty_/interpreter.Val.VInt.apply().2-
+
+¸¸ _empty_/interpreter.Val.VInt.2,
+
+ÉÉ _empty_/interpreter.counter.2(
+
+ÉÉ _empty_/interpreter.Exp#25
+
+ÉÉ %_empty_/interpreter.Exp.EApp.apply().2-
+
+ÉÉ _empty_/interpreter.Exp.EApp.24
+
+ÉÉ )$_empty_/interpreter.counterFunction.25
+
+É/É /%_empty_/interpreter.Exp.EVal.apply().2-
+
+É+É /_empty_/interpreter.Exp.EVal.25
+
+É4É 4%_empty_/interpreter.Val.VInt.apply().2-
+
+É0É 4_empty_/interpreter.Val.VInt.2.
+
+ÖÖ _empty_/interpreter.printTest.2(
+
+ÖÖ _empty_/interpreter.Exp#27
+
+Ü
+Ü 
+'_empty_/interpreter.Exp.EPrint.apply().2/
+
+ÜÜ 
+_empty_/interpreter.Exp.EPrint.25
+
+ÜÜ %_empty_/interpreter.Exp.EVal.apply().2-
+
+ÜÜ _empty_/interpreter.Exp.EVal.25
+
+ÜÜ %_empty_/interpreter.Val.VInt.apply().2-
+
+ÜÜ _empty_/interpreter.Val.VInt.2,
+
+åå _empty_/interpreter.todoVal.2(
+
+åå _empty_/interpreter.Val#2-
+
+åå _empty_/interpreter.Val.VNil.2,
+
+çç _empty_/interpreter.todoExp.2(
+
+çç _empty_/interpreter.Exp#25
+
+çç %_empty_/interpreter.Exp.EVal.apply().2-
+
+çç _empty_/interpreter.Exp.EVal.2,
+
+çç !_empty_/interpreter.todoVal.2,
+
+éé _empty_/interpreter.todoEnv.2(
+
+éé _empty_/interpreter.Env#2-
+
+éé _empty_/interpreter.emptyEnv.2/
+
+ìì _empty_/interpreter.exFiftyVal.2(
+
+ìì _empty_/interpreter.Val#2,
+
+ìì _empty_/interpreter.todoVal.2/
+
+òò _empty_/interpreter.exFiftyExp.2(
+
+òò _empty_/interpreter.Exp#2,
+
+òò _empty_/interpreter.todoExp.2(
+
+ùù 	_empty_/interpreter.exX.2(
+
+ùù _empty_/interpreter.Env#2,
+
+ùù _empty_/interpreter.todoEnv.21
+
+££ !_empty_/interpreter.exXPlusFifty.2(
+
+££ _empty_/interpreter.Exp#2,
+
+££ !_empty_/interpreter.todoExp.25
+
+®® %_empty_/interpreter.testXPlusFifty().2)
+
+©© scala/Predef.println(+1).2'
+
+©© java/lang/String#`+`().25
+
+©© +%_empty_/interpreter.prettyPrintExp().21
+
+©,© 8!_empty_/interpreter.exXPlusFifty.2
+
+™™ 	local822/
+
+™™ _empty_/interpreter.evaluate().2(
+
+™™ _empty_/interpreter.exX.21
+
+™™ &!_empty_/interpreter.exXPlusFifty.2)
+
+´´ scala/Predef.println(+1).2'
+
+´´ java/lang/String#`+`().25
+
+´´ '%_empty_/interpreter.prettyPrintVal().2
+
+´(´ )local8224
+
+¥¥ $_empty_/interpreter.exXFunPlusFifty.2(
+
+¥¥ _empty_/interpreter.Exp#2,
+
+¥¥ $_empty_/interpreter.todoExp.2;
+
+ºº +_empty_/interpreter.exXFunPlusFiftyApplied.2(
+
+ºº !_empty_/interpreter.Exp#2,
+
+º$º +_empty_/interpreter.todoExp.2/
+
+ƒƒ _empty_/interpreter.exLetXLetY.2(
+
+ƒƒ _empty_/interpreter.Exp#2,
+
+ƒƒ _empty_/interpreter.todoExp.2+
+
+   _empty_/interpreter.exLetF.2(
+
+   _empty_/interpreter.Exp#2,
+
+   _empty_/interpreter.todoExp.2+
+
+◊◊ _empty_/interpreter.exPair.2(
+
+◊◊ _empty_/interpreter.Exp#2,
+
+◊◊ _empty_/interpreter.todoExp.20
+
+„„  _empty_/interpreter.counterTest.2(
+
+„„ _empty_/interpreter.Exp#25
+
+‰‰ %_empty_/interpreter.Exp.ELet.apply().2-
+
+‰‰ _empty_/interpreter.Exp.ELet.25
+
+‰‰ %_empty_/interpreter.Exp.EApp.apply().2-
+
+‰‰ _empty_/interpreter.Exp.EApp.2,
+
+‰‰  _empty_/interpreter.counter.25
+
+‰&‰ &%_empty_/interpreter.Exp.EVal.apply().2-
+
+‰"‰ &_empty_/interpreter.Exp.EVal.2-
+
+‰'‰ +_empty_/interpreter.Val.VNil.25
+
+‰3‰ 3%_empty_/interpreter.Exp.EFst.apply().2-
+
+‰/‰ 3_empty_/interpreter.Exp.EFst.25
+
+‰8‰ 8%_empty_/interpreter.Exp.EVar.apply().2-
+
+‰4‰ 8_empty_/interpreter.Exp.EVar.2.
+
+ÎÎ _empty_/interpreter.exCounter.2(
+
+ÎÎ _empty_/interpreter.Exp#2,
+
+ÎÎ _empty_/interpreter.todoExp.22
+
+ıı "_empty_/interpreter.testExample().25
+
+ıı %_empty_/interpreter.testExample().(e)2(
+
+ıı _empty_/interpreter.Exp#2)
+
+˜˜ scala/Predef.println(+1).2'
+
+˜˜ java/lang/String#`+`().25
+
+˜˜ -%_empty_/interpreter.prettyPrintExp().25
+
+˜.˜ /%_empty_/interpreter.testExample().(e)2
+
+¯
+¯ local832/
+
+¯¯ _empty_/interpreter.evaluate().2-
+
+¯¯ _empty_/interpreter.emptyEnv.25
+
+¯!¯ "%_empty_/interpreter.testExample().(e)2)
+
+˘˘ scala/Predef.println(+1).2'
+
+˘˘ java/lang/String#`+`().25
+
+˘˘ )%_empty_/interpreter.prettyPrintVal().2
+
+˘*˘ +local832)
+
+˙˙ scala/Predef.println(+1).21
+
+˙˙ !scala/collection/StringOps#`*`().2-
+
+˙˙ scala/Predef.augmentString().2
+
+¸¸ local842(
+
+¸¸ scala/package.Exception#2)
+
+˝˝ scala/Predef.println(+1).26
+
+˛
+˛ &java/lang/Throwable#printStackTrace().2
+
+˛˛ 	local842+
+
+ÄÄ 
+_empty_/interpreter.main().21
+
+ÄÄ !_empty_/interpreter.main().(args)2
+
+ÄÄ scala/Array#2$
+
+ÄÄ scala/Predef.String#22
+
+ÇÇ "_empty_/interpreter.testExample().2+
+
+ÇÇ _empty_/interpreter.prog01.22
+
+ÉÉ "_empty_/interpreter.testExample().2+
+
+ÉÉ _empty_/interpreter.prog02.22
+
+ÑÑ "_empty_/interpreter.testExample().2+
+
+ÑÑ _empty_/interpreter.prog03.22
+
+ÖÖ "_empty_/interpreter.testExample().2.
+
+ÖÖ _empty_/interpreter.printTest.22
+
+ÜÜ "_empty_/interpreter.testExample().20
+
+ÜÜ  _empty_/interpreter.counterTest.2)
+
+àà scala/Predef.println(+1).22
+
+ââ "_empty_/interpreter.testExample().2/
+
+ââ _empty_/interpreter.exFiftyExp.2)
+
+ãã scala/Predef.println(+1).25
+
+åå %_empty_/interpreter.testXPlusFifty().2)
+
+çç scala/Predef.println(+1).21
+
+çç !scala/collection/StringOps#`*`().2-
+
+çç scala/Predef.augmentString().2)
+
+èè scala/Predef.println(+1).22
+
+êê "_empty_/interpreter.testExample().24
+
+êê $_empty_/interpreter.exXFunPlusFifty.2)
+
+íí scala/Predef.println(+1).22
+
+ìì "_empty_/interpreter.testExample().2;
+
+ìì &+_empty_/interpreter.exXFunPlusFiftyApplied.2)
+
+ïï scala/Predef.println(+1).22
+
+ññ "_empty_/interpreter.testExample().2/
+
+ññ _empty_/interpreter.exLetXLetY.2)
+
+òò scala/Predef.println(+1).22
+
+ôô "_empty_/interpreter.testExample().2+
+
+ôô _empty_/interpreter.exLetF.2)
+
+õõ scala/Predef.println(+1).2)
+
+üü scala/Predef.println(+1).22
+
+†† "_empty_/interpreter.testExample().2+
+
+†† _empty_/interpreter.exPair.2)
+
+¢¢ scala/Predef.println(+1).22
+
+££ "_empty_/interpreter.testExample().2.
+
+££ _empty_/interpreter.exCounter.PZ C1A0E484F91728E85F154ECF0901FC32
